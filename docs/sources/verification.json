@@ -1,0 +1,1453 @@
+{
+  "verified_at_utc": "2026-09-10T03:15:39.762501+00:00",
+  "passed": true,
+  "checks_count": 360,
+  "checks": [
+    {
+      "check": "raw_sha256:enem_2010",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2011",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2012",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2013",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2014",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2015",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2016",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2017",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2018",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2019",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2020",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2021",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:enem_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_localidades_20260909",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_10201",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_10295",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_1301",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_1552",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_1685",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_3540",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_4714",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_6579",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_6803",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_6805",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_9528",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_9543",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_metadata_9923",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ibge_pib_2010_2023",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2010",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2011",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2012",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2013",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2014",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2015",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2016",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2017",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2018",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2019",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2020",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2021",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_2023",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2010",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2011",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2012",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2013",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2014",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2015",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2016",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2017",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2018",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2019",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2020",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2021",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:inep_rendimento_page_2023",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_GINI",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_IDHM",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_IDHM_E",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_P_AGRO",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_P_COM",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_P_SERV",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_PIND",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_PMPOB",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_RDPC",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_AGUA",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_AGUA_ESGOTO",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_ANALF15M",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_DES18M",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_FLMED",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_FREQ15A17",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_FREQ6A14",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_LIXO",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_MED25M",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_ADH_T_SUPER25M",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:ipeadata_metadata_20260909",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_10201_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_10295_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1301_2010",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1552_2010",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2010",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2011",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2012",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2013",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2014",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2015",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2016",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2017",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2018",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2019",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2020",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_1685_2021",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_3540_2010_v1000140",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_3540_2010_v140",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_4714_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2011",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2012",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2013",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2014",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2015",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2016",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2017",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2018",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2019",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2020",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6579_2021",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6803_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6805_2022_v1000381",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_6805_2022_v381",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_9528_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_9528_2023",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_9543_2022",
+      "passed": true
+    },
+    {
+      "check": "raw_sha256:sidra_9923_2022",
+      "passed": true
+    },
+    {
+      "check": "preexisting_2023_csv_unchanged",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2010",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2010",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2010",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2010",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2010",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2010",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2011",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2011",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2011",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2011",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2011",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2011",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2012",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2012",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2012",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2012",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2012",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2012",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2013",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2013",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2013",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2013",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2013",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2013",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2014",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2014",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2014",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2014",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2014",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2014",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2015",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2015",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2015",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2015",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2015",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2015",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2016",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2016",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2016",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2016",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2016",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2016",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2017",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2017",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2017",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2017",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2017",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2017",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2018",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2018",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2018",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2018",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2018",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2018",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2019",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2019",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2019",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2019",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2019",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2019",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2020",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2020",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2020",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2020",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2020",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2020",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2021",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2021",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2021",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2021",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2021",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2021",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2022",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2022",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2022",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2022",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2022",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2022",
+      "passed": true
+    },
+    {
+      "check": "enem_sha256:2023",
+      "passed": true
+    },
+    {
+      "check": "enem_rows:2023",
+      "passed": true
+    },
+    {
+      "check": "enem_columns:2023",
+      "passed": true
+    },
+    {
+      "check": "first_record_all_fields_equal_raw:2023",
+      "passed": true
+    },
+    {
+      "check": "geography_record_conservation:2023",
+      "passed": true
+    },
+    {
+      "check": "no_sampling_or_row_exclusion:2023",
+      "passed": true
+    },
+    {
+      "check": "panel_unique_keys",
+      "passed": true
+    },
+    {
+      "check": "panel_ibge_format",
+      "passed": true
+    },
+    {
+      "check": "reference_row_conservation",
+      "passed": true
+    },
+    {
+      "check": "exact_year_no_interpolation",
+      "passed": true
+    },
+    {
+      "check": "no_residence_or_sample_assumed_in_enem_statistics",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:agua_encanada_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:agua_esgoto_inadequados_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:alfabetizacao_15mais_censo2022_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:analfabetismo_15mais_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:area_km2",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:atendimento_escolar_15a17_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:atendimento_escolar_6a14_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_pessoal_assalariado_ate2021",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_pessoal_assalariado_desde2022",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_pessoal_ocupado_ate2021",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_pessoal_ocupado_desde2022",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_remuneracoes_mil_reais_ate2021",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_remuneracoes_mil_reais_desde2022",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_salario_medio_salarios_minimos_ate2021",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_unidades_locais_ate2021",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:cempre_unidades_locais_desde2022",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:coleta_lixo_urbano_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:densidade_hab_km2",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:desocupacao_18mais_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_abandono_fundamental_anos_finais_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_abandono_fundamental_anos_iniciais_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_abandono_fundamental_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_abandono_medio_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_aprovacao_fundamental_anos_finais_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_aprovacao_fundamental_anos_iniciais_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_aprovacao_fundamental_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_aprovacao_medio_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_reprovacao_fundamental_anos_finais_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_reprovacao_fundamental_anos_iniciais_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_reprovacao_fundamental_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:educ_reprovacao_medio_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:ensino_medio_completo_25mais_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:extrema_pobreza_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:frequencia_liquida_medio_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:gini_atlas",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:idhm",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:idhm_educacao",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:impostos_liquidos_mil_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:ocupados_agropecuaria_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:ocupados_comercio_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:ocupados_servicos_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:pib_mil_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:pib_per_capita_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:pobreza_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:populacao",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:renda_domiciliar_per_capita_censo2022_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:renda_domiciliar_per_capita_mediana_censo2022_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:renda_per_capita_atlas_reais2010",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_10201_v1013436_c2072_77584",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_10201_v1013436_c2072_77585",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_10201_v1013436_c2072_77586",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_10201_v13436_c2072_77584",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_10201_v13436_c2072_77585",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_10201_v13436_c2072_77586",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_1552_v1000093_c1_0",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_1552_v1000093_c1_1",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_1552_v1000093_c1_2",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_1552_v93_c1_1",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_1552_v93_c1_2",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v1000140_c1568_0",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v1000140_c1568_11626",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v1000140_c1568_9493",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v1000140_c1568_9494",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v1000140_c1568_9495",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v1000140_c1568_99713",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v140_c1568_0",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v140_c1568_11626",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v140_c1568_9493",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v140_c1568_9494",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v140_c1568_9495",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_3540_v140_c1568_99713",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6803_v1000381_c1821_72129",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6803_v1000381_c1821_72144",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6803_v1000381_c1821_72145",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6803_v1000381_c1821_72153",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6803_v381_c1821_72129",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6803_v381_c1821_72144",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6803_v381_c1821_72145",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6803_v381_c1821_72153",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v1000381_c11558_46290",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v1000381_c11558_46292",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v1000381_c11558_72112",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v1000381_c11558_72113",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v1000381_c11558_92861",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v381_c11558_46290",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v381_c11558_46292",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v381_c11558_72112",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v381_c11558_72113",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_6805_v381_c11558_92861",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_9923_v1000093_c1_1",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_9923_v1000093_c1_2",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_9923_v1000093_c1_6795",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_9923_v93_c1_1",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_9923_v93_c1_2",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:sidra_9923_v93_c1_6795",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:superior_completo_25mais_atlas_pct",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:vab_administracao_publica_mil_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:vab_agropecuaria_mil_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:vab_industria_mil_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:vab_servicos_mil_reais",
+      "passed": true
+    },
+    {
+      "check": "long_wide_values_equal:vab_total_mil_reais",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2010:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2010:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2010",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2010",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2011:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2011:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2011",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2011",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2012:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2012:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2012",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2012",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2013:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2013:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2013",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2013",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2014:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2014:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2014",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2014",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2015:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2015:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2015",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2015",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2016:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2016:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2016",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2016",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2017:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2017:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2017",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2017",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2018:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2018:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2018",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2018",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2019:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2019:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2019",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2019",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2020:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2020:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2020",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2020",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2021:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2021:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2021",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2021",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2022:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2022:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2022",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2022",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2023:linhas_fonte.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_sha256:2023:totais_longos.parquet",
+      "passed": true
+    },
+    {
+      "check": "education_rows:2023",
+      "passed": true
+    },
+    {
+      "check": "education_no_lost_columns:2023",
+      "passed": true
+    }
+  ],
+  "raw_manifests_verified": 113,
+  "enem_rows_imported_not_sample": 81962210,
+  "sample_size": null,
+  "statistical_parameters": null,
+  "scope": "Integrity and ingestion reconciliation, not inferential validity.",
+  "first_record_check": "Deterministic engineering check, not a research sample."
+}

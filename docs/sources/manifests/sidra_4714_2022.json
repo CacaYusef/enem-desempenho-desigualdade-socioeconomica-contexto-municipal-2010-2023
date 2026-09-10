@@ -1,0 +1,26 @@
+{
+  "id": "sidra_4714_2022",
+  "provider": "IBGE",
+  "table": 4714,
+  "year": 2022,
+  "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/all/v/93,6318,614/p/2022/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/4714",
+  "path": "municipal/sidra/4714/2022.json",
+  "format": "json",
+  "variables": [
+    93,
+    6318,
+    614
+  ],
+  "categories": {},
+  "acquisition_reason": "População, área e densidade do Censo 2022.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:38:43.945964+00:00",
+  "download_completed_utc": "2026-09-10T02:38:45.068571+00:00",
+  "bytes": 4651939,
+  "sha256": "97a0170bfec36ec2b1efeb41f43d2cbf3901ec601fa294e548652b083cf40174",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

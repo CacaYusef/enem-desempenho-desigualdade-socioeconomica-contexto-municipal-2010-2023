@@ -1,0 +1,36 @@
+{
+  "id": "ipeadata_ADH_T_AGUA",
+  "provider": "IPEA",
+  "series": "ADH_T_AGUA",
+  "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_T_AGUA')",
+  "path": "municipal/ipeadata/ADH_T_AGUA.json",
+  "format": "json",
+  "acquisition_reason": "Condições domiciliares: água encanada.",
+  "selected_for_model": false,
+  "scope": "Raw response preserved; processed scope: municipalities, 2010–2023.",
+  "metadata": {
+    "SERCODIGO": "ADH_T_AGUA",
+    "SERNOME": "População que vive em domicílios com água encanada (Atlas DH - Censo)",
+    "SERCOMENTARIO": "Razão entre a população que vive em domicílios particulares permanentes com água canalizada para um ou mais cômodos e a população total residente em domicílios particulares permanentes, multiplicada por 100. A água pode ser proveniente de rede geral, de poço, de nascente ou de reservatório abastecido por água das chuvas ou carro-pipa. Este indicador faz parte do bloco de indicadores relacionados às condições habitacionais, envolvendo características da habitação (tipo de parede e número de pessoas por dormitório) e acesso a serviços (água, esgoto, lixo e luz). Ele colabora com a análise de uma das dimensões do IDHM reduzindo as limitações do IDH original frente à realidade dos municípios brasileiros. Nota: elaborado por PNUD, IPEA e FJP a partir dos microdados de Censos Demográficos do IBGE. Mais Informações: <a href= \"../doc/Metodologia ADH.pdf\">Metodologia do Atlas do Desenvolvimento Humano</a> Fonte primária aguarda microdados do Censo 2022. <p>Para acessar outras desagregações, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726487&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brasil</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726487&MINDATA=1970&MAXDATA=2030&TNIVID=1&TPAID=1&module=S>por Região</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726487&MINDATA=1970&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>por UF</a>. <p>\r\n        <p>por Gênero > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726496&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Homens</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726497&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Mulheres</a>\r\n        <p>por Cor/Raça > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726488&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brancos</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726498&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Pretos/Pardos</a>\r\n        <p>por tipo domicilio > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726499&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Rural</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726500&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Urbano</a>\r\n        <p><a href=\"http://www.ipeadata.gov.br/Default.aspx\" target=\"_blank\">Ipeadata - Página principal</a>.",
+    "SERATUALIZACAO": "2023-03-08T12:29:15-03:00",
+    "BASNOME": "Social",
+    "FNTSIGLA": "IPEA/ADH Censo IBGE",
+    "FNTNOME": "Atlas do Desenvolvimento Humano (Censo Demográfico)",
+    "FNTURL": "www.atlasbrasil.org.br",
+    "PERNOME": "Decenal",
+    "UNINOME": "(%)",
+    "MULNOME": null,
+    "SERSTATUS": null,
+    "TEMCODIGO": 94,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+  },
+  "download_started_utc": "2026-09-10T02:43:52.023926+00:00",
+  "download_completed_utc": "2026-09-10T02:43:53.649349+00:00",
+  "bytes": 2445797,
+  "sha256": "04bb7396f59f74b4bd147df88958c9c3b9a11a586d5ef8001a3808b9decda541",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

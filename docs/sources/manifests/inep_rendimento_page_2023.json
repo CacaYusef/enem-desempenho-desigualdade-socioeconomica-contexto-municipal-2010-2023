@@ -1,0 +1,16 @@
+{
+  "id": "inep_rendimento_page_2023",
+  "provider": "INEP",
+  "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2023",
+  "path": "municipal/inep/pages/rendimento_2023.html",
+  "format": "html",
+  "year": 2023,
+  "download_started_utc": "2026-09-10T02:43:27.723669+00:00",
+  "download_completed_utc": "2026-09-10T02:43:27.911383+00:00",
+  "bytes": 208946,
+  "sha256": "e1e211c69673908f26e1da8d6af87857dd86eba9942e540a5e9fa0780d4d19c1",
+  "http_metadata": {
+    "content-type": "text/html;charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "sidra_1552_2010",
+  "provider": "IBGE",
+  "table": 1552,
+  "year": 2010,
+  "url": "https://apisidra.ibge.gov.br/values/t/1552/n6/all/v/93,1000093/p/2010/c1/0,1,2/c2/0/c286/0/c287/0/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/1552",
+  "path": "municipal/sidra/1552/2010.json",
+  "format": "json",
+  "variables": [
+    93,
+    1000093
+  ],
+  "categories": {
+    "1": [
+      0,
+      1,
+      2
+    ],
+    "2": [
+      0
+    ],
+    "286": [
+      0
+    ],
+    "287": [
+      0
+    ]
+  },
+  "acquisition_reason": "População e distribuição urbana/rural no Censo 2010.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:38:33.241869+00:00",
+  "download_completed_utc": "2026-09-10T02:38:43.195981+00:00",
+  "bytes": 14349857,
+  "sha256": "a7a217b251abc063ab5fef969e7bedb775695a068996cc6cd6ce2d727436f188",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

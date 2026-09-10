@@ -1,0 +1,34 @@
+{
+  "id": "ibge_pib_2010_2023",
+  "provider": "IBGE",
+  "format": "zip",
+  "url": "https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip",
+  "landing_page": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html",
+  "path": "municipal/pib/base_de_dados_2010_2023_txt.zip",
+  "years": [
+    2010,
+    2023
+  ],
+  "download_started_utc": "2026-09-09T23:32:07.757133+00:00",
+  "download_completed_utc": "2026-09-09T23:32:09.109023+00:00",
+  "bytes": 7750036,
+  "sha256": "1179047b0bcc527a776f5479a534a4b2d99d362491331b0f6b465871f9164090",
+  "http_metadata": {
+    "last-modified": "Tue, 23 Dec 2025 12:56:58 GMT",
+    "etag": "\"764194-6469e143e7ee3\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "layout_da_base_de_dados_2010_2023_em_formato_txt.pdf",
+      "bytes": 125780,
+      "crc32": "88ba7591"
+    },
+    {
+      "name": "PIB dos Municípios - base de dados 2010-2023.txt",
+      "bytes": 98079970,
+      "crc32": "57a117c2"
+    }
+  ]
+}

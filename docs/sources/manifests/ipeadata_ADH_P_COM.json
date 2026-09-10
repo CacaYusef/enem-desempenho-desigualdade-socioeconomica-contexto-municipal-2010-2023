@@ -1,0 +1,36 @@
+{
+  "id": "ipeadata_ADH_P_COM",
+  "provider": "IPEA",
+  "series": "ADH_P_COM",
+  "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_P_COM')",
+  "path": "municipal/ipeadata/ADH_P_COM.json",
+  "format": "json",
+  "acquisition_reason": "Composição setorial da ocupação: comércio.",
+  "selected_for_model": false,
+  "scope": "Raw response preserved; processed scope: municipalities, 2010–2023.",
+  "metadata": {
+    "SERCODIGO": "ADH_P_COM",
+    "SERNOME": "Ocupados no setor comércio (Atlas DH - Censo)",
+    "SERCOMENTARIO": "Razão entre o número de pessoas de 18 anos ou mais de idade ocupadas no setor de comércio e o número total de pessoas ocupadas nessa faixa etária, multiplicada por 100. Este indicador faz parte do bloco de indicadores que contém indicadores de atividade e desocupação (taxa de atividade e taxa de desocupação) para diferentes faixas etárias da população (10 ou mais, 10 a 14, 15 a 17, 18 a 24 e 25 a 29). Além disso, contém uma série de indicadores de caracterização dos ocupados de 18 anos ou mais de idade, abrangendo setor de atividade, grau de formalização, grau de escolaridade, posição de ocupação e rendimento do trabalho. O setor do comércio refere-se às atividades comerciais que diferem tanto em relação à origem das mercadorias (importadas ou nacionais, agrícolas ou industriais) quanto ao seu destino (para consumidores de alta ou baixa renda, para uso intermediário ou para uso final, para o mercado interno ou externo). O setor se classifica em: comércio por atacado; comércio varejista e comércio de veículos, peças e motocicletas, mensurando-se os diferentes níveis de produtividade, margem comercial, salários, pessoal ocupado e produção. Nota: elaborado por PNUD, IPEA e FJP a partir dos microdados de Censos Demográficos do IBGE. Mais Informações: <a href= \"../doc/Metodologia ADH.pdf\">Metodologia do Atlas do Desenvolvimento Humano</a> Fonte primária aguarda microdados do Censo 2022. <p>Para acessar outras desagregações, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726362&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brasil</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726362&MINDATA=1970&MAXDATA=2030&TNIVID=1&TPAID=1&module=S>por Região</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726362&MINDATA=1970&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>por UF</a>. <p>\r\n        <p>por Gênero > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726364&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Homens</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726365&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Mulheres</a>\r\n        <p>por Cor/Raça > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726363&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brancos</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726366&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Pretos/Pardos</a>\r\n        <p>por tipo domicilio > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726367&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Rural</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726368&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Urbano</a>.\r\n<p> por Setor >\r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726355&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Agro</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726362&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Comércio</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726369&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Construção</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726258&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Inds. Transformação</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726390&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Extr. Mineral</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726216&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Serviços</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726223&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Serv. Ut. Pública</a>.\r\n<p><a href=\"http://www.ipeadata.gov.br/Default.aspx\" target=\"_blank\">Ipeadata - Página principal</a>.",
+    "SERATUALIZACAO": "2023-03-08T16:01:42-03:00",
+    "BASNOME": "Social",
+    "FNTSIGLA": "IPEA/ADH Censo IBGE",
+    "FNTNOME": "Atlas do Desenvolvimento Humano (Censo Demográfico)",
+    "FNTURL": "www.atlasbrasil.org.br",
+    "PERNOME": "Decenal",
+    "UNINOME": "(%)",
+    "MULNOME": null,
+    "SERSTATUS": null,
+    "TEMCODIGO": 98,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+  },
+  "download_started_utc": "2026-09-10T02:43:58.623565+00:00",
+  "download_completed_utc": "2026-09-10T02:44:00.220986+00:00",
+  "bytes": 2412943,
+  "sha256": "c761d81bc5b914a4ff45fcb21d4f689e2b6a69ad483faf99b404dd3ae25ae821",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

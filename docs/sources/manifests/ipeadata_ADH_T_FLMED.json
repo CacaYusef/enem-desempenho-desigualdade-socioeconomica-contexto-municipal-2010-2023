@@ -1,0 +1,36 @@
+{
+  "id": "ipeadata_ADH_T_FLMED",
+  "provider": "IPEA",
+  "series": "ADH_T_FLMED",
+  "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_T_FLMED')",
+  "path": "municipal/ipeadata/ADH_T_FLMED.json",
+  "format": "json",
+  "acquisition_reason": "Frequência líquida ao ensino médio na definição oficial.",
+  "selected_for_model": false,
+  "scope": "Raw response preserved; processed scope: municipalities, 2010–2023.",
+  "metadata": {
+    "SERCODIGO": "ADH_T_FLMED",
+    "SERNOME": "Taxa de frequência líquida ao ensino médio regular seriado (Atlas DH - Censo)",
+    "SERCOMENTARIO": "Razão entre o número de pessoas na faixa etária de 15 a 17 anos frequentando o ensino médio REGULAR SERIADO e a população total dessa mesma faixa etária, multiplicada por 100. As pessoas de 15 a 17 anos frequentando a 4ª série do ensino médio foram consideradas como já tendo concluído esse nível de ensino. Dados utilizados para cálculos de indicadores que compõem as três dimensões do IDHM (Índice de Desenvolvimento Humano Municipal) que são: Longevidade, Educação e Renda. A dimensão educação, acesso ao conhecimento no IDHM é uma composição de indicadores de escolaridade da população adulta e de fluxo escolar da população jovem. Nota: elaborado por PNUD, IPEA e FJP a partir dos microdados de Censos Demográficos do IBGE. Mais Informações: <a href= \"../doc/Metodologia ADH.pdf\">Metodologia do Atlas do Desenvolvimento Humano</a> Fonte primária aguarda microdados do Censo 2022. <p>Para acessar outras desagregações, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726423&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brasil</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726423&MINDATA=1970&MAXDATA=2030&TNIVID=1&TPAID=1&module=S>por Região</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726423&MINDATA=1970&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>por UF</a>. <p>\r\n        <p>por Gênero > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726425&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Homens</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726426&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Mulheres</a>\r\n        <p>por Cor/Raça > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726424&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brancos</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726427&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Pretos/Pardos</a>\r\n        <p>por tipo domicilio > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726428&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Rural</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726429&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Urbano</a>\r\n        <p><a href=\"http://www.ipeadata.gov.br/Default.aspx\" target=\"_blank\">Ipeadata - Página principal</a>.",
+    "SERATUALIZACAO": "2023-03-07T13:50:57-03:00",
+    "BASNOME": "Social",
+    "FNTSIGLA": "IPEA/ADH Censo IBGE",
+    "FNTNOME": "Atlas do Desenvolvimento Humano (Censo Demográfico)",
+    "FNTURL": "www.atlasbrasil.org.br",
+    "PERNOME": "Decenal",
+    "UNINOME": "(%)",
+    "MULNOME": null,
+    "SERSTATUS": null,
+    "TEMCODIGO": 90,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+  },
+  "download_started_utc": "2026-09-10T02:43:47.688748+00:00",
+  "download_completed_utc": "2026-09-10T02:43:49.401052+00:00",
+  "bytes": 2458347,
+  "sha256": "64a46e65b83ed83edca5fe8755fd85ac801b768528c67d32f68accbe2f417c04",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

@@ -1,0 +1,176 @@
+{
+  "id": "enem_2012",
+  "provider": "INEP",
+  "year": 2012,
+  "url": "https://download.inep.gov.br/microdados/microdados_enem_2012.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "path": "enem/2012/microdados_enem_2012.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-10T02:45:13.652789+00:00",
+  "download_completed_utc": "2026-09-10T02:48:47.228824+00:00",
+  "bytes": 689971711,
+  "sha256": "88d943922a66013d20c51fe40b72b9bd391b60ad264312fd169f8a19a4926e67",
+  "http_metadata": {
+    "last-modified": "Tue, 05 Sep 2023 15:25:41 GMT",
+    "etag": "\"292021ff-6049e3d5b4740\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "DADOS/ITENS_PROVA_2012.csv",
+      "bytes": 57378,
+      "crc32": "063b62b4"
+    },
+    {
+      "name": "DADOS/MICRODADOS_ENEM_2012.csv",
+      "bytes": 2977613294,
+      "crc32": "ed48c471"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2012.ods",
+      "bytes": 21446,
+      "crc32": "946fac59"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2012.xlsx",
+      "bytes": 36018,
+      "crc32": "90c9f6f4"
+    },
+    {
+      "name": "INPUTS/INPUT_R_ITENS_PROVA_2012.R",
+      "bytes": 2737,
+      "crc32": "de6edb12"
+    },
+    {
+      "name": "INPUTS/INPUT_R_MICRODADOS_ENEM_2012.R",
+      "bytes": 21446,
+      "crc32": "baf74097"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_ITENS_PROVA_2012.sas",
+      "bytes": 3545,
+      "crc32": "9b486ccf"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_MICRODADOS_ENEM_2012.sas",
+      "bytes": 28057,
+      "crc32": "7381b951"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_ITENS_PROVA_2012.sps",
+      "bytes": 3526,
+      "crc32": "a3ca8aef"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_MICRODADOS_ENEM_2012.sps",
+      "bytes": 20418,
+      "crc32": "afd5b4de"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Edital_Enem_2012.pdf",
+      "bytes": 278362,
+      "crc32": "f03030da"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/enem_procedimentos_de_analise.pdf",
+      "bytes": 752641,
+      "crc32": "f08fa920"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/entenda_a_sua_nota_no_enem_guia_do_participante.pdf",
+      "bytes": 12507111,
+      "crc32": "7ea76aeb"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2012.pdf",
+      "bytes": 303013,
+      "crc32": "d57026a5"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Matriz_Referencia_Enem.pdf",
+      "bytes": 177800,
+      "crc32": "cf57487d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/caderno_enem2012_dom_amarelo.pdf",
+      "bytes": 2774524,
+      "crc32": "9a174422"
+    },
+    {
+      "name": "PROVAS E GABARITOS/caderno_enem2012_dom_azul.pdf",
+      "bytes": 2784958,
+      "crc32": "28d8a584"
+    },
+    {
+      "name": "PROVAS E GABARITOS/caderno_enem2012_dom_cinza.pdf",
+      "bytes": 2774853,
+      "crc32": "92f90fd0"
+    },
+    {
+      "name": "PROVAS E GABARITOS/caderno_enem2012_dom_rosa.pdf",
+      "bytes": 2792629,
+      "crc32": "119eef89"
+    },
+    {
+      "name": "PROVAS E GABARITOS/caderno_enem2012_sab_amarelo.pdf",
+      "bytes": 1951943,
+      "crc32": "d274b05a"
+    },
+    {
+      "name": "PROVAS E GABARITOS/caderno_enem2012_sab_azul.pdf",
+      "bytes": 1922670,
+      "crc32": "dc080a71"
+    },
+    {
+      "name": "PROVAS E GABARITOS/caderno_enem2012_sab_branco.pdf",
+      "bytes": 1941019,
+      "crc32": "19a6d692"
+    },
+    {
+      "name": "PROVAS E GABARITOS/caderno_enem2012_sab_rosa.pdf",
+      "bytes": 1962248,
+      "crc32": "69ef65af"
+    },
+    {
+      "name": "PROVAS E GABARITOS/gabarito_dia1_amarelo.pdf",
+      "bytes": 111149,
+      "crc32": "1e61df1e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/gabarito_dia1_azul.pdf",
+      "bytes": 111264,
+      "crc32": "4bd1643c"
+    },
+    {
+      "name": "PROVAS E GABARITOS/gabarito_dia1_branco.pdf",
+      "bytes": 111150,
+      "crc32": "49a74df0"
+    },
+    {
+      "name": "PROVAS E GABARITOS/gabarito_dia1_rosa.pdf",
+      "bytes": 111117,
+      "crc32": "7c2863d6"
+    },
+    {
+      "name": "PROVAS E GABARITOS/gabarito_dia2_amarelo.pdf",
+      "bytes": 93138,
+      "crc32": "a3048c05"
+    },
+    {
+      "name": "PROVAS E GABARITOS/gabarito_dia2_azul.pdf",
+      "bytes": 106300,
+      "crc32": "e7009d3d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/gabarito_dia2_cinza.pdf",
+      "bytes": 103989,
+      "crc32": "598cf8f0"
+    },
+    {
+      "name": "PROVAS E GABARITOS/gabarito_dia2_rosa.pdf",
+      "bytes": 103808,
+      "crc32": "a8a79e18"
+    }
+  ]
+}

@@ -1,0 +1,5692 @@
+{
+  "DICIONÁRIO/Dicionário_Microdados_Enem_2010.xlsx": {
+    "MICRODADOS_ENEM_2010": {
+      "variables": {
+        "NU_INSCRICAO": {
+          "description": "Número de inscrição1 ",
+          "categories": []
+        },
+        "NU_ANO": {
+          "description": "Ano do Enem",
+          "categories": []
+        },
+        "TP_FAIXA_ETARIA": {
+          "description": "Faixa etária2",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Menor de 17 anos"
+            },
+            {
+              "code": 2,
+              "label": "17 anos"
+            },
+            {
+              "code": 3,
+              "label": "18 anos"
+            },
+            {
+              "code": 4,
+              "label": "19 anos"
+            },
+            {
+              "code": 5,
+              "label": "20 anos"
+            },
+            {
+              "code": 6,
+              "label": "21 anos"
+            },
+            {
+              "code": 7,
+              "label": "22 anos"
+            },
+            {
+              "code": 8,
+              "label": "23 anos"
+            },
+            {
+              "code": 9,
+              "label": "24 anos"
+            },
+            {
+              "code": 10,
+              "label": "25 anos"
+            },
+            {
+              "code": 11,
+              "label": "Entre 26 e 30 anos"
+            },
+            {
+              "code": 12,
+              "label": "Entre 31 e 35 anos"
+            },
+            {
+              "code": 13,
+              "label": "Entre 36 e 40 anos"
+            },
+            {
+              "code": 14,
+              "label": "Entre 41 e 45 anos"
+            },
+            {
+              "code": 15,
+              "label": "Entre 46 e 50 anos"
+            },
+            {
+              "code": 16,
+              "label": "Entre 51 e 55 anos"
+            },
+            {
+              "code": 17,
+              "label": "Entre 56 e 60 anos"
+            },
+            {
+              "code": 18,
+              "label": "Entre 61 e 65 anos"
+            },
+            {
+              "code": 19,
+              "label": "Entre 66 e 70 anos"
+            },
+            {
+              "code": 20,
+              "label": "Maior de 70 anos"
+            }
+          ]
+        },
+        "TP_SEXO": {
+          "description": "Sexo",
+          "categories": [
+            {
+              "code": "M",
+              "label": "Masculino"
+            },
+            {
+              "code": "F",
+              "label": "Feminino "
+            }
+          ]
+        },
+        "TP_ESTADO_CIVIL": {
+          "description": "Estado Civil",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Solteiro(a)"
+            },
+            {
+              "code": 1,
+              "label": "Casado(a)/Mora com companheiro(a)"
+            },
+            {
+              "code": 2,
+              "label": "Divorciado(a)/Desquitado(a)/Separado(a)"
+            },
+            {
+              "code": 3,
+              "label": "Viúvo(a)"
+            }
+          ]
+        },
+        "TP_COR_RACA": {
+          "description": "Cor/raça",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Não declarado"
+            },
+            {
+              "code": 1,
+              "label": "Branca"
+            },
+            {
+              "code": 2,
+              "label": "Preta"
+            },
+            {
+              "code": 3,
+              "label": "Parda"
+            },
+            {
+              "code": 4,
+              "label": "Amarela"
+            },
+            {
+              "code": 5,
+              "label": "Indígena "
+            }
+          ]
+        },
+        "TP_ST_CONCLUSAO": {
+          "description": "Situação de conclusão do Ensino Médio",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Já concluiu"
+            },
+            {
+              "code": 2,
+              "label": "Concluirá em 2010"
+            },
+            {
+              "code": 3,
+              "label": "Concluirá após 2010"
+            }
+          ]
+        },
+        "TP_ENSINO": {
+          "description": "Tipo de instituição que concluiu ou concluirá o Ensino Médio ",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Ensino Regular"
+            },
+            {
+              "code": 2,
+              "label": "Ensino de Jovens e Adultos"
+            },
+            {
+              "code": 3,
+              "label": "Ensino Profissionalizante"
+            },
+            {
+              "code": 4,
+              "label": "Ensino Especial"
+            }
+          ]
+        },
+        "CO_MUNICIPIO_ESC": {
+          "description": "Código do município da escola ",
+          "categories": []
+        },
+        "NO_MUNICIPIO_ESC": {
+          "description": "Nome do município da escola",
+          "categories": []
+        },
+        "CO_UF_ESC": {
+          "description": "Código da Unidade da Federação da escola",
+          "categories": []
+        },
+        "SG_UF_ESC": {
+          "description": "Sigla da Unidade da Federação da escola",
+          "categories": []
+        },
+        "TP_DEPENDENCIA_ADM_ESC": {
+          "description": "Dependência administrativa (Escola)",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Federal"
+            },
+            {
+              "code": 2,
+              "label": "Estadual"
+            },
+            {
+              "code": 3,
+              "label": "Municipal"
+            },
+            {
+              "code": 4,
+              "label": "Privada"
+            }
+          ]
+        },
+        "TP_LOCALIZACAO_ESC": {
+          "description": "Localização (Escola)",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Urbana"
+            },
+            {
+              "code": 2,
+              "label": "Rural"
+            }
+          ]
+        },
+        "TP_SIT_FUNC_ESC": {
+          "description": "Situação de funcionamento (Escola)",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Em atividade"
+            },
+            {
+              "code": 2,
+              "label": "Paralisada"
+            },
+            {
+              "code": 3,
+              "label": "Extinta"
+            },
+            {
+              "code": 4,
+              "label": "Escola extinta em anos anteriores"
+            }
+          ]
+        },
+        "IN_CERTIFICADO": {
+          "description": "Indicador de solicitação de certificação no Ensino Médio",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Sim"
+            },
+            {
+              "code": 0,
+              "label": "Não"
+            }
+          ]
+        },
+        "CO_MUNICIPIO_PROVA": {
+          "description": "Código do município da aplicação da prova",
+          "categories": []
+        },
+        "NO_MUNICIPIO_PROVA": {
+          "description": "Nome do município da aplicação da prova",
+          "categories": []
+        },
+        "CO_UF_PROVA": {
+          "description": "Código da Unidade da Federação da aplicação da prova",
+          "categories": []
+        },
+        "SG_UF_PROVA": {
+          "description": "Sigla da Unidade da Federação da aplicação da prova",
+          "categories": []
+        },
+        "TP_PRESENCA_CN": {
+          "description": "Presença na prova objetiva de Ciências da Natureza",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Faltou à prova"
+            },
+            {
+              "code": 1,
+              "label": "Presente na prova"
+            },
+            {
+              "code": 2,
+              "label": "Eliminado na prova"
+            }
+          ]
+        },
+        "TP_PRESENCA_CH": {
+          "description": "Presença na prova objetiva de Ciências Humanas",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Faltou à prova"
+            },
+            {
+              "code": 1,
+              "label": "Presente na prova"
+            },
+            {
+              "code": 2,
+              "label": "Eliminado na prova"
+            }
+          ]
+        },
+        "TP_PRESENCA_LC": {
+          "description": "Presença na prova objetiva de Linguagens e Códigos",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Faltou à prova"
+            },
+            {
+              "code": 1,
+              "label": "Presente na prova"
+            },
+            {
+              "code": 2,
+              "label": "Eliminado na prova"
+            }
+          ]
+        },
+        "TP_PRESENCA_MT": {
+          "description": "Presença na prova objetiva de Matemática",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Faltou à prova"
+            },
+            {
+              "code": 1,
+              "label": "Presente na prova"
+            },
+            {
+              "code": 2,
+              "label": "Eliminado na prova"
+            }
+          ]
+        },
+        "CO_PROVA_CN": {
+          "description": "Código do tipo de prova de Ciências da Natureza",
+          "categories": [
+            {
+              "code": 89,
+              "label": "AZUL"
+            },
+            {
+              "code": 90,
+              "label": "AMARELO"
+            },
+            {
+              "code": 91,
+              "label": "BRANCA"
+            },
+            {
+              "code": 92,
+              "label": "ROSA"
+            },
+            {
+              "code": 105,
+              "label": "AZUL  - REAPLICAÇÃO"
+            },
+            {
+              "code": 106,
+              "label": "AMARELO  - REAPLICAÇÃO"
+            },
+            {
+              "code": 107,
+              "label": "BRANCA - REAPLICAÇÃO"
+            },
+            {
+              "code": 108,
+              "label": "ROSA - REAPLICAÇÃO"
+            }
+          ]
+        },
+        "CO_PROVA_CH": {
+          "description": "Código do tipo de prova de Ciências Humanas",
+          "categories": [
+            {
+              "code": 85,
+              "label": "AZUL"
+            },
+            {
+              "code": 86,
+              "label": "AMARELO"
+            },
+            {
+              "code": 87,
+              "label": "BRANCA"
+            },
+            {
+              "code": 88,
+              "label": "ROSA"
+            },
+            {
+              "code": 101,
+              "label": "AZUL - REAPLICAÇÃO"
+            },
+            {
+              "code": 102,
+              "label": "AMARELO - REAPLICAÇÃO"
+            },
+            {
+              "code": 103,
+              "label": "BRANCA - REAPLICAÇÃO"
+            },
+            {
+              "code": 104,
+              "label": "ROSA - REAPLICAÇÃO"
+            }
+          ]
+        },
+        "CO_PROVA_LC": {
+          "description": "Código do tipo de prova de Linguagens e Códigos",
+          "categories": [
+            {
+              "code": 93,
+              "label": "AMARELO"
+            },
+            {
+              "code": 94,
+              "label": "CINZA"
+            },
+            {
+              "code": 95,
+              "label": "AZUL"
+            },
+            {
+              "code": 96,
+              "label": "ROSA"
+            },
+            {
+              "code": 109,
+              "label": "AMARELO - REAPLICAÇÃO"
+            },
+            {
+              "code": 110,
+              "label": "CINZA - REAPLICAÇÃO"
+            },
+            {
+              "code": 111,
+              "label": "AZUL - REAPLICAÇÃO"
+            },
+            {
+              "code": 112,
+              "label": "ROSA - REAPLICAÇÃO"
+            }
+          ]
+        },
+        "CO_PROVA_MT": {
+          "description": "Código do tipo de prova de Matemática",
+          "categories": [
+            {
+              "code": 97,
+              "label": "AMARELO"
+            },
+            {
+              "code": 98,
+              "label": "CINZA"
+            },
+            {
+              "code": 99,
+              "label": "AZUL"
+            },
+            {
+              "code": 100,
+              "label": "ROSA"
+            },
+            {
+              "code": 113,
+              "label": "AMARELO - REAPLICAÇÃO"
+            },
+            {
+              "code": 114,
+              "label": "CINZA - REAPLICAÇÃO"
+            },
+            {
+              "code": 115,
+              "label": "AZUL - REAPLICAÇÃO"
+            },
+            {
+              "code": 116,
+              "label": "ROSA - REAPLICAÇÃO"
+            }
+          ]
+        },
+        "NU_NOTA_CN": {
+          "description": "Nota da prova de Ciências da Natureza",
+          "categories": []
+        },
+        "NU_NOTA_CH": {
+          "description": "Nota da prova de Ciências Humanas",
+          "categories": []
+        },
+        "NU_NOTA_LC": {
+          "description": "Nota da prova de Linguagens e Códigos",
+          "categories": []
+        },
+        "NU_NOTA_MT": {
+          "description": "Nota da prova de Matemática",
+          "categories": []
+        },
+        "TX_RESPOSTAS_CN": {
+          "description": "Vetor com as respostas da parte objetiva da prova de Ciências da Natureza3 ",
+          "categories": []
+        },
+        "TX_RESPOSTAS_CH": {
+          "description": "Vetor com as respostas da parte objetiva da prova de Ciências Humanas3",
+          "categories": []
+        },
+        "TX_RESPOSTAS_LC": {
+          "description": "Vetor com as respostas da parte objetiva da prova de Linguagens e Códigos4",
+          "categories": []
+        },
+        "TX_RESPOSTAS_MT": {
+          "description": "Vetor com as respostas da parte objetiva da prova de Matemática3",
+          "categories": []
+        },
+        "TP_LINGUA": {
+          "description": "Língua Estrangeira ",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Inglês"
+            },
+            {
+              "code": 1,
+              "label": "Espanhol"
+            }
+          ]
+        },
+        "TX_GABARITO_CN": {
+          "description": "Vetor com o gabarito da parte objetiva da prova de Ciências da Natureza5",
+          "categories": []
+        },
+        "TX_GABARITO_CH": {
+          "description": "Vetor com o gabarito da parte objetiva da prova de Ciências Humanas5",
+          "categories": []
+        },
+        "TX_GABARITO_LC": {
+          "description": "Vetor com o gabarito da parte objetiva da prova de Linguagens e Códigos6",
+          "categories": []
+        },
+        "TX_GABARITO_MT": {
+          "description": "Vetor com o gabarito da parte objetiva da prova de Matemática5",
+          "categories": []
+        },
+        "TP_STATUS_REDACAO": {
+          "description": "Situação da redação do participante",
+          "categories": [
+            {
+              "code": "B",
+              "label": "Entregou a redação em branco"
+            },
+            {
+              "code": "D",
+              "label": "Desconsiderada"
+            },
+            {
+              "code": "F",
+              "label": "Faltou à prova"
+            },
+            {
+              "code": "N",
+              "label": "Redação anulada"
+            },
+            {
+              "code": "P",
+              "label": "Presente à prova"
+            }
+          ]
+        },
+        "NU_NOTA_COMP1": {
+          "description": "Nota da competência 1",
+          "categories": []
+        },
+        "NU_NOTA_COMP2": {
+          "description": "Nota da competência 2",
+          "categories": []
+        },
+        "NU_NOTA_COMP3": {
+          "description": "Nota da competência 3",
+          "categories": []
+        },
+        "NU_NOTA_COMP4": {
+          "description": "Nota da competência 4",
+          "categories": []
+        },
+        "NU_NOTA_COMP5": {
+          "description": "Nota da competência 5",
+          "categories": []
+        },
+        "NU_NOTA_REDACAO": {
+          "description": "Nota da prova de redação",
+          "categories": []
+        },
+        "Q01": {
+          "description": "Quantas pessoas moram com você? (incluindo filhos, irmãos, parentes e amigos)",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Uma a três"
+            },
+            {
+              "code": "B",
+              "label": "Quatro a sete"
+            },
+            {
+              "code": "C",
+              "label": "Oito a dez"
+            },
+            {
+              "code": "D",
+              "label": "Mais de dez"
+            },
+            {
+              "code": "E",
+              "label": "Moro sozinho"
+            }
+          ]
+        },
+        "Q02": {
+          "description": "Qual é o nível de escolaridade do seu pai? ",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Da 1ª à 4ª série do Ensino Fundamental (antigo primário)"
+            },
+            {
+              "code": "B",
+              "label": "Da 5ª à 8ª série do Ensino Fundamental (antigo ginásio)"
+            },
+            {
+              "code": "C",
+              "label": "Ensino Médio (antigo 2º grau)"
+            },
+            {
+              "code": "D",
+              "label": "Ensino Superior"
+            },
+            {
+              "code": "E",
+              "label": "Especialização"
+            },
+            {
+              "code": "F",
+              "label": "Mestrado"
+            },
+            {
+              "code": "G",
+              "label": "Doutorado"
+            },
+            {
+              "code": "H",
+              "label": "Não estudou."
+            },
+            {
+              "code": "I",
+              "label": "Não sei"
+            }
+          ]
+        },
+        "Q03": {
+          "description": "Qual é o nível de escolaridade da sua mãe?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Da 1ª à 4ª série do Ensino Fundamental (antigo primário)"
+            },
+            {
+              "code": "B",
+              "label": "Da 5ª à 8ª série do Ensino Fundamental (antigo ginásio)"
+            },
+            {
+              "code": "C",
+              "label": "Ensino Médio (antigo 2º grau)"
+            },
+            {
+              "code": "D",
+              "label": "Ensino Superior"
+            },
+            {
+              "code": "E",
+              "label": "Especialização"
+            },
+            {
+              "code": "F",
+              "label": "Mestrado"
+            },
+            {
+              "code": "G",
+              "label": "Doutorado"
+            },
+            {
+              "code": "H",
+              "label": "Não estudou."
+            },
+            {
+              "code": "I",
+              "label": "Não sei"
+            }
+          ]
+        },
+        "Q04": {
+          "description": "Somando a sua renda com a renda das pessoas que moram com você, quanto é, aproximadamente, a renda familiar mensal?\n",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Até 1 salário mínimo (até R$ 510,00)."
+            },
+            {
+              "code": "B",
+              "label": "De 1 a 3 salários mínimos (de R$ 510,00 até R$ 1.530,00)."
+            },
+            {
+              "code": "C",
+              "label": "De 3 a 6 salários mínimos (de R$ 1.530,00 até R$ 3.060,00)."
+            },
+            {
+              "code": "D",
+              "label": "De 6 a 9 salários mínimos (de R$ 3.060,00 até R$ 4.590,00)."
+            },
+            {
+              "code": "E",
+              "label": "De 9 a 12 salários mínimos (de R$ 4.590,00 até R$ 6.120,00)."
+            },
+            {
+              "code": "F",
+              "label": "De 12 a 15 salários mínimos (de R$ 6.210,00 até R$ 7.650,00)."
+            },
+            {
+              "code": "G",
+              "label": "Mais de 15 salários mínimos (mais de R$ 7.650,00)."
+            },
+            {
+              "code": "H",
+              "label": "Nenhuma renda."
+            }
+          ]
+        },
+        "Q05": {
+          "description": "Qual a sua renda mensal, aproximadamente?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Até 1 salário mínimo (até R$ 510,00)."
+            },
+            {
+              "code": "B",
+              "label": "De 1 a 3 salários mínimos (de R$ 510,00 até R$ 1.530,00)."
+            },
+            {
+              "code": "C",
+              "label": "De 3 a 6 salários mínimos (de R$ 1.530,00 até R$ 3.060,00)."
+            },
+            {
+              "code": "D",
+              "label": "De 6 a 9 salários mínimos (de R$ 3.060,00 até R$ 4.590,00)."
+            },
+            {
+              "code": "E",
+              "label": "De 9 a 12 salários mínimos (de R$ 4.590,00 até R$ 6.120,00)."
+            },
+            {
+              "code": "F",
+              "label": "De 12 a 15 salários mínimos (de R$ 6.210,00 até R$ 7.650,00)."
+            },
+            {
+              "code": "G",
+              "label": "Mais de 15 salários mínimos (mais de R$ 7.650,00)."
+            },
+            {
+              "code": "H",
+              "label": "Nenhuma renda."
+            }
+          ]
+        },
+        "Q06": {
+          "description": "A casa onde você mora é? ",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Própria"
+            },
+            {
+              "code": "B",
+              "label": "Alugada"
+            },
+            {
+              "code": "C",
+              "label": "Cedida"
+            }
+          ]
+        },
+        "Q07": {
+          "description": "Sua casa está localizada em?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Zona rural."
+            },
+            {
+              "code": "B",
+              "label": "Zona urbana"
+            },
+            {
+              "code": "C",
+              "label": "Comunidade indígena."
+            },
+            {
+              "code": "D",
+              "label": "Comunidade quilombola."
+            }
+          ]
+        },
+        "Q08": {
+          "description": "Você trabalha ou já trabalhou? ",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q09": {
+          "description": "Grau de importância quanto a sua decisão de trabalhar para ajudar meus pais nas despesas com a casa",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q10": {
+          "description": "Grau de importância quanto a sua decisão de trabalhar para sustentar minha família (esposo/a, filhos/as etc.)",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q11": {
+          "description": "Grau de importância quanto a sua decisão de trabalhar para ser independente (ganhar meu próprio dinheiro)",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q12": {
+          "description": "Grau de importância quanto a sua decisão de trabalhar para adquirir experiência",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q13": {
+          "description": "Grau de importância quanto a sua decisão de trabalhar para custear/ pagar meus estudos",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q14": {
+          "description": "Você fez algum curso preparatório para o trabalho que realiza ou realizou? ",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q15": {
+          "description": "Frequentou ou frequenta Curso profissionalizante",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q16": {
+          "description": "Frequentou ou frequenta Curso preparatório para vestibular",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q17": {
+          "description": "Frequentou ou frequenta Curso superior",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q18": {
+          "description": "Frequentou ou frequenta Curso de língua estrangeira",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q19": {
+          "description": "Frequentou ou frequenta Curso de computação ou informática",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q20": {
+          "description": "Frequentou ou frequenta Curso preparatório para outros concursos públicos",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q21": {
+          "description": "Frequentou ou frequenta Outro curso",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q22": {
+          "description": "Quantas horas semanais você trabalha?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sem jornada fixa, até 10 horas semanais."
+            },
+            {
+              "code": "B",
+              "label": "De 11 a 20 horas semanais."
+            },
+            {
+              "code": "C",
+              "label": "De 21 a 30 horas semanais."
+            },
+            {
+              "code": "D",
+              "label": "De 31 a 40 horas semanais."
+            },
+            {
+              "code": "E",
+              "label": "Mais de 40 horas semanais"
+            }
+          ]
+        },
+        "Q23": {
+          "description": "Com que idade você começou a trabalhar?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Antes dos 14 anos."
+            },
+            {
+              "code": "B",
+              "label": "Entre 14 e 16 anos."
+            },
+            {
+              "code": "C",
+              "label": "Entre 17 e 18 anos."
+            },
+            {
+              "code": "D",
+              "label": "Após 18 anos."
+            }
+          ]
+        },
+        "Q24": {
+          "description": "Grau de importância quanto aos motivos que levaram a participar do ENEM para Testar meus conhecimentos",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q25": {
+          "description": "Grau de importância quanto aos motivos que levaram a participar do ENEM para Prosseguir os estudos no Ensino Superior",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q26": {
+          "description": "Grau de importância quanto aos motivos que levaram a participar do ENEM para Obter a certificação do Ensino Médio ou acelerar meus estudos",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q27": {
+          "description": "Grau de importância quanto aos motivos que levaram a participar do ENEM para Conseguir uma bolsa de estudos (ProUni, outras)",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q28": {
+          "description": "Quantos anos você levou para concluir o Ensino Fundamental?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Menos de 8 anos."
+            },
+            {
+              "code": "B",
+              "label": "8 anos."
+            },
+            {
+              "code": "C",
+              "label": "9 anos."
+            },
+            {
+              "code": "D",
+              "label": "10 anos."
+            },
+            {
+              "code": "E",
+              "label": "11 anos."
+            },
+            {
+              "code": "F",
+              "label": "Mais de 11 anos."
+            },
+            {
+              "code": "G",
+              "label": "Não conclui."
+            }
+          ]
+        },
+        "Q29": {
+          "description": "Você deixou de estudar durante o Ensino Fundamental?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, por um ano."
+            },
+            {
+              "code": "C",
+              "label": "Sim, por dois anos."
+            },
+            {
+              "code": "D",
+              "label": "Sim, por três anos."
+            },
+            {
+              "code": "E",
+              "label": "Sim, por quatro anos ou mais."
+            }
+          ]
+        },
+        "Q30": {
+          "description": "Em que tipo de escola você cursou o Ensino Fundamental?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Somente em escola pública."
+            },
+            {
+              "code": "B",
+              "label": "Maior parte em escola pública."
+            },
+            {
+              "code": "C",
+              "label": "Somente em escola particular."
+            },
+            {
+              "code": "D",
+              "label": "Maior parte em escola particular."
+            },
+            {
+              "code": "E",
+              "label": "Somente em escola indígena."
+            },
+            {
+              "code": "F",
+              "label": "Maior parte em escola não-indígena."
+            },
+            {
+              "code": "G",
+              "label": "Somente em escola situada em comunidade quilombola."
+            },
+            {
+              "code": "H",
+              "label": "Não frequentei a escola"
+            }
+          ]
+        },
+        "Q31": {
+          "description": "Quantos anos você levou para concluir o Ensino Médio?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Menos de 3 anos"
+            },
+            {
+              "code": "B",
+              "label": "3 anos"
+            },
+            {
+              "code": "C",
+              "label": "4 anos"
+            },
+            {
+              "code": "D",
+              "label": "5 anos"
+            },
+            {
+              "code": "E",
+              "label": "6 anos ou mais"
+            },
+            {
+              "code": "F",
+              "label": "Não conclui"
+            }
+          ]
+        },
+        "Q32": {
+          "description": "Você deixou de estudar durante o Ensino Médio?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, por um ano."
+            },
+            {
+              "code": "C",
+              "label": "Sim, por dois anos."
+            },
+            {
+              "code": "D",
+              "label": "Sim, por três anos."
+            },
+            {
+              "code": "E",
+              "label": "Sim, por quatro anos ou mais."
+            }
+          ]
+        },
+        "Q33": {
+          "description": "Em que tipo de escola você cursou o Ensino Médio?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Somente em escola pública."
+            },
+            {
+              "code": "B",
+              "label": "Maior parte em escola pública."
+            },
+            {
+              "code": "C",
+              "label": "Somente em escola particular."
+            },
+            {
+              "code": "D",
+              "label": "Maior parte em escola particular."
+            },
+            {
+              "code": "E",
+              "label": "Somente em escola indígena."
+            },
+            {
+              "code": "F",
+              "label": "Maior parte em escola não-indígena."
+            },
+            {
+              "code": "G",
+              "label": "Somente em escola situada em comunidade quilombola."
+            },
+            {
+              "code": "H",
+              "label": "Não frequentei a escola"
+            }
+          ]
+        },
+        "Q34": {
+          "description": "Você cursa ou já cursou a Educação de Jovens e Adultos – EJA?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q35": {
+          "description": "Como é ou era o curso de EJA que você frequenta ou frequentou?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Curso presencial em escola pública."
+            },
+            {
+              "code": "B",
+              "label": "Curso presencial em escola privada."
+            },
+            {
+              "code": "C",
+              "label": "Curso presencial na empresa em que trabalha, instituição filantrópica ou religiosa."
+            },
+            {
+              "code": "D",
+              "label": "Curso a distância (via rádio, televisão, internet, correio, com apostilas)."
+            },
+            {
+              "code": "E",
+              "label": "Curso semipresencial em escola pública."
+            },
+            {
+              "code": "F",
+              "label": "Curso semipresencial em escola privada."
+            }
+          ]
+        },
+        "Q36": {
+          "description": "Deixou de cursar EJA  por causa de Trabalho/ falta de tempo para estudar.",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q37": {
+          "description": "Deixou de cursar EJA  porque Estudava no curso da empresa e foi interrompido.",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q38": {
+          "description": "Deixou de cursar EJA  por causa de Problemas de saúde ou acidentes comigo ou familiares.",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q39": {
+          "description": "Deixou de cursar EJA  por causa de Mudança de estado, município ou cidade.",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q40": {
+          "description": "Deixou de cursar EJA por causa de Motivos pessoais: casamento / filhos.",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q41": {
+          "description": "Deixou de cursar EJA porque Não tinha interesse / desisti.",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q42": {
+          "description": "Deixou de cursar EJA porque Senti-me discriminado(a) / Sofri agressão (física ou verbal).",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q43": {
+          "description": "Deixou de cursar EJA - Não se aplica",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q44": {
+          "description": "Você já frequentou alguma vez escola regular? ",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Sim"
+            },
+            {
+              "code": "B",
+              "label": "Não"
+            }
+          ]
+        },
+        "Q45": {
+          "description": "Inexistência de vaga em escola pública influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q46": {
+          "description": "Ausência de escola perto de casa influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q47": {
+          "description": "Falta de interesse em estudar influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q48": {
+          "description": "Trabalho: falta de tempo para estudar influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q49": {
+          "description": "Motivos pessoais: casamento / filhos influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q50": {
+          "description": "Falta de apoio familiar influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q51": {
+          "description": "Problemas de saúde ou acidente comigo ou familiares influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q52": {
+          "description": "Discriminação/ preconceitos de raça, sexo, cor, idade ou socioeconômico influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q53": {
+          "description": "Quantos anos de idade você tinha quando deixou de frequentar a escola regular? ",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Menos de 10 anos."
+            },
+            {
+              "code": "B",
+              "label": "Entre 10 e 14 anos."
+            },
+            {
+              "code": "C",
+              "label": "Entre 15 e 18 anos."
+            },
+            {
+              "code": "D",
+              "label": "Entre 19 e 24 anos."
+            },
+            {
+              "code": "E",
+              "label": "Entre 25 e 30 anos."
+            },
+            {
+              "code": "F",
+              "label": "Mais de 30 anos."
+            },
+            {
+              "code": "G",
+              "label": "Não deixei de frequentar."
+            }
+          ]
+        },
+        "Q54": {
+          "description": "Grau de importância quanto a querer a certificação do Ensino Médio para Conseguir um emprego",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q55": {
+          "description": "Grau de importância quanto a querer a certificação do Ensino Médio para Conseguir um emprego melhor",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q56": {
+          "description": "Grau de importância quanto a querer a certificação do Ensino Médio para Progredir no meu emprego atual",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        },
+        "Q57": {
+          "description": "Grau de importância quanto a querer a certificação do Ensino Médio para Continuar os estudos no Ensino Superior",
+          "categories": [
+            {
+              "code": 0,
+              "label": "0 indica o fator menos relevante  e 5 o fator mais relevante"
+            },
+            {
+              "code": 1,
+              "label": null
+            },
+            {
+              "code": 2,
+              "label": null
+            },
+            {
+              "code": 3,
+              "label": null
+            },
+            {
+              "code": 4,
+              "label": null
+            },
+            {
+              "code": 5,
+              "label": null
+            }
+          ]
+        }
+      },
+      "rows": [
+        [
+          "DICIONÁRIO DE VARIÁVEIS - ENEM 2010",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NOME DA VARIÁVEL",
+          "Descrição",
+          "Variáveis Categóricas",
+          null,
+          "Tamanho ",
+          "Tipo"
+        ],
+        [
+          null,
+          null,
+          "Categoria",
+          "Descrição",
+          null,
+          null
+        ],
+        [
+          "DADOS DO PARTICIPANTE",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NU_INSCRICAO",
+          "Número de inscrição1 ",
+          null,
+          null,
+          12,
+          "Numérica"
+        ],
+        [
+          "NU_ANO",
+          "Ano do Enem",
+          null,
+          null,
+          4,
+          "Numérica"
+        ],
+        [
+          "TP_FAIXA_ETARIA",
+          "Faixa etária2",
+          1,
+          "Menor de 17 anos",
+          2,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "17 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "18 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "19 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          "20 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          6,
+          "21 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          7,
+          "22 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          8,
+          "23 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          9,
+          "24 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          10,
+          "25 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          11,
+          "Entre 26 e 30 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          12,
+          "Entre 31 e 35 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          13,
+          "Entre 36 e 40 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          14,
+          "Entre 41 e 45 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          15,
+          "Entre 46 e 50 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          16,
+          "Entre 51 e 55 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          17,
+          "Entre 56 e 60 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          18,
+          "Entre 61 e 65 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          19,
+          "Entre 66 e 70 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          20,
+          "Maior de 70 anos",
+          null,
+          null
+        ],
+        [
+          "TP_SEXO",
+          "Sexo",
+          "M",
+          "Masculino",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Feminino ",
+          null,
+          null
+        ],
+        [
+          "TP_ESTADO_CIVIL",
+          "Estado Civil",
+          0,
+          "Solteiro(a)",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Casado(a)/Mora com companheiro(a)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Divorciado(a)/Desquitado(a)/Separado(a)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Viúvo(a)",
+          null,
+          null
+        ],
+        [
+          "TP_COR_RACA",
+          "Cor/raça",
+          0,
+          "Não declarado",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Branca",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Preta",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Parda",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Amarela",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          "Indígena ",
+          null,
+          null
+        ],
+        [
+          "TP_ST_CONCLUSAO",
+          "Situação de conclusão do Ensino Médio",
+          1,
+          "Já concluiu",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Concluirá em 2010",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Concluirá após 2010",
+          null,
+          null
+        ],
+        [
+          "TP_ENSINO",
+          "Tipo de instituição que concluiu ou concluirá o Ensino Médio ",
+          1,
+          "Ensino Regular",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Ensino de Jovens e Adultos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Ensino Profissionalizante",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Ensino Especial",
+          null,
+          null
+        ],
+        [
+          "DADOS DA ESCOLA",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "CO_MUNICIPIO_ESC\n",
+          "Código do município da escola ",
+          null,
+          null,
+          7,
+          "Numérica"
+        ],
+        [
+          null,
+          "1º dígito: Região",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "1º e 2º dígitos: UF",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "3º, 4º, 5º e 6º dígitos: Município",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "7º dígito: dígito verificador",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NO_MUNICIPIO_ESC",
+          "Nome do município da escola",
+          null,
+          null,
+          150,
+          "Alfanumérica"
+        ],
+        [
+          "CO_UF_ESC",
+          "Código da Unidade da Federação da escola",
+          null,
+          null,
+          2,
+          "Numérica"
+        ],
+        [
+          "SG_UF_ESC",
+          "Sigla da Unidade da Federação da escola",
+          null,
+          null,
+          2,
+          "Alfanumérica"
+        ],
+        [
+          "TP_DEPENDENCIA_ADM_ESC",
+          "Dependência administrativa (Escola)",
+          1,
+          "Federal",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Estadual",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Municipal",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Privada",
+          null,
+          null
+        ],
+        [
+          "TP_LOCALIZACAO_ESC",
+          "Localização (Escola)",
+          1,
+          "Urbana",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Rural",
+          null,
+          null
+        ],
+        [
+          "TP_SIT_FUNC_ESC",
+          "Situação de funcionamento (Escola)",
+          1,
+          "Em atividade",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Paralisada",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Extinta",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Escola extinta em anos anteriores",
+          null,
+          null
+        ],
+        [
+          "DADOS DOS PEDIDOS DE CERTIFICAÇÃO DO ENSINO MÉDIO",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "IN_CERTIFICADO",
+          "Indicador de solicitação de certificação no Ensino Médio",
+          1,
+          "Sim",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          0,
+          "Não",
+          null,
+          null
+        ],
+        [
+          "DADOS DO LOCAL DE APLICAÇÃO DA PROVA",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "CO_MUNICIPIO_PROVA",
+          "Código do município da aplicação da prova",
+          null,
+          null,
+          7,
+          "Numérica"
+        ],
+        [
+          null,
+          "1º dígito: Região",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "1º e 2º dígitos: UF",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "3º, 4º, 5º e 6º dígitos: Município",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "7º dígito: dígito verificador",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NO_MUNICIPIO_PROVA",
+          "Nome do município da aplicação da prova",
+          null,
+          null,
+          150,
+          "Alfanumérica"
+        ],
+        [
+          "CO_UF_PROVA",
+          "Código da Unidade da Federação da aplicação da prova",
+          null,
+          null,
+          2,
+          "Alfanumérica"
+        ],
+        [
+          "SG_UF_PROVA",
+          "Sigla da Unidade da Federação da aplicação da prova",
+          null,
+          null,
+          2,
+          "Alfanumérica"
+        ],
+        [
+          "DADOS DA PROVA OBJETIVA",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "TP_PRESENCA_CN",
+          "Presença na prova objetiva de Ciências da Natureza",
+          0,
+          "Faltou à prova",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Presente na prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Eliminado na prova",
+          null,
+          null
+        ],
+        [
+          "TP_PRESENCA_CH",
+          "Presença na prova objetiva de Ciências Humanas",
+          0,
+          "Faltou à prova",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Presente na prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Eliminado na prova",
+          null,
+          null
+        ],
+        [
+          "TP_PRESENCA_LC",
+          "Presença na prova objetiva de Linguagens e Códigos",
+          0,
+          "Faltou à prova",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Presente na prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Eliminado na prova",
+          null,
+          null
+        ],
+        [
+          "TP_PRESENCA_MT",
+          "Presença na prova objetiva de Matemática",
+          0,
+          "Faltou à prova",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Presente na prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Eliminado na prova",
+          null,
+          null
+        ],
+        [
+          "CO_PROVA_CN",
+          "Código do tipo de prova de Ciências da Natureza",
+          89,
+          "AZUL",
+          3,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          90,
+          "AMARELO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          91,
+          "BRANCA",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          92,
+          "ROSA",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          105,
+          "AZUL  - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          106,
+          "AMARELO  - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          107,
+          "BRANCA - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          108,
+          "ROSA - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          "CO_PROVA_CH",
+          "Código do tipo de prova de Ciências Humanas",
+          85,
+          "AZUL",
+          3,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          86,
+          "AMARELO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          87,
+          "BRANCA",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          88,
+          "ROSA",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          101,
+          "AZUL - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          102,
+          "AMARELO - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          103,
+          "BRANCA - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          104,
+          "ROSA - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          "CO_PROVA_LC",
+          "Código do tipo de prova de Linguagens e Códigos",
+          93,
+          "AMARELO",
+          3,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          94,
+          "CINZA",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          95,
+          "AZUL",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          96,
+          "ROSA",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          109,
+          "AMARELO - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          110,
+          "CINZA - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          111,
+          "AZUL - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          112,
+          "ROSA - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          "CO_PROVA_MT",
+          "Código do tipo de prova de Matemática",
+          97,
+          "AMARELO",
+          3,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          98,
+          "CINZA",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          99,
+          "AZUL",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          100,
+          "ROSA",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          113,
+          "AMARELO - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          114,
+          "CINZA - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          115,
+          "AZUL - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          116,
+          "ROSA - REAPLICAÇÃO",
+          null,
+          null
+        ],
+        [
+          "NU_NOTA_CN",
+          "Nota da prova de Ciências da Natureza",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_CH",
+          "Nota da prova de Ciências Humanas",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_LC",
+          "Nota da prova de Linguagens e Códigos",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_MT",
+          "Nota da prova de Matemática",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "TX_RESPOSTAS_CN",
+          "Vetor com as respostas da parte objetiva da prova de Ciências da Natureza3 ",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_RESPOSTAS_CH",
+          "Vetor com as respostas da parte objetiva da prova de Ciências Humanas3",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_RESPOSTAS_LC",
+          "Vetor com as respostas da parte objetiva da prova de Linguagens e Códigos4",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_RESPOSTAS_MT",
+          "Vetor com as respostas da parte objetiva da prova de Matemática3",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TP_LINGUA",
+          "Língua Estrangeira ",
+          0,
+          "Inglês",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Espanhol",
+          null,
+          null
+        ],
+        [
+          "TX_GABARITO_CN",
+          "Vetor com o gabarito da parte objetiva da prova de Ciências da Natureza5",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_GABARITO_CH",
+          "Vetor com o gabarito da parte objetiva da prova de Ciências Humanas5",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_GABARITO_LC",
+          "Vetor com o gabarito da parte objetiva da prova de Linguagens e Códigos6",
+          null,
+          null,
+          50,
+          "Alfanumérica"
+        ],
+        [
+          "TX_GABARITO_MT",
+          "Vetor com o gabarito da parte objetiva da prova de Matemática5",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "DADOS DA REDAÇÃO",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "TP_STATUS_REDACAO",
+          "Situação da redação do participante",
+          "B",
+          "Entregou a redação em branco",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Desconsiderada",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Faltou à prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "N",
+          "Redação anulada",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "P",
+          "Presente à prova",
+          null,
+          null
+        ],
+        [
+          "NU_NOTA_COMP1",
+          "Nota da competência 1",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_COMP2",
+          "Nota da competência 2",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_COMP3",
+          "Nota da competência 3",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_COMP4",
+          "Nota da competência 4",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_COMP5",
+          "Nota da competência 5",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_REDACAO",
+          "Nota da prova de redação",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "DADOS DO QUESTIONÁRIO SOCIOECONÔMICO",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q01",
+          "Quantas pessoas moram com você? (incluindo filhos, irmãos, parentes e amigos)",
+          "A",
+          "Uma a três",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Quatro a sete",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Oito a dez",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Mais de dez",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Moro sozinho",
+          null,
+          null
+        ],
+        [
+          "Q02",
+          "Qual é o nível de escolaridade do seu pai? ",
+          "A",
+          "Da 1ª à 4ª série do Ensino Fundamental (antigo primário)",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Da 5ª à 8ª série do Ensino Fundamental (antigo ginásio)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Ensino Médio (antigo 2º grau)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Ensino Superior",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Especialização",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Mestrado",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Doutorado",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "Não estudou.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "I",
+          "Não sei",
+          null,
+          null
+        ],
+        [
+          "Q03",
+          "Qual é o nível de escolaridade da sua mãe?",
+          "A",
+          "Da 1ª à 4ª série do Ensino Fundamental (antigo primário)",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Da 5ª à 8ª série do Ensino Fundamental (antigo ginásio)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Ensino Médio (antigo 2º grau)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Ensino Superior",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Especialização",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Mestrado",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Doutorado",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "Não estudou.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "I",
+          "Não sei",
+          null,
+          null
+        ],
+        [
+          "Q04",
+          "Somando a sua renda com a renda das pessoas que moram com você, quanto é, aproximadamente, a renda familiar mensal?\n",
+          "A",
+          "Até 1 salário mínimo (até R$ 510,00).",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "De 1 a 3 salários mínimos (de R$ 510,00 até R$ 1.530,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "De 3 a 6 salários mínimos (de R$ 1.530,00 até R$ 3.060,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "De 6 a 9 salários mínimos (de R$ 3.060,00 até R$ 4.590,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "De 9 a 12 salários mínimos (de R$ 4.590,00 até R$ 6.120,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "De 12 a 15 salários mínimos (de R$ 6.210,00 até R$ 7.650,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Mais de 15 salários mínimos (mais de R$ 7.650,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "Nenhuma renda.",
+          null,
+          null
+        ],
+        [
+          "Q05",
+          "Qual a sua renda mensal, aproximadamente?",
+          "A",
+          "Até 1 salário mínimo (até R$ 510,00).",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "De 1 a 3 salários mínimos (de R$ 510,00 até R$ 1.530,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "De 3 a 6 salários mínimos (de R$ 1.530,00 até R$ 3.060,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "De 6 a 9 salários mínimos (de R$ 3.060,00 até R$ 4.590,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "De 9 a 12 salários mínimos (de R$ 4.590,00 até R$ 6.120,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "De 12 a 15 salários mínimos (de R$ 6.210,00 até R$ 7.650,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Mais de 15 salários mínimos (mais de R$ 7.650,00).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "Nenhuma renda.",
+          null,
+          null
+        ],
+        [
+          "Q06",
+          "A casa onde você mora é? ",
+          "A",
+          "Própria",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Alugada",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Cedida",
+          null,
+          null
+        ],
+        [
+          "Q07",
+          "Sua casa está localizada em?",
+          "A",
+          "Zona rural.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Zona urbana",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Comunidade indígena.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Comunidade quilombola.",
+          null,
+          null
+        ],
+        [
+          "Q08",
+          "Você trabalha ou já trabalhou? ",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q09",
+          "Grau de importância quanto a sua decisão de trabalhar para ajudar meus pais nas despesas com a casa",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q10",
+          "Grau de importância quanto a sua decisão de trabalhar para sustentar minha família (esposo/a, filhos/as etc.)",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q11",
+          "Grau de importância quanto a sua decisão de trabalhar para ser independente (ganhar meu próprio dinheiro)",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q12",
+          "Grau de importância quanto a sua decisão de trabalhar para adquirir experiência",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q13",
+          "Grau de importância quanto a sua decisão de trabalhar para custear/ pagar meus estudos",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q14",
+          "Você fez algum curso preparatório para o trabalho que realiza ou realizou? ",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q15",
+          "Frequentou ou frequenta Curso profissionalizante",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q16",
+          "Frequentou ou frequenta Curso preparatório para vestibular",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q17",
+          "Frequentou ou frequenta Curso superior",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q18",
+          "Frequentou ou frequenta Curso de língua estrangeira",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q19",
+          "Frequentou ou frequenta Curso de computação ou informática",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q20",
+          "Frequentou ou frequenta Curso preparatório para outros concursos públicos",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q21",
+          "Frequentou ou frequenta Outro curso",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q22",
+          "Quantas horas semanais você trabalha?",
+          "A",
+          "Sem jornada fixa, até 10 horas semanais.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "De 11 a 20 horas semanais.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "De 21 a 30 horas semanais.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "De 31 a 40 horas semanais.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Mais de 40 horas semanais",
+          null,
+          null
+        ],
+        [
+          "Q23",
+          "Com que idade você começou a trabalhar?",
+          "A",
+          "Antes dos 14 anos.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Entre 14 e 16 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Entre 17 e 18 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Após 18 anos.",
+          null,
+          null
+        ],
+        [
+          "Q24",
+          "Grau de importância quanto aos motivos que levaram a participar do ENEM para Testar meus conhecimentos",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q25",
+          "Grau de importância quanto aos motivos que levaram a participar do ENEM para Prosseguir os estudos no Ensino Superior",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q26",
+          "Grau de importância quanto aos motivos que levaram a participar do ENEM para Obter a certificação do Ensino Médio ou acelerar meus estudos",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q27",
+          "Grau de importância quanto aos motivos que levaram a participar do ENEM para Conseguir uma bolsa de estudos (ProUni, outras)",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q28",
+          "Quantos anos você levou para concluir o Ensino Fundamental?",
+          "A",
+          "Menos de 8 anos.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "8 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "9 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "10 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "11 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Mais de 11 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Não conclui.",
+          null,
+          null
+        ],
+        [
+          "Q29",
+          "Você deixou de estudar durante o Ensino Fundamental?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, por um ano.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, por dois anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, por três anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, por quatro anos ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q30",
+          "Em que tipo de escola você cursou o Ensino Fundamental?",
+          "A",
+          "Somente em escola pública.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Maior parte em escola pública.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Somente em escola particular.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Maior parte em escola particular.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Somente em escola indígena.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Maior parte em escola não-indígena.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Somente em escola situada em comunidade quilombola.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "Não frequentei a escola",
+          null,
+          null
+        ],
+        [
+          "Q31",
+          "Quantos anos você levou para concluir o Ensino Médio?",
+          "A",
+          "Menos de 3 anos",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "3 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "4 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "5 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "6 anos ou mais",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Não conclui",
+          null,
+          null
+        ],
+        [
+          "Q32",
+          "Você deixou de estudar durante o Ensino Médio?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, por um ano.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, por dois anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, por três anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, por quatro anos ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q33",
+          "Em que tipo de escola você cursou o Ensino Médio?",
+          "A",
+          "Somente em escola pública.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Maior parte em escola pública.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Somente em escola particular.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Maior parte em escola particular.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Somente em escola indígena.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Maior parte em escola não-indígena.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Somente em escola situada em comunidade quilombola.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "Não frequentei a escola",
+          null,
+          null
+        ],
+        [
+          "PARTICIPANTES QUE VÃO REQUERER A CERTIFICAÇÃO DO ENSINO MÉDIO",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q34",
+          "Você cursa ou já cursou a Educação de Jovens e Adultos – EJA?",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q35",
+          "Como é ou era o curso de EJA que você frequenta ou frequentou?",
+          "A",
+          "Curso presencial em escola pública.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Curso presencial em escola privada.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Curso presencial na empresa em que trabalha, instituição filantrópica ou religiosa.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Curso a distância (via rádio, televisão, internet, correio, com apostilas).",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Curso semipresencial em escola pública.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Curso semipresencial em escola privada.",
+          null,
+          null
+        ],
+        [
+          "Q36",
+          "Deixou de cursar EJA  por causa de Trabalho/ falta de tempo para estudar.",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q37",
+          "Deixou de cursar EJA  porque Estudava no curso da empresa e foi interrompido.",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q38",
+          "Deixou de cursar EJA  por causa de Problemas de saúde ou acidentes comigo ou familiares.",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q39",
+          "Deixou de cursar EJA  por causa de Mudança de estado, município ou cidade.",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q40",
+          "Deixou de cursar EJA por causa de Motivos pessoais: casamento / filhos.",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q41",
+          "Deixou de cursar EJA porque Não tinha interesse / desisti.",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q42",
+          "Deixou de cursar EJA porque Senti-me discriminado(a) / Sofri agressão (física ou verbal).",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q43",
+          "Deixou de cursar EJA - Não se aplica",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q44",
+          "Você já frequentou alguma vez escola regular? ",
+          "A",
+          "Sim",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não",
+          null,
+          null
+        ],
+        [
+          "Q45",
+          "Inexistência de vaga em escola pública influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q46",
+          "Ausência de escola perto de casa influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q47",
+          "Falta de interesse em estudar influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q48",
+          "Trabalho: falta de tempo para estudar influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q49",
+          "Motivos pessoais: casamento / filhos influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q50",
+          "Falta de apoio familiar influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q51",
+          "Problemas de saúde ou acidente comigo ou familiares influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q52",
+          "Discriminação/ preconceitos de raça, sexo, cor, idade ou socioeconômico influenciou no fato de não ter frequentado ou ter abandonado a escola regular",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q53",
+          "Quantos anos de idade você tinha quando deixou de frequentar a escola regular? ",
+          "A",
+          "Menos de 10 anos.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Entre 10 e 14 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Entre 15 e 18 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Entre 19 e 24 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Entre 25 e 30 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Mais de 30 anos.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Não deixei de frequentar.",
+          null,
+          null
+        ],
+        [
+          "Q54",
+          "Grau de importância quanto a querer a certificação do Ensino Médio para Conseguir um emprego",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q55",
+          "Grau de importância quanto a querer a certificação do Ensino Médio para Conseguir um emprego melhor",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q56",
+          "Grau de importância quanto a querer a certificação do Ensino Médio para Progredir no meu emprego atual",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q57",
+          "Grau de importância quanto a querer a certificação do Ensino Médio para Continuar os estudos no Ensino Superior",
+          0,
+          "0 indica o fator menos relevante  e 5 o fator mais relevante",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          null,
+          null,
+          null
+        ],
+        [
+          "1. Referente ao Enem 2010, trata-se de uma máscara e não o seu número de inscrição original no Enem. O mesmo NU_INSCRICAO para anos diferentes não identifica o mesmo participante no exame, não permite o acesso aos dados cadastrais como nome, endereço, RG etc, nem identifica o mesmo participante em microdados de pesquisas diferentes.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "2.A partir da Idade do inscrito em 31/12/2020.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "3. As 45 primeiras posições deste campo são referentes as respectivas respostas. O asterisco (*) indica dupla marcação e o ponto (.) resposta em branco.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "4. As 45 primeiras posições deste campo são referentes as respectivas respostas, das quais as 5 primeiras correspondem a parte de língua estrangeira. O asterisco (*) indica dupla marcação e o ponto (.) resposta em branco.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "5. As 45 primeiras posições deste campo são referentes ao respectivo gabarito",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "6. As 50 primeiras posições deste campo são referentes ao respectivo gabarito, das quais, para as 10 primeiras, as 5 primeiras correspondem à prova de Lingua Inglesa e as outras 5 à prova de Lingua Espanhola.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "ITENS_PROVA_2010": {
+      "variables": {
+        "CO_POSICAO": {
+          "description": "Posição do Item na Prova",
+          "categories": []
+        },
+        "SG_AREA": {
+          "description": "Área de Conhecimento do Item",
+          "categories": [
+            {
+              "code": "CH",
+              "label": "Ciências Humanas"
+            },
+            {
+              "code": "CN",
+              "label": "Ciências da Natureza"
+            },
+            {
+              "code": "LC",
+              "label": "Linguagens e Códigos"
+            },
+            {
+              "code": "MT",
+              "label": "Matemática"
+            }
+          ]
+        },
+        "CO_ITEM": {
+          "description": "Código do Item",
+          "categories": []
+        },
+        "TX_GABARITO": {
+          "description": "Gabarito do Item",
+          "categories": []
+        },
+        "CO_HABILIDADE": {
+          "description": "Habilidade do Item",
+          "categories": []
+        },
+        "IN_ITEM_ABAN": {
+          "description": "Indicador de item abandonado",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Não"
+            },
+            {
+              "code": 1,
+              "label": "Sim"
+            }
+          ]
+        },
+        "TX_MOTIVO_ABAN": {
+          "description": "Motivo para o abandono do item",
+          "categories": []
+        },
+        "NU_PARAM_A": {
+          "description": "Parâmetro de discriminação: é o poder de discriminação do item para diferenciar os participantes que dominam dos participantes que não dominam a habilidade avaliada.",
+          "categories": []
+        },
+        "NU_PARAM_B": {
+          "description": "Parâmetro de dificuldade: associado à dificuldade do item, sendo que quanto maior seu valor, mais difícil é o item.",
+          "categories": []
+        },
+        "NU_PARAM_C": {
+          "description": "Parâmetro de acerto ao acaso: é a probabilidade de um participante acertar o item não dominando a habilidade exigida.",
+          "categories": []
+        },
+        "TX_COR": {
+          "description": "Cor da Prova",
+          "categories": []
+        },
+        "CO_PROVA": {
+          "description": "Identificador da Prova",
+          "categories": []
+        },
+        "TP_LINGUA": {
+          "description": "Língua Estrangeira ",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Inglês"
+            },
+            {
+              "code": 1,
+              "label": "Espanhol"
+            }
+          ]
+        }
+      },
+      "rows": [
+        [
+          "ITENS",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NOME DA VARIÁVEL",
+          "Descrição",
+          "Variáveis Categóricas",
+          null,
+          "Tamanho ",
+          "Tipo"
+        ],
+        [
+          null,
+          null,
+          "Categoria",
+          "Descrição",
+          null,
+          null
+        ],
+        [
+          "CO_POSICAO",
+          "Posição do Item na Prova",
+          null,
+          null,
+          3,
+          "Alfanumérica"
+        ],
+        [
+          "SG_AREA",
+          "Área de Conhecimento do Item",
+          "CH",
+          "Ciências Humanas",
+          2,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "CN",
+          "Ciências da Natureza",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "LC",
+          "Linguagens e Códigos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "MT",
+          "Matemática",
+          null,
+          null
+        ],
+        [
+          "CO_ITEM",
+          "Código do Item",
+          null,
+          null,
+          5,
+          "Numérica"
+        ],
+        [
+          "TX_GABARITO",
+          "Gabarito do Item",
+          null,
+          null,
+          1,
+          "Alfanumérica"
+        ],
+        [
+          "CO_HABILIDADE",
+          "Habilidade do Item",
+          null,
+          null,
+          2,
+          "Numérica"
+        ],
+        [
+          "IN_ITEM_ABAN",
+          "Indicador de item abandonado",
+          0,
+          "Não",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Sim",
+          null,
+          null
+        ],
+        [
+          "TX_MOTIVO_ABAN",
+          "Motivo para o abandono do item",
+          null,
+          null,
+          40,
+          "Alfanumérica"
+        ],
+        [
+          "NU_PARAM_A",
+          "Parâmetro de discriminação: é o poder de discriminação do item para diferenciar os participantes que dominam dos participantes que não dominam a habilidade avaliada.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_PARAM_B",
+          "Parâmetro de dificuldade: associado à dificuldade do item, sendo que quanto maior seu valor, mais difícil é o item.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_PARAM_C",
+          "Parâmetro de acerto ao acaso: é a probabilidade de um participante acertar o item não dominando a habilidade exigida.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "TX_COR",
+          "Cor da Prova",
+          null,
+          null,
+          7,
+          "Alfanumérica"
+        ],
+        [
+          "CO_PROVA",
+          "Identificador da Prova",
+          null,
+          null,
+          3,
+          "Numérica"
+        ],
+        [
+          "TP_LINGUA",
+          "Língua Estrangeira ",
+          0,
+          "Inglês",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Espanhol",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  }
+}

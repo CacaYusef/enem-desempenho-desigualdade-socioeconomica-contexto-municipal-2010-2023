@@ -1,0 +1,271 @@
+{
+  "id": "enem_2016",
+  "provider": "INEP",
+  "year": 2016,
+  "url": "https://download.inep.gov.br/microdados/microdados_enem_2016.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "path": "enem/2016/microdados_enem_2016.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-10T02:39:33.232480+00:00",
+  "download_completed_utc": "2026-09-10T02:44:41.196585+00:00",
+  "bytes": 1047579311,
+  "sha256": "5b6db866166e273c78173b28cc6e3921baf7f4c9fb836a2194cc06149407dbef",
+  "http_metadata": {
+    "last-modified": "Wed, 22 Jun 2022 12:40:33 GMT",
+    "etag": "\"3e70caaf-5e208a49e3240\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2016.ods",
+      "bytes": 24883,
+      "crc32": "83cdb3ee"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2016.xlsx",
+      "bytes": 40427,
+      "crc32": "249d80f0"
+    },
+    {
+      "name": "DICIONÁRIO/~$Dicionário_Microdados_Enem_2016.xlsx",
+      "bytes": 165,
+      "crc32": "a83b8859"
+    },
+    {
+      "name": "INPUTS/INPUT_R_ITENS_PROVA_2016.R",
+      "bytes": 2887,
+      "crc32": "34046539"
+    },
+    {
+      "name": "INPUTS/INPUT_R_MICRODADOS_ENEM_2016.R",
+      "bytes": 26670,
+      "crc32": "a3a0825b"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_ITENS_PROVA_2016.sas",
+      "bytes": 3737,
+      "crc32": "491cd74d"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_MICRODADOS_ENEM_2016.sas",
+      "bytes": 31197,
+      "crc32": "57a3e8fa"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_ITENS_PROVA_2016.sps",
+      "bytes": 3623,
+      "crc32": "524b2551"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_MICRODADOS_ENEM_2016.sps",
+      "bytes": 22180,
+      "crc32": "54bcd458"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/edital_enem_2016.pdf",
+      "bytes": 2394640,
+      "crc32": "2271c334"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/enem_procedimentos_de_analise.pdf",
+      "bytes": 752641,
+      "crc32": "f08fa920"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/entenda_a_sua_nota_no_enem_guia_do_participante.pdf",
+      "bytes": 12507111,
+      "crc32": "7ea76aeb"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Leia-me_Enem_2016.pdf",
+      "bytes": 190946,
+      "crc32": "b508993c"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Manual_de_redacao_do_enem_2016.pdf",
+      "bytes": 5111132,
+      "crc32": "ef8a9753"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/matriz_referencia_enem.pdf",
+      "bytes": 177800,
+      "crc32": "cf57487d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/CAD_ENEM_2016_DIA_1_01_AZUL.pdf",
+      "bytes": 1680751,
+      "crc32": "86362db6"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/CAD_ENEM_2016_DIA_1_02_AMARELO.pdf",
+      "bytes": 1683733,
+      "crc32": "b8a581dc"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/CAD_ENEM_2016_DIA_1_03_BRANCO.pdf",
+      "bytes": 1672822,
+      "crc32": "44743a5c"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/CAD_ENEM_2016_DIA_1_04_ROSA.pdf",
+      "bytes": 1670607,
+      "crc32": "467c6209"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/CAD_ENEM_2016_DIA_2_05_AMARELO.pdf",
+      "bytes": 1058752,
+      "crc32": "dfc4fe5a"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/CAD_ENEM_2016_DIA_2_06_CINZA.pdf",
+      "bytes": 1056741,
+      "crc32": "b6fad8ea"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/CAD_ENEM_2016_DIA_2_07_AZUL.pdf",
+      "bytes": 1062141,
+      "crc32": "050a2550"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/CAD_ENEM_2016_DIA_2_08_ROSA.pdf",
+      "bytes": 1059282,
+      "crc32": "0b181719"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/GAB_ENEM_2016_DIA_1_01_AZUL.pdf",
+      "bytes": 129607,
+      "crc32": "87e7488d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/GAB_ENEM_2016_DIA_1_02_AMARELO.pdf",
+      "bytes": 128360,
+      "crc32": "120a62a8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/GAB_ENEM_2016_DIA_1_03_BRANCO.pdf",
+      "bytes": 128836,
+      "crc32": "b553f47d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/GAB_ENEM_2016_DIA_1_04_ROSA.pdf",
+      "bytes": 128438,
+      "crc32": "06990444"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/GAB_ENEM_2016_DIA_2_05_AMARELO.pdf",
+      "bytes": 133072,
+      "crc32": "297d4428"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/GAB_ENEM_2016_DIA_2_06_CINZA.pdf",
+      "bytes": 131816,
+      "crc32": "c417e94e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/GAB_ENEM_2016_DIA_2_07_AZUL.pdf",
+      "bytes": 131802,
+      "crc32": "c5843a26"
+    },
+    {
+      "name": "PROVAS E GABARITOS/PRIMEIRA APLICAÇÃO/GAB_ENEM_2016_DIA_2_08_ROSA.pdf",
+      "bytes": 131893,
+      "crc32": "1afd2450"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/CAD_ENEM_2016_DIA_1_01_AZUL_2.pdf",
+      "bytes": 1011043,
+      "crc32": "2282025f"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/CAD_ENEM_2016_DIA_1_02_AMARELO_2.pdf",
+      "bytes": 1007808,
+      "crc32": "7f61cce4"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/CAD_ENEM_2016_DIA_1_03_BRANCO_2.pdf",
+      "bytes": 994328,
+      "crc32": "f436c8e6"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/CAD_ENEM_2016_DIA_1_04_ROSA_2.pdf",
+      "bytes": 1001440,
+      "crc32": "f295030e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/CAD_ENEM_2016_DIA_2_05_AMARELO_2.pdf",
+      "bytes": 1033091,
+      "crc32": "3c042e2e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/CAD_ENEM_2016_DIA_2_06_CINZA_2.pdf",
+      "bytes": 1026466,
+      "crc32": "6cd3dcae"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/CAD_ENEM_2016_DIA_2_07_AZUL_2.pdf",
+      "bytes": 1036015,
+      "crc32": "97d16ee0"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/CAD_ENEM_2016_DIA_2_08_ROSA_2.pdf",
+      "bytes": 1066377,
+      "crc32": "a4be4067"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/GAB_ENEM_2016_DIA_1_01_AZUL_2.pdf",
+      "bytes": 132754,
+      "crc32": "9906e6ed"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/GAB_ENEM_2016_DIA_1_02_AMARELO_2.pdf",
+      "bytes": 131257,
+      "crc32": "6ffda541"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/GAB_ENEM_2016_DIA_1_03_BRANCO_2.pdf",
+      "bytes": 131837,
+      "crc32": "a82edfd0"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/GAB_ENEM_2016_DIA_1_04_ROSA_2.pdf",
+      "bytes": 131265,
+      "crc32": "5afb5a63"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/GAB_ENEM_2016_DIA_2_05_AMARELO_2.pdf",
+      "bytes": 131473,
+      "crc32": "1311497e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/GAB_ENEM_2016_DIA_2_06_CINZA_2.pdf",
+      "bytes": 131516,
+      "crc32": "0f7843d6"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/GAB_ENEM_2016_DIA_2_07_AZUL_2.pdf",
+      "bytes": 131466,
+      "crc32": "72f4aa05"
+    },
+    {
+      "name": "PROVAS E GABARITOS/SEGUNDA APLICAÇÃO/GAB_ENEM_2016_DIA_2_08_ROSA_2.pdf",
+      "bytes": 131505,
+      "crc32": "c0fd677b"
+    },
+    {
+      "name": "DADOS/itens_prova_2016.csv",
+      "bytes": 150957,
+      "crc32": "92eb9d3f"
+    },
+    {
+      "name": "DADOS/microdados_enem_2016.csv",
+      "bytes": 4336235644,
+      "crc32": "f3e90e77"
+    },
+    {
+      "name": "DADOS/Thumbs.db",
+      "bytes": 42496,
+      "crc32": "14fb961f"
+    }
+  ]
+}

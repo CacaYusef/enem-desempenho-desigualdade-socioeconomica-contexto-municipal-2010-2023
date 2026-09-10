@@ -1,0 +1,15 @@
+{
+  "id": "ipeadata_metadata_20260909",
+  "provider": "IPEA",
+  "format": "json",
+  "url": "http://www.ipeadata.gov.br/api/odata4/Metadados",
+  "path": "municipal/metadata/ipeadata_20260909.json",
+  "download_started_utc": "2026-09-09T23:32:09.728544+00:00",
+  "download_completed_utc": "2026-09-09T23:32:26.098468+00:00",
+  "bytes": 7353288,
+  "sha256": "09917d53afb34375046537e37659286cccbe9d8e637fe7bc9787b1188251bca6",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

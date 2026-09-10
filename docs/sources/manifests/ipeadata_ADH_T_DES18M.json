@@ -1,0 +1,36 @@
+{
+  "id": "ipeadata_ADH_T_DES18M",
+  "provider": "IPEA",
+  "series": "ADH_T_DES18M",
+  "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_T_DES18M')",
+  "path": "municipal/ipeadata/ADH_T_DES18M.json",
+  "format": "json",
+  "acquisition_reason": "Desocupação da população economicamente ativa adulta.",
+  "selected_for_model": false,
+  "scope": "Raw response preserved; processed scope: municipalities, 2010–2023.",
+  "metadata": {
+    "SERCODIGO": "ADH_T_DES18M",
+    "SERNOME": "Taxa de desocupação da população de 18 anos ou mais de idade (Atlas DH - Censo)",
+    "SERCOMENTARIO": "Percentual da população economicamente ativa (PEA) nessa faixa etária que estava desocupada, ou seja, que não estava ocupada na semana anterior à data do Censo mas havia procurado trabalho ao longo do mês anterior à data dessa pesquisa. Este indicador faz parte do bloco de indicadores que contém indicadores de atividade e desocupação (taxa de atividade e taxa de desocupação) para diferentes faixas etárias da população (10 ou mais, 10 a 14, 15 a 17, 18 a 24 e 25 a 29). Além disso, contém uma série de indicadores de caracterização dos ocupados de 18 anos ou mais de idade, abrangendo setor de atividade, grau de formalização, grau de escolaridade, posição de ocupação e rendimento do trabalho. Nota: elaborado por PNUD, IPEA e FJP a partir dos microdados de Censos Demográficos do IBGE. Mais Informações: <a href= \"../doc/Metodologia ADH.pdf\">Metodologia do Atlas do Desenvolvimento Humano</a> Fonte primária aguarda microdados do Censo 2022. <p>Para acessar outras desagregações, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726328&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brasil</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726328&MINDATA=1970&MAXDATA=2030&TNIVID=1&TPAID=1&module=S>por Região</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726328&MINDATA=1970&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>por UF</a>. <p>\r\n        <p>por Gênero > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726330&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Homens</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726331&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Mulheres</a>\r\n        <p>por Cor/Raça > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726329&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brancos</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726332&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Pretos/Pardos</a>\r\n        <p>por tipo domicilio > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726333&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Rural</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726334&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Urbano</a>.\r\n<p> por Faixa etária >\r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726314&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>10 a 14 anos</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726321&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>15 a 17 anos</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726328&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>> 18 anos</a>.\r\n<p><a href=\"http://www.ipeadata.gov.br/Default.aspx\" target=\"_blank\">Ipeadata - Página principal</a>.",
+    "SERATUALIZACAO": "2023-03-08T16:01:42-03:00",
+    "BASNOME": "Social",
+    "FNTSIGLA": "IPEA/ADH Censo IBGE",
+    "FNTNOME": "Atlas do Desenvolvimento Humano (Censo Demográfico)",
+    "FNTURL": "www.atlasbrasil.org.br",
+    "PERNOME": "Decenal",
+    "UNINOME": "(%)",
+    "MULNOME": null,
+    "SERSTATUS": null,
+    "TEMCODIGO": 109,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+  },
+  "download_started_utc": "2026-09-10T02:43:49.445530+00:00",
+  "download_completed_utc": "2026-09-10T02:43:52.011602+00:00",
+  "bytes": 2461460,
+  "sha256": "f73a9b0fc4d2148b2cff9bbbffdae633d3fcc8693ab3ba6eadaa2a014a7bed9a",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

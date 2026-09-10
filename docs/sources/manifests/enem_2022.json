@@ -1,0 +1,586 @@
+{
+  "id": "enem_2022",
+  "provider": "INEP",
+  "year": 2022,
+  "url": "https://download.inep.gov.br/microdados/microdados_enem_2022.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "path": "enem/2022/microdados_enem_2022.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-09T23:28:05.194994+00:00",
+  "download_completed_utc": "2026-09-09T23:30:19.158226+00:00",
+  "bytes": 620743609,
+  "sha256": "3cb321eb490fc4fd2d021fcd7672f1801a6ec37fdfea24a14369f054dc2d8faf",
+  "http_metadata": {
+    "last-modified": "Thu, 08 Aug 2024 13:18:43 GMT",
+    "etag": "\"24ffcbb9-61f2bdda692c0\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Edital_Enem_2022_Digital.pdf",
+      "bytes": 545892,
+      "crc32": "c028158f"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Edital_Enem_2022_Impresso.pdf",
+      "bytes": 378176,
+      "crc32": "7c7babba"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/enem_procedimentos_de_analise.pdf",
+      "bytes": 752641,
+      "crc32": "f08fa920"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/entenda_a_sua_nota_no_enem_guia_do_participante (2).pdf",
+      "bytes": 12507111,
+      "crc32": "7ea76aeb"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2022.pdf",
+      "bytes": 203539,
+      "crc32": "781c45a5"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/manual_de_redacao_do_enem_2020.pdf",
+      "bytes": 2695244,
+      "crc32": "5a3a1c1e"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/matriz_referencia_enem.pdf",
+      "bytes": 177800,
+      "crc32": "cf57487d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_01_DIA_1_AZUL_ESPANHOL.pdf",
+      "bytes": 4264341,
+      "crc32": "4524c28a"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_01_DIA_1_AZUL_INGLES.pdf",
+      "bytes": 4294655,
+      "crc32": "0f4ac189"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_02_DIA_1_AMARELO_ESPANHOL.pdf",
+      "bytes": 4249160,
+      "crc32": "4cdbd686"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_02_DIA_1_AMARELO_INGLES.pdf",
+      "bytes": 4294858,
+      "crc32": "f92367dc"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_03_DIA_1_BRANCO_ESPANHOL.pdf",
+      "bytes": 4248624,
+      "crc32": "dad8e18b"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_03_DIA_1_BRANCO_INGLES.pdf",
+      "bytes": 4286036,
+      "crc32": "d7b6d265"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_04_DIA_1_ROSA_ESPANHOL.pdf",
+      "bytes": 4250687,
+      "crc32": "d6c3f9b4"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_04_DIA_1_ROSA_INGLES.pdf",
+      "bytes": 4285999,
+      "crc32": "72c4ecd2"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_05_DIA_2_AMARELO.pdf",
+      "bytes": 2455792,
+      "crc32": "7368e10c"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_06_DIA_2_CINZA.pdf",
+      "bytes": 2456787,
+      "crc32": "0c6d9d8d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_07_DIA_2_AZUL.pdf",
+      "bytes": 2455261,
+      "crc32": "852376e3"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_CAD_08_DIA_2_ROSA.pdf",
+      "bytes": 2450041,
+      "crc32": "7168916d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_01_DIA_1_AZUL_ESPANHOL.pdf",
+      "bytes": 165753,
+      "crc32": "0239f779"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_01_DIA_1_AZUL_INGLES.pdf",
+      "bytes": 166224,
+      "crc32": "a3423f7e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_02_DIA_1_AMARELO_ESPANHOL.pdf",
+      "bytes": 166452,
+      "crc32": "6cd802b7"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_02_DIA_1_AMARELO_INGLES.pdf",
+      "bytes": 166643,
+      "crc32": "b19f3cd4"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_03_DIA_1_BRANCO_ESPANHOL.pdf",
+      "bytes": 166202,
+      "crc32": "48abca52"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_03_DIA_1_BRANCO_INGLES.pdf",
+      "bytes": 166035,
+      "crc32": "0178f5d8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_04_DIA_1_ROSA_ESPANHOL.pdf",
+      "bytes": 167069,
+      "crc32": "97aeb2e8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_04_DIA_1_ROSA_INGLES.pdf",
+      "bytes": 166974,
+      "crc32": "dedb066c"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_05_DIA_2_AMARELO.pdf",
+      "bytes": 166542,
+      "crc32": "7818633d"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_06_DIA_2_CINZA.pdf",
+      "bytes": 167285,
+      "crc32": "d4d6b8de"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_07_DIA_2_AZUL.pdf",
+      "bytes": 166105,
+      "crc32": "2e727977"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_DIGITAL_GAB_08_DIA_2_ROSA.pdf",
+      "bytes": 167402,
+      "crc32": "f45ac2e2"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_01_DIA_1_AZUL.pdf",
+      "bytes": 7714964,
+      "crc32": "1f2bb611"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_02_DIA_1_AMARELO.pdf",
+      "bytes": 7947478,
+      "crc32": "476cefbb"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_03_DIA_1_BRANCO.pdf",
+      "bytes": 7348957,
+      "crc32": "ee69284e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_03_DIA_1_BRANCO_AMPLIADA.pdf",
+      "bytes": 10604461,
+      "crc32": "9419d239"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_03_DIA_1_BRANCO_SUPERAMPLIADA.pdf",
+      "bytes": 11655288,
+      "crc32": "6721a1d1"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_04_DIA_1_ROSA.pdf",
+      "bytes": 7961603,
+      "crc32": "5c089b26"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_05_DIA_2_AMARELO.pdf",
+      "bytes": 7058477,
+      "crc32": "f57c3c7e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_06_DIA_2_CINZA.pdf",
+      "bytes": 7005914,
+      "crc32": "3e809102"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_06_DIA_2_CINZA_AMPLIADA.pdf",
+      "bytes": 6284614,
+      "crc32": "ec770c0f"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_06_DIA_2_CINZA_SUPERAMPLIADA.pdf",
+      "bytes": 6345718,
+      "crc32": "11ed602c"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_07_DIA_2_AZUL.pdf",
+      "bytes": 6854310,
+      "crc32": "beb45545"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_08_DIA_2_ROSA.pdf",
+      "bytes": 6831291,
+      "crc32": "fbe62000"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_09_DIA_1_LARANJA_LEDOR.pdf",
+      "bytes": 6023561,
+      "crc32": "fb5a9c5c"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_10_DIA_1_VERDE_LIBRAS.pdf",
+      "bytes": 6539551,
+      "crc32": "d6ebaeea"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_10_DIA_1_VERDE_LIBRAS_AMPLIADA.pdf",
+      "bytes": 8082125,
+      "crc32": "bdd019d5"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_10_DIA_1_VERDE_LIBRAS_SUPERAMPLIADA.pdf",
+      "bytes": 9130866,
+      "crc32": "9bfd49e1"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_11_DIA_2_LARANJA_LEDOR.pdf",
+      "bytes": 4121624,
+      "crc32": "3a7f04c1"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_12_DIA_2_VERDE_LIBRAS.pdf",
+      "bytes": 5397741,
+      "crc32": "90130fac"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_12_DIA_2_VERDE_LIBRAS_AMPLIADA.pdf",
+      "bytes": 5411594,
+      "crc32": "e8ccad12"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_CAD_12_DIA_2_VERDE_LIBRAS_SUPERAMPLIADA.pdf",
+      "bytes": 5471560,
+      "crc32": "25c5b579"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_01_DIA_1_AZUL.pdf",
+      "bytes": 211180,
+      "crc32": "a30f0970"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_02_DIA_1_AMARELO.pdf",
+      "bytes": 212241,
+      "crc32": "d0768c9b"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_03_DIA_1_BRANCO.pdf",
+      "bytes": 212622,
+      "crc32": "e6c7ac90"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_03_DIA_1_BRANCO_AMPLIADA.pdf",
+      "bytes": 212622,
+      "crc32": "e6c7ac90"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_03_DIA_1_BRANCO_SUPERAMPLIADA.pdf",
+      "bytes": 212622,
+      "crc32": "e6c7ac90"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_04_DIA_1_ROSA.pdf",
+      "bytes": 212809,
+      "crc32": "8f632c93"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_05_DIA_2_AMARELO.pdf",
+      "bytes": 211394,
+      "crc32": "716b9512"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_06_DIA_2_CINZA.pdf",
+      "bytes": 211133,
+      "crc32": "61322879"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_06_DIA_2_CINZA_AMPLIADA.pdf",
+      "bytes": 211133,
+      "crc32": "61322879"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_06_DIA_2_CINZA_SUPERAMPLIADA.pdf",
+      "bytes": 211133,
+      "crc32": "61322879"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_07_DIA_2_AZUL.pdf",
+      "bytes": 210705,
+      "crc32": "cbe69d20"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_08_DIA_2_ROSA.pdf",
+      "bytes": 212399,
+      "crc32": "1360ae2b"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_09_DIA_1_LARANJA_LEDOR.pdf",
+      "bytes": 211483,
+      "crc32": "52ecc011"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_10_DIA_1_VERDE_LIBRAS.pdf",
+      "bytes": 210841,
+      "crc32": "c90e42a8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_10_DIA_1_VERDE_LIBRAS_AMPLIADA.pdf",
+      "bytes": 210841,
+      "crc32": "c90e42a8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_10_DIA_1_VERDE_LIBRAS_SUPERAMPLIADA.pdf",
+      "bytes": 210841,
+      "crc32": "c90e42a8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_11_DIA_2_LARANJA_LEDOR.pdf",
+      "bytes": 210883,
+      "crc32": "c1374fdb"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_12_DIA_2_VERDE_LIBRAS.pdf",
+      "bytes": 210177,
+      "crc32": "07f939df"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_12_DIA_2_VERDE_LIBRAS_AMPLIADA.pdf",
+      "bytes": 210177,
+      "crc32": "07f939df"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P1_GAB_12_DIA_2_VERDE_LIBRAS_SUPERAMPLIADA.pdf",
+      "bytes": 210177,
+      "crc32": "07f939df"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_01_DIA_1_AZUL.pdf",
+      "bytes": 4876019,
+      "crc32": "a296c850"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_02_DIA_1_AMARELO.pdf",
+      "bytes": 5108010,
+      "crc32": "d7546ced"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_03_DIA_1_BRANCO.pdf",
+      "bytes": 4510713,
+      "crc32": "63583472"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_03_DIA_1_BRANCO_AMPLIADA.pdf",
+      "bytes": 9787454,
+      "crc32": "c561d6a8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_03_DIA_1_BRANCO_SUPERAMPLIADA.pdf",
+      "bytes": 9833988,
+      "crc32": "bd316ba6"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_04_DIA_1_ROSA.pdf",
+      "bytes": 5128475,
+      "crc32": "62d70b88"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_05_DIA_2_AMARELO.pdf",
+      "bytes": 4537053,
+      "crc32": "7678497f"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_06_DIA_2_CINZA.pdf",
+      "bytes": 4490792,
+      "crc32": "b4558a45"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_06_DIA_2_CINZA_AMPLIADA.pdf",
+      "bytes": 3817570,
+      "crc32": "90f35612"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_06_DIA_2_CINZA_SUPERAMPLIADA.pdf",
+      "bytes": 3866922,
+      "crc32": "c5eb3cbd"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_07_DIA_2_AZUL.pdf",
+      "bytes": 4345866,
+      "crc32": "46f53f72"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_08_DIA_2_ROSA.pdf",
+      "bytes": 4352886,
+      "crc32": "df9b8347"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_09_DIA_1_LARANJA_LEDOR.pdf",
+      "bytes": 3490729,
+      "crc32": "2310c974"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_CAD_11_DIA_2_LARANJA_LEDOR.pdf",
+      "bytes": 2872663,
+      "crc32": "24ae4b7b"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_01_DIA_1_AZUL.pdf",
+      "bytes": 212661,
+      "crc32": "3248e224"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_02_DIA_1_AMARELO.pdf",
+      "bytes": 213779,
+      "crc32": "2db126c0"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_03_DIA_1_BRANCO.pdf",
+      "bytes": 214130,
+      "crc32": "ec205c23"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_03_DIA_1_BRANCO_AMPLIADA.pdf",
+      "bytes": 214130,
+      "crc32": "ec205c23"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_03_DIA_1_BRANCO_SUPERAMPLIADA.pdf",
+      "bytes": 214130,
+      "crc32": "ec205c23"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_04_DIA_1_ROSA.pdf",
+      "bytes": 214261,
+      "crc32": "8affacd8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_05_DIA_2_AMARELO.pdf",
+      "bytes": 210586,
+      "crc32": "8979e8b4"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_06_DIA_2_CINZA.pdf",
+      "bytes": 210304,
+      "crc32": "aec6c019"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_06_DIA_2_CINZA_AMPLIADA.pdf",
+      "bytes": 210304,
+      "crc32": "aec6c019"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_06_DIA_2_CINZA_SUPERAMPLIADA.pdf",
+      "bytes": 210304,
+      "crc32": "aec6c019"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_07_DIA_2_AZUL.pdf",
+      "bytes": 209646,
+      "crc32": "1dfe2f9e"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_08_DIA_2_ROSA.pdf",
+      "bytes": 210339,
+      "crc32": "ffb10821"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_09_DIA_1_LARANJA_LEDOR.pdf",
+      "bytes": 214312,
+      "crc32": "cf8662a1"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2022_P2_GAB_11_DIA_2_LARANJA_LEDOR.pdf",
+      "bytes": 210193,
+      "crc32": "d5fc12fa"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2022.csv",
+      "bytes": 315206,
+      "crc32": "073e8af2"
+    },
+    {
+      "name": "DADOS/MICRODADOS_ENEM_2022.csv",
+      "bytes": 1568153861,
+      "crc32": "648cec86"
+    },
+    {
+      "name": "DADOS/QUEST_HAB_ESTUDO.csv",
+      "bytes": 285052046,
+      "crc32": "69055aed"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2022.ods",
+      "bytes": 31109,
+      "crc32": "675e41e3"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2022.xlsx",
+      "bytes": 55513,
+      "crc32": "13854ff8"
+    },
+    {
+      "name": "INPUTS/INPUT_R_ITENS_PROVA_2022.R",
+      "bytes": 2845,
+      "crc32": "a15acd14"
+    },
+    {
+      "name": "INPUTS/INPUT_R_MICRODADOS_ENEM_2022.R",
+      "bytes": 20489,
+      "crc32": "0b2c1350"
+    },
+    {
+      "name": "INPUTS/INPUT_R_QUEST_HAB_ESTUDO.R",
+      "bytes": 15267,
+      "crc32": "b8d09d1d"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_ITENS_PROVA_2022.sas",
+      "bytes": 3751,
+      "crc32": "722cb484"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_MICRODADOS_ENEM_2022.sas",
+      "bytes": 23603,
+      "crc32": "861d4da5"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_QUEST_HAB_ESTUDO.sas",
+      "bytes": 27370,
+      "crc32": "2c545c12"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_ITENS_PROVA_2022.sps",
+      "bytes": 3633,
+      "crc32": "1535fe5f"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_MICRODADOS_ENEM_2022.sps",
+      "bytes": 16440,
+      "crc32": "dce9f747"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_QUEST_HAB_ESTUDO.sps",
+      "bytes": 22118,
+      "crc32": "b40239ff"
+    }
+  ]
+}

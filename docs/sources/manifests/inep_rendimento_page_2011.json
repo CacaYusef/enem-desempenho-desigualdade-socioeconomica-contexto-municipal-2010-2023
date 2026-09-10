@@ -1,0 +1,16 @@
+{
+  "id": "inep_rendimento_page_2011",
+  "provider": "INEP",
+  "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2011",
+  "path": "municipal/inep/pages/rendimento_2011.html",
+  "format": "html",
+  "year": 2011,
+  "download_started_utc": "2026-09-10T02:43:15.195612+00:00",
+  "download_completed_utc": "2026-09-10T02:43:16.357166+00:00",
+  "bytes": 208900,
+  "sha256": "23137a3384c6c96ed5f4ccad925714266d2d7112e1b42e4f31636abc9afef28b",
+  "http_metadata": {
+    "content-type": "text/html;charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

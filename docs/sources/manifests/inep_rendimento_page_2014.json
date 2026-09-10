@@ -1,0 +1,16 @@
+{
+  "id": "inep_rendimento_page_2014",
+  "provider": "INEP",
+  "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2014",
+  "path": "municipal/inep/pages/rendimento_2014.html",
+  "format": "html",
+  "year": 2014,
+  "download_started_utc": "2026-09-10T02:43:18.670449+00:00",
+  "download_completed_utc": "2026-09-10T02:43:19.744534+00:00",
+  "bytes": 208879,
+  "sha256": "1baf7330bb4e50007bc7d2c82b6248f898cf57412291d5098eaa22385db6f7eb",
+  "http_metadata": {
+    "content-type": "text/html;charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sidra_1301_2010",
+  "provider": "IBGE",
+  "table": 1301,
+  "year": 2010,
+  "url": "https://apisidra.ibge.gov.br/values/t/1301/n6/all/v/615,616/p/2010/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/1301",
+  "path": "municipal/sidra/1301/2010.json",
+  "format": "json",
+  "variables": [
+    615,
+    616
+  ],
+  "categories": {},
+  "acquisition_reason": "Área e densidade na referência territorial do Censo 2010.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:38:43.245840+00:00",
+  "download_completed_utc": "2026-09-10T02:38:43.931734+00:00",
+  "bytes": 3363651,
+  "sha256": "92e143ae2697fd9063d28bc6ed5b2a9aeb1be235bcd5cc57020373c1e2b86d0a",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

@@ -84,6 +84,7 @@ Pygments==2.21.0
 pyparsing==3.3.2
 pypdf==6.18.0
 pytest==9.1.1
+python-calamine==0.8.2
 python-dateutil==2.9.0.post0
 python-json-logger==4.2.0
 pywinpty==3.0.5

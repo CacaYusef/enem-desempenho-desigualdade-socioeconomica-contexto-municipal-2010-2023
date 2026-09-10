@@ -43,14 +43,15 @@ características do contexto municipal e desempenho de participantes do Exame
 Nacional do Ensino Médio (ENEM) entre 2010 e 2023. O estudo pretende combinar
 informações individuais e familiares dos microdados do exame com indicadores
 econômicos, sociais, educacionais e institucionais dos municípios. A análise será
-estruturada como uma sequência de cortes transversais repetidos, tendo o
-participante em determinada edição como unidade de observação. Serão examinadas
+estruturada, conforme a instrução atualizada, por município × ano do ENEM,
+mantendo inscrição × edição como unidade dos microdados brutos. Serão examinadas
 diferenças entre grupos socioeconômicos, municípios, unidades da Federação,
 regiões e anos. Dado o caráter observacional do desenho, os resultados serão
 interpretados como associações estatísticas, e não como efeitos causais. Nesta
-versão, apenas os microdados de 2023 estão disponíveis; a harmonização temporal,
-o vínculo municipal, o estimando e o método estatístico final permanecem
-pendentes.
+versão, os pacotes ENEM 2010–2023 e fontes municipais estão locais; a
+harmonização semântica, o vínculo residencial, o estimando, a amostra e todos os
+parâmetros estatísticos permanecem pendentes. A importação técnica não conclui
+o Relatório Descritivo.
 
 **Palavras-chave:** ENEM; desigualdade educacional; condição socioeconômica;
 contexto municipal; heterogeneidade territorial; cortes transversais repetidos.
@@ -94,10 +95,13 @@ ajudariam a explicar essas diferenças.
 
 Como o desenho proposto é observacional, a pergunta operacional desta tese é:
 
-> Quais características socioeconômicas individuais e familiares e quais
-> características do contexto municipal estão associadas às diferenças de
-> desempenho entre participantes concluintes do Ensino Médio no ENEM de 2010 a
-> 2023, e como essas associações variam entre territórios e ao longo do tempo?
+> Quais características econômicas, sociais, demográficas e educacionais dos
+> municípios estão associadas às características e ao desempenho dos
+> participantes do ENEM residentes nesses municípios, no escopo 2010–2023?
+
+A pergunta foi atualizada pela instrução municipal do usuário (decisão 003).
+Sua operacionalização depende de identificar residência com segurança; escola
+e aplicação de prova não serão tratadas como residência.
 
 Essa formulação não identifica causalidade. O termo “mecanismo” será reservado à
 discussão teórica ou a hipóteses que exigiriam desenhos adicionais para serem
@@ -186,16 +190,15 @@ definição do estimando, da escala e da família de modelos. Resultados contrá
 
 ### 6.1 População e unidade de observação
 
-A população preliminar é composta por participantes do ENEM entre 2010 e 2023,
-priorizando estudantes que estejam concluindo o Ensino Médio regular na edição
-analisada. A unidade de observação é o participante em uma edição. Os anos formam
-cortes transversais repetidos; não há pressuposto de acompanhamento longitudinal
-das mesmas pessoas.
+A unidade principal pretendida é município × ano do ENEM. Os arquivos brutos
+permanecem em inscrição × edição, sem presumir acompanhamento longitudinal das
+mesmas pessoas. População, critérios de inclusão, tamanho da amostra e parâmetros
+estatísticos serão decididos posteriormente.
 
-O relatório propõe excluir treineiros e participantes que concluíram o Ensino
-Médio anteriormente, além de exigir presença e notas válidas. A regra final
-dependerá da equivalência das variáveis entre anos. Participantes sem covariáveis
-não serão excluídos automaticamente sem uma análise do padrão de ausência.
+A prioridade para concluintes e as exclusões sugeridas na proposta são histórico,
+não regras vigentes. Nenhum filtro de conclusão, treineiro, presença, nota ou
+covariável ausente foi aplicado na importação. O intervalo adquirido não fixa
+os anos nem municípios da futura amostra.
 
 ### 6.2 Fontes de dados
 
@@ -208,9 +211,11 @@ As fontes planejadas são:
 - indicadores de gestão ou capacidade institucional, como IQM/IQIM, se sua
   definição e cobertura forem adequadas.
 
-No estado atual do repositório, apenas o pacote do ENEM 2023 foi localizado.
-Nenhuma análise longitudinal ou municipal pode ser concluída até que as demais
-fontes sejam obtidas e auditadas.
+Estão locais os pacotes ENEM 2010–2023 e fontes municipais IBGE, INEP e Ipeadata.
+Os indicadores de rendimento escolar foram importados; IDEB e IQM/IQIM não
+foram incluídos nesta etapa. Fontes, cobertura e limitações constam em
+`docs/importacao.md` e `reports/data-quality.md`. Não há resultados analíticos
+concluídos por essa aquisição.
 
 ### 6.3 Desfechos
 
@@ -228,18 +233,23 @@ código será interpretado apenas pelo nome da coluna.
 
 ### 6.5 Contexto municipal
 
-O relatório sugere IDHM, IDHM-Educação, renda per capita, IDEB e IQM/IQIM. Cada
-indicador deverá ter fonte, unidade, cobertura, ano de referência e regra de
-harmonização documentados. O município usado na junção ainda precisa ser
-definido: município da escola e município da prova não são equivalentes, e o
-primeiro pode estar ausente.
+O catálogo importado contém candidatos demográficos, econômicos, sociais e
+educacionais, com dicionário por indicador–ano. Nenhum foi automaticamente
+selecionado para modelo. IDHM é um índice composto; PIB per capita não é renda
+domiciliar. Indicadores censitários permanecem nos respectivos anos, sem
+interpolação; CEMPRE tem séries separadas antes e a partir de 2022.
+
+O vínculo requerido é residência. O painel contextual e a correspondência por
+código de escola/prova não concluem esse vínculo. As estatísticas municipais
+do ENEM permanecem ausentes e não serão calculadas com localização substituta.
 
 ## 7. Estratégia analítica preliminar
 
 ### 7.1 Ingestão e harmonização
 
-Será construída uma matriz de disponibilidade e equivalência das variáveis por
-ano. Cada transformação deverá partir de `data/raw/`, gerar novo produto em
+Foi construída uma matriz de disponibilidade; a equivalência semântica das
+variáveis por ano permanece pendente. Cada transformação deve partir de
+`data/raw/`, gerar novo produto em
 `data/processed/` e registrar contagens, tipos, filtros e alterações de códigos.
 
 ### 7.2 Auditoria e descrição
@@ -265,11 +275,11 @@ não serão reduzidas ao R² e não serão interpretadas como prova de causalida
 
 Serão consideradas, conforme a pergunta final:
 
-- populações alternativas de concluintes;
+- populações alternativas justificadas após a definição da amostra;
 - diferentes exigências de presença e notas válidas;
 - tratamento de ausências e análise de casos completos;
 - notas por área versus eventual medida composta justificada;
-- município da escola versus alternativas territorialmente defensáveis;
+- viabilidade do vínculo residencial, sem substituição automática por escola/prova;
 - indicadores municipais e defasagens temporais alternativas;
 - formas funcionais, interações territoriais e especificações de dependência;
 - efeitos da mudança de composição dos participantes entre edições.
@@ -288,8 +298,10 @@ Serão consideradas, conforme a pergunta final:
    seleção e causalidade reversa.
 6. **Comparabilidade das notas:** diferenças entre edições devem ser avaliadas à
    luz da documentação técnica do exame.
-7. **Disponibilidade atual:** o repositório possui somente 2023 e ainda não contém
-   indicadores municipais.
+7. **Disponibilidade atual:** há ENEM 2010–2023 e fontes municipais, mas nem todos
+   os indicadores têm cobertura anual. A integração residencial segue pendente.
+8. **Agregação:** uma média municipal não caracteriza individualmente cada
+   candidato; associações municipais não implicam associações individuais.
 
 ## 9. Estrutura prevista dos capítulos
 
@@ -308,8 +320,8 @@ executado, validado e documentado.
 
 - referências bibliográficas completas do relatório-base;
 - orientação, modalidade acadêmica e normas formais da instituição;
-- obtenção e proveniência dos microdados de 2010–2022;
-- bases municipais, anos de referência e licenças de uso;
+- revisão substantiva da qualidade e comparabilidade das fontes importadas;
+- seleção justificada de indicadores e conferência das condições de uso;
 - dicionário harmonizado de variáveis;
 - regra de vínculo entre participante e município;
 - desfecho, exposição, contraste e estimando;

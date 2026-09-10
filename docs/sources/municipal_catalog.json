@@ -1,0 +1,808 @@
+{
+  "sources": [
+    {
+      "id": "ibge_pib_2010_2023",
+      "provider": "IBGE",
+      "format": "zip",
+      "url": "https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip",
+      "landing_page": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html",
+      "path": "municipal/pib/base_de_dados_2010_2023_txt.zip",
+      "years": [
+        2010,
+        2023
+      ]
+    },
+    {
+      "id": "ibge_localidades_20260909",
+      "provider": "IBGE",
+      "format": "json",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+      "path": "municipal/territory/municipios_20260909.json",
+      "limitation": "Cadastro corrente, não substitui a geografia histórica anual."
+    },
+    {
+      "id": "ipeadata_metadata_20260909",
+      "provider": "IPEA",
+      "format": "json",
+      "url": "http://www.ipeadata.gov.br/api/odata4/Metadados",
+      "path": "municipal/metadata/ipeadata_20260909.json"
+    },
+    {
+      "id": "sidra_6579_2011",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2011,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2011/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2011.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2012",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2012,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2012/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2012.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2013",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2013,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2013/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2013.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2014",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2014,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2014/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2014.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2015",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2015,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2015/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2015.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2016",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2016,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2016/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2016.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2017",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2017,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2017/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2017.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2018",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2018,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2018/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2018.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2019",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2019,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2019/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2019.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2020",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2020,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2020/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2020.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6579_2021",
+      "provider": "IBGE",
+      "table": 6579,
+      "year": 2021,
+      "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2021/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+      "path": "municipal/sidra/6579/2021.json",
+      "format": "json",
+      "variables": [
+        9324
+      ],
+      "categories": {},
+      "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1552_2010",
+      "provider": "IBGE",
+      "table": 1552,
+      "year": 2010,
+      "url": "https://apisidra.ibge.gov.br/values/t/1552/n6/all/v/93,1000093/p/2010/c1/0,1,2/c2/0/c286/0/c287/0/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1552",
+      "path": "municipal/sidra/1552/2010.json",
+      "format": "json",
+      "variables": [
+        93,
+        1000093
+      ],
+      "categories": {
+        "1": [
+          0,
+          1,
+          2
+        ],
+        "2": [
+          0
+        ],
+        "286": [
+          0
+        ],
+        "287": [
+          0
+        ]
+      },
+      "acquisition_reason": "População e distribuição urbana/rural no Censo 2010.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1301_2010",
+      "provider": "IBGE",
+      "table": 1301,
+      "year": 2010,
+      "url": "https://apisidra.ibge.gov.br/values/t/1301/n6/all/v/615,616/p/2010/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1301",
+      "path": "municipal/sidra/1301/2010.json",
+      "format": "json",
+      "variables": [
+        615,
+        616
+      ],
+      "categories": {},
+      "acquisition_reason": "Área e densidade na referência territorial do Censo 2010.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_4714_2022",
+      "provider": "IBGE",
+      "table": 4714,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/all/v/93,6318,614/p/2022/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/4714",
+      "path": "municipal/sidra/4714/2022.json",
+      "format": "json",
+      "variables": [
+        93,
+        6318,
+        614
+      ],
+      "categories": {},
+      "acquisition_reason": "População, área e densidade do Censo 2022.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_9923_2022",
+      "provider": "IBGE",
+      "table": 9923,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/all/v/93,1000093/p/2022/c1/6795,1,2/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/9923",
+      "path": "municipal/sidra/9923/2022.json",
+      "format": "json",
+      "variables": [
+        93,
+        1000093
+      ],
+      "categories": {
+        "1": [
+          6795,
+          1,
+          2
+        ]
+      },
+      "acquisition_reason": "Distribuição urbana/rural na definição do Censo 2022.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_9543_2022",
+      "provider": "IBGE",
+      "table": 9543,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/9543/n6/all/v/2513/p/2022/c2/6794/c86/95251/c287/100362/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/9543",
+      "path": "municipal/sidra/9543/2022.json",
+      "format": "json",
+      "variables": [
+        2513
+      ],
+      "categories": {
+        "2": [
+          6794
+        ],
+        "86": [
+          95251
+        ],
+        "287": [
+          100362
+        ]
+      },
+      "acquisition_reason": "Alfabetização das pessoas de 15 anos ou mais; definição oficial.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_10295_2022",
+      "provider": "IBGE",
+      "table": 10295,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/10295/n6/all/v/13431,13534/p/2022/c2/6794/c86/95251/c58/95253/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/10295",
+      "path": "municipal/sidra/10295/2022.json",
+      "format": "json",
+      "variables": [
+        13431,
+        13534
+      ],
+      "categories": {
+        "2": [
+          6794
+        ],
+        "86": [
+          95251
+        ],
+        "58": [
+          95253
+        ]
+      },
+      "acquisition_reason": "Rendimento domiciliar per capita médio e mediano; universo censitário.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_3540_2010_v140",
+      "provider": "IBGE",
+      "table": 3540,
+      "year": 2010,
+      "url": "https://apisidra.ibge.gov.br/values/t/3540/n6/all/v/140/p/2010/c1568/0,9493,9494,9495,99713,11626/c1/0/c2/0/c86/0/c58/0/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/3540",
+      "path": "municipal/sidra/3540/2010_v140.json",
+      "format": "json",
+      "variables": [
+        140
+      ],
+      "categories": {
+        "1568": [
+          0,
+          9493,
+          9494,
+          9495,
+          99713,
+          11626
+        ],
+        "1": [
+          0
+        ],
+        "2": [
+          0
+        ],
+        "86": [
+          0
+        ],
+        "58": [
+          0
+        ]
+      },
+      "acquisition_reason": "Composição por nível de instrução das pessoas de 10 anos ou mais.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_3540_2010_v1000140",
+      "provider": "IBGE",
+      "table": 3540,
+      "year": 2010,
+      "url": "https://apisidra.ibge.gov.br/values/t/3540/n6/all/v/1000140/p/2010/c1568/0,9493,9494,9495,99713,11626/c1/0/c2/0/c86/0/c58/0/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/3540",
+      "path": "municipal/sidra/3540/2010_v1000140.json",
+      "format": "json",
+      "variables": [
+        1000140
+      ],
+      "categories": {
+        "1568": [
+          0,
+          9493,
+          9494,
+          9495,
+          99713,
+          11626
+        ],
+        "1": [
+          0
+        ],
+        "2": [
+          0
+        ],
+        "86": [
+          0
+        ],
+        "58": [
+          0
+        ]
+      },
+      "acquisition_reason": "Composição por nível de instrução das pessoas de 10 anos ou mais.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6803_2022",
+      "provider": "IBGE",
+      "table": 6803,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/6803/n6/all/v/381,1000381/p/2022/c1821/72129,72144,72145,72153/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6803",
+      "path": "municipal/sidra/6803/2022.json",
+      "format": "json",
+      "variables": [
+        381,
+        1000381
+      ],
+      "categories": {
+        "1821": [
+          72129,
+          72144,
+          72145,
+          72153
+        ]
+      },
+      "acquisition_reason": "Acesso domiciliar à rede de água, nas categorias publicadas.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6805_2022_v381",
+      "provider": "IBGE",
+      "table": 6805,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/6805/n6/all/v/381/p/2022/c11558/46292,46290,72112,72113,92861/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6805",
+      "path": "municipal/sidra/6805/2022_v381.json",
+      "format": "json",
+      "variables": [
+        381
+      ],
+      "categories": {
+        "11558": [
+          46292,
+          46290,
+          72112,
+          72113,
+          92861
+        ]
+      },
+      "acquisition_reason": "Esgotamento sanitário, preservando o universo e as categorias oficiais.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_6805_2022_v1000381",
+      "provider": "IBGE",
+      "table": 6805,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/6805/n6/all/v/1000381/p/2022/c11558/46292,46290,72112,72113,92861/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/6805",
+      "path": "municipal/sidra/6805/2022_v1000381.json",
+      "format": "json",
+      "variables": [
+        1000381
+      ],
+      "categories": {
+        "11558": [
+          46292,
+          46290,
+          72112,
+          72113,
+          92861
+        ]
+      },
+      "acquisition_reason": "Esgotamento sanitário, preservando o universo e as categorias oficiais.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_10201_2022",
+      "provider": "IBGE",
+      "table": 10201,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/10201/n6/all/v/13436,1013436/p/2022/c2072/77584,77585,77586/c133/95278/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/10201",
+      "path": "municipal/sidra/10201/2022.json",
+      "format": "json",
+      "variables": [
+        13436,
+        1013436
+      ],
+      "categories": {
+        "2072": [
+          77584,
+          77585,
+          77586
+        ],
+        "133": [
+          95278
+        ]
+      },
+      "acquisition_reason": "Conexão domiciliar à internet entre moradores de 10 anos ou mais; religião no total.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2010",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2010,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2010/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2010.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2011",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2011,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2011/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2011.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2012",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2012,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2012/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2012.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2013",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2013,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2013/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2013.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2014",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2014,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2014/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2014.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2015",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2015,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2015/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2015.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2016",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2016,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2016/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2016.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2017",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2017,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2017/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2017.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2018",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2018,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2018/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2018.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2019",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2019,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2019/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2019.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2020",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2020,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2020/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2020.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_1685_2021",
+      "provider": "IBGE",
+      "table": 1685,
+      "year": 2021,
+      "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2021/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+      "path": "municipal/sidra/1685/2021.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662,
+        1606
+      ],
+      "categories": {},
+      "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_9528_2022",
+      "provider": "IBGE",
+      "table": 9528,
+      "year": 2022,
+      "url": "https://apisidra.ibge.gov.br/values/t/9528/n6/all/v/706,707,708,662/p/2022/c12762/117897/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/9528",
+      "path": "municipal/sidra/9528/2022.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662
+      ],
+      "categories": {
+        "12762": [
+          117897
+        ]
+      },
+      "acquisition_reason": "CEMPRE nova série desde 2022; manter quebra metodológica explícita.",
+      "selected_for_model": false
+    },
+    {
+      "id": "sidra_9528_2023",
+      "provider": "IBGE",
+      "table": 9528,
+      "year": 2023,
+      "url": "https://apisidra.ibge.gov.br/values/t/9528/n6/all/v/706,707,708,662/p/2023/c12762/117897/u/y",
+      "landing_page": "https://sidra.ibge.gov.br/tabela/9528",
+      "path": "municipal/sidra/9528/2023.json",
+      "format": "json",
+      "variables": [
+        706,
+        707,
+        708,
+        662
+      ],
+      "categories": {
+        "12762": [
+          117897
+        ]
+      },
+      "acquisition_reason": "CEMPRE nova série desde 2022; manter quebra metodológica explícita.",
+      "selected_for_model": false
+    }
+  ]
+}

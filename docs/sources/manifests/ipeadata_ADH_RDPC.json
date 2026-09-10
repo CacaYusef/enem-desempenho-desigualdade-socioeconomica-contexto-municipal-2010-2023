@@ -1,0 +1,36 @@
+{
+  "id": "ipeadata_ADH_RDPC",
+  "provider": "IPEA",
+  "series": "ADH_RDPC",
+  "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_RDPC')",
+  "path": "municipal/ipeadata/ADH_RDPC.json",
+  "format": "json",
+  "acquisition_reason": "Renda domiciliar per capita: condição econômica estrutural.",
+  "selected_for_model": false,
+  "scope": "Raw response preserved; processed scope: municipalities, 2010–2023.",
+  "metadata": {
+    "SERCODIGO": "ADH_RDPC",
+    "SERNOME": "Renda per capita média (Atlas DH - Censo)",
+    "SERCOMENTARIO": "Razão entre o somatório da renda de todos os indivíduos residentes em domicílios particulares permanentes e o número total desses indivíduos. Valores em reais de 01/agosto de 2010. Este indicador faz parte do bloco de indicadores que contém nível de renda; de pobreza e de desigualdade de renda. São indicadores utilizados na análise do IDHM (Índice de Desenvolvimento Humano Municipal). Nota: elaborado por PNUD, IPEA e FJP a partir dos microdados de Censos Demográficos do IBGE. Mais Informações: <a href= \"../doc/Metodologia ADH.pdf\">Metodologia do Atlas do Desenvolvimento Humano</a>.\r\n Fonte primária aguarda microdados do Censo 2022. <p>Para acessar outras desagregações, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725989&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brasil</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725989&MINDATA=1970&MAXDATA=2030&TNIVID=1&TPAID=1&module=S>por Região</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725989&MINDATA=1970&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>por UF</a>. <p>\r\n<p>por Gênero > \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725991&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Homens</a>  |    \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725992&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Mulheres</a>\r\n<p>por Cor/Raça > \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725990&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brancos</a>  |    \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725993&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Pretos/Pardos</a>\r\n<p>por tipo domicilio > \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725994&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Rural</a>  |    \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096725995&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Urbano</a>\r\n<p><a href=\"http://www.ipeadata.gov.br/Default.aspx\" target=\"_blank\">Ipeadata - Página principal</a>.",
+    "SERATUALIZACAO": "2022-09-30T12:00:00-03:00",
+    "BASNOME": "Social",
+    "FNTSIGLA": "IPEA/ADH Censo IBGE",
+    "FNTNOME": "Atlas do Desenvolvimento Humano (Censo Demográfico)",
+    "FNTURL": "www.atlasbrasil.org.br",
+    "PERNOME": "Decenal",
+    "UNINOME": "R$, a preços do ano 2010",
+    "MULNOME": null,
+    "SERSTATUS": null,
+    "TEMCODIGO": 102,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+  },
+  "download_started_utc": "2026-09-10T02:43:30.824033+00:00",
+  "download_completed_utc": "2026-09-10T02:43:32.221115+00:00",
+  "bytes": 2429070,
+  "sha256": "55944c0747d0cdbee78a0457e19dc75ea5f1fd74158ff37624f22a1e5d32bd41",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

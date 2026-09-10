@@ -1,0 +1,16 @@
+{
+  "id": "inep_rendimento_page_2022",
+  "provider": "INEP",
+  "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2022",
+  "path": "municipal/inep/pages/rendimento_2022.html",
+  "format": "html",
+  "year": 2022,
+  "download_started_utc": "2026-09-10T02:43:27.504641+00:00",
+  "download_completed_utc": "2026-09-10T02:43:27.705864+00:00",
+  "bytes": 209533,
+  "sha256": "7d323568ed097e474ad1815f51774953a740ddf45961772e089e2e10958ce135",
+  "http_metadata": {
+    "content-type": "text/html;charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ipeadata_ADH_T_FREQ6A14",
+  "provider": "IPEA",
+  "series": "ADH_T_FREQ6A14",
+  "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_T_FREQ6A14')",
+  "path": "municipal/ipeadata/ADH_T_FREQ6A14.json",
+  "format": "json",
+  "acquisition_reason": "Atendimento escolar na faixa etária definida pelo Atlas.",
+  "selected_for_model": false,
+  "scope": "Raw response preserved; processed scope: municipalities, 2010–2023.",
+  "metadata": {
+    "SERCODIGO": "ADH_T_FREQ6A14",
+    "SERNOME": "Taxa de atendimento escolar da população de 6 a 14 anos de idade (Atlas DH - Censo)",
+    "SERCOMENTARIO": "Razão entre a população de 6 a 14 anos de idade que estava frequentando a escola, em qualquer nível ou série, e a população total nesta faixa etária, multiplicada por 100. Dados utilizados para cálculos de indicadores que compõem as três dimensões do IDHM (Índice de Desenvolvimento Humano Municipal) que são: Longevidade, Educação e Renda. A dimensão educação, acesso ao conhecimento no IDHM é uma composição de indicadores de escolaridade da população adulta e de fluxo escolar da população jovem. Nota: elaborado por PNUD, IPEA e FJP a partir dos microdados de Censos Demográficos do IBGE. Mais Informações: <a href= \"../doc/Metodologia ADH.pdf\">Metodologia do Atlas do Desenvolvimento Humano</a> Fonte primária aguarda microdados do Censo 2022. <p>Para acessar outras desagregações, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726459&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brasil</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726459&MINDATA=1970&MAXDATA=2030&TNIVID=1&TPAID=1&module=S>por Região</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726459&MINDATA=1970&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>por UF</a>. <p>\r\n        <p>por Gênero > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726461&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Homens</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726462&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Mulheres</a>\r\n        <p>por Cor/Raça > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726460&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brancos</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726463&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Pretos/Pardos</a>\r\n        <p>por tipo domicilio > \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726464&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Rural</a>  |    \r\n        <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726465&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Urbano</a>.<p>\r\nséries relacionadas> <p>\r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726437&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>0 a 3 anos</a>  |   \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726458&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>4 a 5 anos</a>  |   \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726459&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>6 a 14 anos</a>  |   \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726444&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>15 a 17 anos</a>  |   \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726451&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>18 a 24 anos</a>.\r\n<p><a href=\"http://www.ipeadata.gov.br/Default.aspx\" target=\"_blank\">Ipeadata - Página principal</a>.\r\n        <p><a href=\"http://www.ipeadata.gov.br/Default.aspx\" target=\"_blank\">Ipeadata - Página principal</a>.",
+    "SERATUALIZACAO": "2023-03-07T13:50:57-03:00",
+    "BASNOME": "Social",
+    "FNTSIGLA": "IPEA/ADH Censo IBGE",
+    "FNTNOME": "Atlas do Desenvolvimento Humano (Censo Demográfico)",
+    "FNTURL": "www.atlasbrasil.org.br",
+    "PERNOME": "Decenal",
+    "UNINOME": "(%)",
+    "MULNOME": null,
+    "SERSTATUS": null,
+    "TEMCODIGO": 107,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+  },
+  "download_started_utc": "2026-09-10T02:43:44.334526+00:00",
+  "download_completed_utc": "2026-09-10T02:43:45.936374+00:00",
+  "bytes": 2513764,
+  "sha256": "ef3eef176981d9c83212288da8480b2380504d97e3e010f6d2a743eb30f87a3c",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

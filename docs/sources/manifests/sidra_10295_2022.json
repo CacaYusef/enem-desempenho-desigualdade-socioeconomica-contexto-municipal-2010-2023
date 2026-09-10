@@ -1,0 +1,35 @@
+{
+  "id": "sidra_10295_2022",
+  "provider": "IBGE",
+  "table": 10295,
+  "year": 2022,
+  "url": "https://apisidra.ibge.gov.br/values/t/10295/n6/all/v/13431,13534/p/2022/c2/6794/c86/95251/c58/95253/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/10295",
+  "path": "municipal/sidra/10295/2022.json",
+  "format": "json",
+  "variables": [
+    13431,
+    13534
+  ],
+  "categories": {
+    "2": [
+      6794
+    ],
+    "86": [
+      95251
+    ],
+    "58": [
+      95253
+    ]
+  },
+  "acquisition_reason": "Rendimento domiciliar per capita médio e mediano; universo censitário.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:38:52.522977+00:00",
+  "download_completed_utc": "2026-09-10T02:38:56.103847+00:00",
+  "bytes": 6964561,
+  "sha256": "e539bb5ff764a990fe6b0001e5073dbf6df92f5115aae1086e7c8a287d50f4e7",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

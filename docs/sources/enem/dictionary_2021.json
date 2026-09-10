@@ -1,0 +1,5004 @@
+{
+  "DICIONÁRIO/Dicionário_Microdados_Enem_2021.xlsx": {
+    "MICRODADOS_ENEM_2021": {
+      "variables": {
+        "NU_INSCRICAO": {
+          "description": "Número de inscrição1 ",
+          "categories": []
+        },
+        "NU_ANO": {
+          "description": "Ano do Enem",
+          "categories": []
+        },
+        "TP_FAIXA_ETARIA": {
+          "description": "Faixa etária2",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Menor de 17 anos"
+            },
+            {
+              "code": 2,
+              "label": "17 anos"
+            },
+            {
+              "code": 3,
+              "label": "18 anos"
+            },
+            {
+              "code": 4,
+              "label": "19 anos"
+            },
+            {
+              "code": 5,
+              "label": "20 anos"
+            },
+            {
+              "code": 6,
+              "label": "21 anos"
+            },
+            {
+              "code": 7,
+              "label": "22 anos"
+            },
+            {
+              "code": 8,
+              "label": "23 anos"
+            },
+            {
+              "code": 9,
+              "label": "24 anos"
+            },
+            {
+              "code": 10,
+              "label": "25 anos"
+            },
+            {
+              "code": 11,
+              "label": "Entre 26 e 30 anos"
+            },
+            {
+              "code": 12,
+              "label": "Entre 31 e 35 anos"
+            },
+            {
+              "code": 13,
+              "label": "Entre 36 e 40 anos"
+            },
+            {
+              "code": 14,
+              "label": "Entre 41 e 45 anos"
+            },
+            {
+              "code": 15,
+              "label": "Entre 46 e 50 anos"
+            },
+            {
+              "code": 16,
+              "label": "Entre 51 e 55 anos"
+            },
+            {
+              "code": 17,
+              "label": "Entre 56 e 60 anos"
+            },
+            {
+              "code": 18,
+              "label": "Entre 61 e 65 anos"
+            },
+            {
+              "code": 19,
+              "label": "Entre 66 e 70 anos"
+            },
+            {
+              "code": 20,
+              "label": "Maior de 70 anos"
+            }
+          ]
+        },
+        "TP_SEXO": {
+          "description": "Sexo",
+          "categories": [
+            {
+              "code": "M",
+              "label": "Masculino"
+            },
+            {
+              "code": "F",
+              "label": "Feminino "
+            }
+          ]
+        },
+        "TP_ESTADO_CIVIL": {
+          "description": "Estado Civil",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Não informado"
+            },
+            {
+              "code": 1,
+              "label": "Solteiro(a)"
+            },
+            {
+              "code": 2,
+              "label": "Casado(a)/Mora com companheiro(a)"
+            },
+            {
+              "code": 3,
+              "label": "Divorciado(a)/Desquitado(a)/Separado(a)"
+            },
+            {
+              "code": 4,
+              "label": "Viúvo(a)"
+            }
+          ]
+        },
+        "TP_COR_RACA": {
+          "description": "Cor/raça",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Não declarado"
+            },
+            {
+              "code": 1,
+              "label": "Branca"
+            },
+            {
+              "code": 2,
+              "label": "Preta"
+            },
+            {
+              "code": 3,
+              "label": "Parda"
+            },
+            {
+              "code": 4,
+              "label": "Amarela"
+            },
+            {
+              "code": 5,
+              "label": "Indígena "
+            },
+            {
+              "code": 6,
+              "label": "Não dispõe da informação"
+            }
+          ]
+        },
+        "TP_NACIONALIDADE": {
+          "description": "Nacionalidade",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Não informado"
+            },
+            {
+              "code": 1,
+              "label": "Brasileiro(a)"
+            },
+            {
+              "code": 2,
+              "label": "Brasileiro(a) Naturalizado(a)"
+            },
+            {
+              "code": 3,
+              "label": "Estrangeiro(a)"
+            },
+            {
+              "code": 4,
+              "label": "Brasileiro(a) Nato(a), nascido(a) no exterior"
+            }
+          ]
+        },
+        "TP_ST_CONCLUSAO": {
+          "description": "Situação de conclusão do Ensino Médio",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Já concluí o Ensino Médio"
+            },
+            {
+              "code": 2,
+              "label": "Estou cursando e concluirei o Ensino Médio em 2021"
+            },
+            {
+              "code": 3,
+              "label": "Estou cursando e concluirei o Ensino Médio após 2021"
+            },
+            {
+              "code": 4,
+              "label": "Não concluí e não estou cursando o Ensino Médio"
+            }
+          ]
+        },
+        "TP_ANO_CONCLUIU": {
+          "description": "Ano de Conclusão do Ensino Médio",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Não informado"
+            },
+            {
+              "code": 1,
+              "label": 2020
+            },
+            {
+              "code": 2,
+              "label": 2019
+            },
+            {
+              "code": 3,
+              "label": 2018
+            },
+            {
+              "code": 4,
+              "label": 2017
+            },
+            {
+              "code": 5,
+              "label": 2016
+            },
+            {
+              "code": 6,
+              "label": 2015
+            },
+            {
+              "code": 7,
+              "label": 2014
+            },
+            {
+              "code": 8,
+              "label": 2013
+            },
+            {
+              "code": 9,
+              "label": 2012
+            },
+            {
+              "code": 10,
+              "label": 2011
+            },
+            {
+              "code": 11,
+              "label": 2010
+            },
+            {
+              "code": 12,
+              "label": 2009
+            },
+            {
+              "code": 13,
+              "label": 2008
+            },
+            {
+              "code": 14,
+              "label": 2007
+            },
+            {
+              "code": 15,
+              "label": "Antes de 2007"
+            }
+          ]
+        },
+        "TP_ESCOLA": {
+          "description": "Tipo de escola do Ensino Médio",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Não Respondeu"
+            },
+            {
+              "code": 2,
+              "label": "Pública"
+            },
+            {
+              "code": 3,
+              "label": "Privada"
+            }
+          ]
+        },
+        "TP_ENSINO": {
+          "description": "Tipo de instituição que concluiu ou concluirá o Ensino Médio ",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Ensino Regular"
+            },
+            {
+              "code": 2,
+              "label": "Educação Especial - Modalidade Substitutiva"
+            }
+          ]
+        },
+        "IN_TREINEIRO": {
+          "description": "Indica se o inscrito fez a prova com intuito de apenas treinar seus conhecimentos3",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Sim"
+            },
+            {
+              "code": 0,
+              "label": "Não"
+            }
+          ]
+        },
+        "CO_MUNICIPIO_ESC": {
+          "description": "Código do município da escola ",
+          "categories": []
+        },
+        "NO_MUNICIPIO_ESC": {
+          "description": "Nome do município da escola",
+          "categories": []
+        },
+        "CO_UF_ESC": {
+          "description": "Código da Unidade da Federação da escola",
+          "categories": []
+        },
+        "SG_UF_ESC": {
+          "description": "Sigla da Unidade da Federação da escola",
+          "categories": []
+        },
+        "TP_DEPENDENCIA_ADM_ESC": {
+          "description": "Dependência administrativa (Escola)",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Federal"
+            },
+            {
+              "code": 2,
+              "label": "Estadual"
+            },
+            {
+              "code": 3,
+              "label": "Municipal"
+            },
+            {
+              "code": 4,
+              "label": "Privada"
+            }
+          ]
+        },
+        "TP_LOCALIZACAO_ESC": {
+          "description": "Localização (Escola)",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Urbana"
+            },
+            {
+              "code": 2,
+              "label": "Rural"
+            }
+          ]
+        },
+        "TP_SIT_FUNC_ESC": {
+          "description": "Situação de funcionamento (Escola)",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Em atividade"
+            },
+            {
+              "code": 2,
+              "label": "Paralisada"
+            },
+            {
+              "code": 3,
+              "label": "Extinta"
+            },
+            {
+              "code": 4,
+              "label": "Escola extinta em anos anteriores."
+            }
+          ]
+        },
+        "CO_MUNICIPIO_PROVA": {
+          "description": "Código do município da aplicação da prova",
+          "categories": []
+        },
+        "NO_MUNICIPIO_PROVA": {
+          "description": "Nome do município da aplicação da prova",
+          "categories": []
+        },
+        "CO_UF_PROVA": {
+          "description": "Código da Unidade da Federação da aplicação da prova",
+          "categories": []
+        },
+        "SG_UF_PROVA": {
+          "description": "Sigla da Unidade da Federação da aplicação da prova",
+          "categories": []
+        },
+        "TP_PRESENCA_CN": {
+          "description": "Presença na prova objetiva de Ciências da Natureza",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Faltou à prova"
+            },
+            {
+              "code": 1,
+              "label": "Presente na prova"
+            },
+            {
+              "code": 2,
+              "label": "Eliminado na prova"
+            }
+          ]
+        },
+        "TP_PRESENCA_CH": {
+          "description": "Presença na prova objetiva de Ciências Humanas",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Faltou à prova"
+            },
+            {
+              "code": 1,
+              "label": "Presente na prova"
+            },
+            {
+              "code": 2,
+              "label": "Eliminado na prova"
+            }
+          ]
+        },
+        "TP_PRESENCA_LC": {
+          "description": "Presença na prova objetiva de Linguagens e Códigos",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Faltou à prova"
+            },
+            {
+              "code": 1,
+              "label": "Presente na prova"
+            },
+            {
+              "code": 2,
+              "label": "Eliminado na prova"
+            }
+          ]
+        },
+        "TP_PRESENCA_MT": {
+          "description": "Presença na prova objetiva de Matemática",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Faltou à prova"
+            },
+            {
+              "code": 1,
+              "label": "Presente na prova"
+            },
+            {
+              "code": 2,
+              "label": "Eliminado na prova"
+            }
+          ]
+        },
+        "CO_PROVA_CN": {
+          "description": "Código do tipo de prova de Ciências da Natureza",
+          "categories": [
+            {
+              "code": 909,
+              "label": "Azul"
+            },
+            {
+              "code": 910,
+              "label": "Amarela"
+            },
+            {
+              "code": 911,
+              "label": "Cinza"
+            },
+            {
+              "code": 912,
+              "label": "Rosa"
+            },
+            {
+              "code": 915,
+              "label": "Laranja - Braille"
+            },
+            {
+              "code": 916,
+              "label": "Laranja - Adaptada Ledor"
+            },
+            {
+              "code": 917,
+              "label": "Verde - Videoprova - Libras"
+            },
+            {
+              "code": 989,
+              "label": "Azul (Reaplicação)"
+            },
+            {
+              "code": 990,
+              "label": "Amarela (Reaplicação)"
+            },
+            {
+              "code": 991,
+              "label": "Cinza (Reaplicação)"
+            },
+            {
+              "code": 992,
+              "label": "Rosa (Reaplicação)"
+            },
+            {
+              "code": 996,
+              "label": "Laranja - Adaptada Ledor (Reaplicação)"
+            },
+            {
+              "code": 1011,
+              "label": "Azul (Digital)"
+            },
+            {
+              "code": 1012,
+              "label": "Amarela (Digital)"
+            },
+            {
+              "code": 1013,
+              "label": "Rosa (Digital)"
+            },
+            {
+              "code": 1014,
+              "label": "Cinza (Digital)"
+            },
+            {
+              "code": 1045,
+              "label": "Azul (Segunda oportunidade)"
+            },
+            {
+              "code": 1046,
+              "label": "Amarela (Segunda oportunidade)"
+            },
+            {
+              "code": 1047,
+              "label": "Cinza (Segunda oportunidade)"
+            },
+            {
+              "code": 1048,
+              "label": "Rosa (Segunda oportunidade)"
+            },
+            {
+              "code": 1052,
+              "label": "Laranja - Adaptada Ledor (Segunda oportunidade)"
+            }
+          ]
+        },
+        "CO_PROVA_CH": {
+          "description": "Código do tipo de prova de Ciências Humanas",
+          "categories": [
+            {
+              "code": 879,
+              "label": "Azul"
+            },
+            {
+              "code": 880,
+              "label": "Amarela"
+            },
+            {
+              "code": 881,
+              "label": "Branca"
+            },
+            {
+              "code": 882,
+              "label": "Rosa"
+            },
+            {
+              "code": 885,
+              "label": "Laranja - Braille"
+            },
+            {
+              "code": 886,
+              "label": "Laranja - Adaptada Ledor"
+            },
+            {
+              "code": 887,
+              "label": "Verde - Videoprova - Libras"
+            },
+            {
+              "code": 959,
+              "label": "Azul (Reaplicação)"
+            },
+            {
+              "code": 960,
+              "label": "Amarela (Reaplicação)"
+            },
+            {
+              "code": 961,
+              "label": "Branca (Reaplicação)"
+            },
+            {
+              "code": 962,
+              "label": "Rosa (Reaplicação)"
+            },
+            {
+              "code": 966,
+              "label": "Laranja - Adaptada Ledor (Reaplicação)"
+            },
+            {
+              "code": 999,
+              "label": "Azul (Digital)"
+            },
+            {
+              "code": 1000,
+              "label": "Amarela (Digital)"
+            },
+            {
+              "code": 1001,
+              "label": "Branca (Digital)"
+            },
+            {
+              "code": 1002,
+              "label": "Rosa (Digital)"
+            },
+            {
+              "code": 1015,
+              "label": "Azul (Segunda oportunidade)"
+            },
+            {
+              "code": 1016,
+              "label": "Amarela (Segunda oportunidade)"
+            },
+            {
+              "code": 1017,
+              "label": "Branca (Segunda oportunidade)"
+            },
+            {
+              "code": 1018,
+              "label": "Rosa (Segunda oportunidade)"
+            },
+            {
+              "code": 1022,
+              "label": "Laranja - Adaptada Ledor (Segunda oportunidade)"
+            }
+          ]
+        },
+        "CO_PROVA_LC": {
+          "description": "Código do tipo de prova de Linguagens e Códigos",
+          "categories": [
+            {
+              "code": 889,
+              "label": "Azul"
+            },
+            {
+              "code": 890,
+              "label": "Amarela"
+            },
+            {
+              "code": 891,
+              "label": "Rosa"
+            },
+            {
+              "code": 892,
+              "label": "Branca"
+            },
+            {
+              "code": 895,
+              "label": "Laranja - Braille"
+            },
+            {
+              "code": 896,
+              "label": "Laranja - Adaptada Ledor"
+            },
+            {
+              "code": 897,
+              "label": "Verde - Videoprova - Libras"
+            },
+            {
+              "code": 969,
+              "label": "Azul (Reaplicação)"
+            },
+            {
+              "code": 970,
+              "label": "Amarela (Reaplicação)"
+            },
+            {
+              "code": 971,
+              "label": "Rosa (Reaplicação)"
+            },
+            {
+              "code": 972,
+              "label": "Branca (Reaplicação)"
+            },
+            {
+              "code": 976,
+              "label": "Laranja - Adaptada Ledor (Reaplicação)"
+            },
+            {
+              "code": 1003,
+              "label": "Azul (Digital)"
+            },
+            {
+              "code": 1004,
+              "label": "Amarela (Digital)"
+            },
+            {
+              "code": 1005,
+              "label": "Branca (Digital)"
+            },
+            {
+              "code": 1006,
+              "label": "Rosa (Digital)"
+            },
+            {
+              "code": 1025,
+              "label": "Azul (Segunda oportunidade)"
+            },
+            {
+              "code": 1026,
+              "label": "Amarela (Segunda oportunidade)"
+            },
+            {
+              "code": 1027,
+              "label": "Rosa (Segunda oportunidade)"
+            },
+            {
+              "code": 1028,
+              "label": "Branca (Segunda oportunidade)"
+            },
+            {
+              "code": 1032,
+              "label": "Laranja - Adaptada Ledor (Segunda oportunidade)"
+            }
+          ]
+        },
+        "CO_PROVA_MT": {
+          "description": "Código do tipo de prova de Matemática",
+          "categories": [
+            {
+              "code": 899,
+              "label": "Azul"
+            },
+            {
+              "code": 900,
+              "label": "Amarela"
+            },
+            {
+              "code": 901,
+              "label": "Rosa"
+            },
+            {
+              "code": 902,
+              "label": "Cinza"
+            },
+            {
+              "code": 905,
+              "label": "Laranja - Braille"
+            },
+            {
+              "code": 906,
+              "label": "Laranja - Adaptada Ledor"
+            },
+            {
+              "code": 907,
+              "label": "Verde - Videoprova - Libras"
+            },
+            {
+              "code": 979,
+              "label": "Azul (Reaplicação)"
+            },
+            {
+              "code": 980,
+              "label": "Amarela (Reaplicação)"
+            },
+            {
+              "code": 981,
+              "label": "Rosa (Reaplicação)"
+            },
+            {
+              "code": 982,
+              "label": "Cinza (Reaplicação)"
+            },
+            {
+              "code": 986,
+              "label": "Laranja - Adaptada Ledor (Reaplicação)"
+            },
+            {
+              "code": 1007,
+              "label": "Azul (Digital)"
+            },
+            {
+              "code": 1008,
+              "label": "Amarela (Digital)"
+            },
+            {
+              "code": 1009,
+              "label": "Rosa (Digital)"
+            },
+            {
+              "code": 1010,
+              "label": "Cinza (Digital)"
+            },
+            {
+              "code": 1035,
+              "label": "Azul (Segunda oportunidade)"
+            },
+            {
+              "code": 1036,
+              "label": "Amarela (Segunda oportunidade)"
+            },
+            {
+              "code": 1037,
+              "label": "Cinza (Segunda oportunidade)"
+            },
+            {
+              "code": 1038,
+              "label": "Rosa (Segunda oportunidade)"
+            },
+            {
+              "code": 1042,
+              "label": "Laranja - Adaptada Ledor (Segunda oportunidade)"
+            }
+          ]
+        },
+        "NU_NOTA_CN": {
+          "description": "Nota da prova de Ciências da Natureza",
+          "categories": []
+        },
+        "NU_NOTA_CH": {
+          "description": "Nota da prova de Ciências Humanas",
+          "categories": []
+        },
+        "NU_NOTA_LC": {
+          "description": "Nota da prova de Linguagens e Códigos",
+          "categories": []
+        },
+        "NU_NOTA_MT": {
+          "description": "Nota da prova de Matemática",
+          "categories": []
+        },
+        "TX_RESPOSTAS_CN": {
+          "description": "Vetor com as respostas da parte objetiva da prova de Ciências da Natureza4 ",
+          "categories": []
+        },
+        "TX_RESPOSTAS_CH": {
+          "description": "Vetor com as respostas da parte objetiva da prova de Ciências Humanas4",
+          "categories": []
+        },
+        "TX_RESPOSTAS_LC": {
+          "description": "Vetor com as respostas da parte objetiva da prova de Linguagens e Códigos5 ",
+          "categories": []
+        },
+        "TX_RESPOSTAS_MT": {
+          "description": "Vetor com as respostas da parte objetiva da prova de Matemática4 ",
+          "categories": []
+        },
+        "TP_LINGUA": {
+          "description": "Língua Estrangeira ",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Inglês"
+            },
+            {
+              "code": 1,
+              "label": "Espanhol"
+            }
+          ]
+        },
+        "TX_GABARITO_CN": {
+          "description": "Vetor com o gabarito da parte objetiva da prova de Ciências da Natureza6 ",
+          "categories": []
+        },
+        "TX_GABARITO_CH": {
+          "description": "Vetor com o gabarito da parte objetiva da prova de Ciências Humanas6 ",
+          "categories": []
+        },
+        "TX_GABARITO_LC": {
+          "description": "Vetor com o gabarito da parte objetiva da prova de Linguagens e Códigos7 ",
+          "categories": []
+        },
+        "TX_GABARITO_MT": {
+          "description": "Vetor com o gabarito da parte objetiva da prova de Matemática6",
+          "categories": []
+        },
+        "TP_STATUS_REDACAO": {
+          "description": "Situação da redação do participante",
+          "categories": [
+            {
+              "code": 1,
+              "label": "Sem problemas"
+            },
+            {
+              "code": 2,
+              "label": "Anulada"
+            },
+            {
+              "code": 3,
+              "label": "Cópia Texto Motivador"
+            },
+            {
+              "code": 4,
+              "label": "Em Branco"
+            },
+            {
+              "code": 6,
+              "label": "Fuga ao tema"
+            },
+            {
+              "code": 7,
+              "label": "Não atendimento ao tipo textual"
+            },
+            {
+              "code": 8,
+              "label": "Texto insuficiente"
+            },
+            {
+              "code": 9,
+              "label": "Parte desconectada"
+            }
+          ]
+        },
+        "NU_NOTA_COMP1": {
+          "description": "Nota da competência 1 - Demonstrar domínio da modalidade escrita formal da Língua Portuguesa.",
+          "categories": []
+        },
+        "NU_NOTA_COMP2": {
+          "description": "Nota da competência 2 - Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.",
+          "categories": []
+        },
+        "NU_NOTA_COMP3": {
+          "description": "Nota da competência 3 - Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.",
+          "categories": []
+        },
+        "NU_NOTA_COMP4": {
+          "description": "Nota da competência 4 - Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.",
+          "categories": []
+        },
+        "NU_NOTA_COMP5": {
+          "description": "Nota da competência 5 - Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.",
+          "categories": []
+        },
+        "NU_NOTA_REDACAO": {
+          "description": "Nota da prova de redação",
+          "categories": []
+        },
+        "Q001": {
+          "description": "Até que série seu pai, ou o homem responsável por você, estudou?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Nunca estudou."
+            },
+            {
+              "code": "B",
+              "label": "Não completou a 4ª série/5º ano do Ensino Fundamental."
+            },
+            {
+              "code": "C",
+              "label": "Completou a 4ª série/5º ano, mas não completou a 8ª série/9º ano do Ensino Fundamental."
+            },
+            {
+              "code": "D",
+              "label": "Completou a 8ª série/9º ano do Ensino Fundamental, mas não completou o Ensino Médio."
+            },
+            {
+              "code": "E",
+              "label": "Completou o Ensino Médio, mas não completou a Faculdade."
+            },
+            {
+              "code": "F",
+              "label": "Completou a Faculdade, mas não completou a Pós-graduação."
+            },
+            {
+              "code": "G",
+              "label": "Completou a Pós-graduação."
+            },
+            {
+              "code": "H",
+              "label": "Não sei."
+            }
+          ]
+        },
+        "Q002": {
+          "description": "Até que série sua mãe, ou a mulher responsável por você, estudou?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Nunca estudou."
+            },
+            {
+              "code": "B",
+              "label": "Não completou a 4ª série/5º ano do Ensino Fundamental."
+            },
+            {
+              "code": "C",
+              "label": "Completou a 4ª série/5º ano, mas não completou a 8ª série/9º ano do Ensino Fundamental."
+            },
+            {
+              "code": "D",
+              "label": "Completou a 8ª série/9º ano do Ensino Fundamental, mas não completou o Ensino Médio."
+            },
+            {
+              "code": "E",
+              "label": "Completou o Ensino Médio, mas não completou a Faculdade."
+            },
+            {
+              "code": "F",
+              "label": "Completou a Faculdade, mas não completou a Pós-graduação."
+            },
+            {
+              "code": "G",
+              "label": "Completou a Pós-graduação."
+            },
+            {
+              "code": "H",
+              "label": "Não sei."
+            }
+          ]
+        },
+        "Q003": {
+          "description": "A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação do seu pai ou do homem responsável por você. (Se ele não estiver trabalhando, escolha uma ocupação pensando no último trabalho dele).",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Grupo 1: Lavrador, agricultor sem empregados, bóia fria, criador de animais (gado, porcos, galinhas, ovelhas, cavalos etc.), apicultor, pescador, lenhador, seringueiro, extrativista."
+            },
+            {
+              "code": "B",
+              "label": "Grupo 2: Diarista, empregado doméstico, cuidador de idosos, babá, cozinheiro (em casas particulares), motorista particular, jardineiro, faxineiro de empresas e prédios, vigilante, porteiro, carteiro, office-boy, vendedor, caixa, atendente de loja, auxiliar administrativo, recepcionista, servente de pedreiro, repositor de mercadoria."
+            },
+            {
+              "code": "C",
+              "label": "Grupo 3: Padeiro, cozinheiro industrial ou em restaurantes, sapateiro, costureiro, joalheiro, torneiro mecânico, operador de máquinas, soldador, operário de fábrica, trabalhador da mineração, pedreiro, pintor, eletricista, encanador, motorista, caminhoneiro, taxista."
+            },
+            {
+              "code": "D",
+              "label": "Grupo 4: Professor (de ensino fundamental ou médio, idioma, música, artes etc.), técnico (de enfermagem, contabilidade, eletrônica etc.), policial, militar de baixa patente (soldado, cabo, sargento), corretor de imóveis, supervisor, gerente, mestre de obras, pastor, microempresário (proprietário de empresa com menos de 10 empregados), pequeno comerciante, pequeno proprietário de terras, trabalhador autônomo ou por conta própria."
+            },
+            {
+              "code": "E",
+              "label": "Grupo 5: Médico, engenheiro, dentista, psicólogo, economista, advogado, juiz, promotor, defensor, delegado, tenente, capitão, coronel, professor universitário, diretor em empresas públicas ou privadas, político, proprietário de empresas com mais de 10 empregados."
+            },
+            {
+              "code": "F",
+              "label": "Não sei."
+            }
+          ]
+        },
+        "Q004": {
+          "description": "A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação da sua mãe ou da mulher responsável por você. (Se ela não estiver trabalhando, escolha uma ocupação pensando no último trabalho dela).",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Grupo 1: Lavradora, agricultora sem empregados, bóia fria, criadora de animais (gado, porcos, galinhas, ovelhas, cavalos etc.), apicultora, pescadora, lenhadora, seringueira, extrativista."
+            },
+            {
+              "code": "B",
+              "label": "Grupo 2: Diarista, empregada doméstica, cuidadora de idosos, babá, cozinheira (em casas particulares), motorista particular, jardineira, faxineira de empresas e prédios, vigilante, porteira, carteira, office-boy, vendedora, caixa, atendente de loja, auxiliar administrativa, recepcionista, servente de pedreiro, repositora de mercadoria."
+            },
+            {
+              "code": "C",
+              "label": "Grupo 3: Padeira, cozinheira industrial ou em restaurantes, sapateira, costureira, joalheira, torneira mecânica, operadora de máquinas, soldadora, operária de fábrica, trabalhadora da mineração, pedreira, pintora, eletricista, encanadora, motorista, caminhoneira, taxista."
+            },
+            {
+              "code": "D",
+              "label": "Grupo 4: Professora (de ensino fundamental ou médio, idioma, música, artes etc.), técnica (de enfermagem, contabilidade, eletrônica etc.), policial, militar de baixa patente (soldado, cabo, sargento), corretora de imóveis, supervisora, gerente, mestre de obras, pastora, microempresária (proprietária de empresa com menos de 10 empregados), pequena comerciante, pequena proprietária de terras, trabalhadora autônoma ou por conta própria."
+            },
+            {
+              "code": "E",
+              "label": "Grupo 5: Médica, engenheira, dentista, psicóloga, economista, advogada, juíza, promotora, defensora, delegada, tenente, capitã, coronel, professora universitária, diretora em empresas públicas ou privadas, política, proprietária de empresas com mais de 10 empregados."
+            },
+            {
+              "code": "F",
+              "label": "Não sei."
+            }
+          ]
+        },
+        "Q005": {
+          "description": "Incluindo você, quantas pessoas moram atualmente em sua residência?",
+          "categories": [
+            {
+              "code": 1,
+              "label": "1, pois moro sozinho(a)."
+            },
+            {
+              "code": 2,
+              "label": "2"
+            },
+            {
+              "code": 3,
+              "label": "3"
+            },
+            {
+              "code": 4,
+              "label": "4"
+            },
+            {
+              "code": 5,
+              "label": "5"
+            },
+            {
+              "code": 6,
+              "label": "6"
+            },
+            {
+              "code": 7,
+              "label": "7"
+            },
+            {
+              "code": 8,
+              "label": "8"
+            },
+            {
+              "code": 9,
+              "label": "9"
+            },
+            {
+              "code": 10,
+              "label": "10"
+            },
+            {
+              "code": 11,
+              "label": "11"
+            },
+            {
+              "code": 12,
+              "label": "12"
+            },
+            {
+              "code": 13,
+              "label": "13"
+            },
+            {
+              "code": 14,
+              "label": "14"
+            },
+            {
+              "code": 15,
+              "label": "15"
+            },
+            {
+              "code": 16,
+              "label": "16"
+            },
+            {
+              "code": 17,
+              "label": "17"
+            },
+            {
+              "code": 18,
+              "label": "18"
+            },
+            {
+              "code": 19,
+              "label": "19"
+            },
+            {
+              "code": 20,
+              "label": "20"
+            }
+          ]
+        },
+        "Q006": {
+          "description": "Qual é a renda mensal de sua família? (Some a sua renda com a dos seus familiares.)",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Nenhuma Renda"
+            },
+            {
+              "code": "B",
+              "label": "Até R$ 1.100,00"
+            },
+            {
+              "code": "C",
+              "label": "De R$ 1.100,01 até R$ 1.650,00."
+            },
+            {
+              "code": "D",
+              "label": "De R$ 1.650,01 até R$ 2.200,00."
+            },
+            {
+              "code": "E",
+              "label": "De R$ 2.200,01 até R$ 2.750,00."
+            },
+            {
+              "code": "F",
+              "label": "De R$ 2.750,01 até R$ 3.300,00."
+            },
+            {
+              "code": "G",
+              "label": "De R$ 3.300,01 até R$ 4.400,00."
+            },
+            {
+              "code": "H",
+              "label": "De R$ 4.400,01 até R$ 5.500,00."
+            },
+            {
+              "code": "I",
+              "label": "De R$ 5.500,01 até R$ 6.600,00."
+            },
+            {
+              "code": "J",
+              "label": "De R$ 6.600,01 até R$ 7.700,00."
+            },
+            {
+              "code": "K",
+              "label": "De R$ 7.700,01 até R$ 8.800,00."
+            },
+            {
+              "code": "L",
+              "label": "De R$ 8.800,01 até R$ 9.900,00."
+            },
+            {
+              "code": "M",
+              "label": "De R$ 9.900,01 até R$ 11.000,00."
+            },
+            {
+              "code": "N",
+              "label": "De R$ 11.000,01 até R$ 13.200,00."
+            },
+            {
+              "code": "O",
+              "label": "De R$ 13.200,01 até R$ 16.500,00."
+            },
+            {
+              "code": "P",
+              "label": "De R$ 16.500,01 até R$ 22.000,00."
+            },
+            {
+              "code": "Q",
+              "label": "Acima de R$ 22.000,00."
+            }
+          ]
+        },
+        "Q007": {
+          "description": "Em sua residência trabalha empregado(a) doméstico(a)?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, um ou dois dias por semana."
+            },
+            {
+              "code": "C",
+              "label": "Sim, três ou quatro dias por semana."
+            },
+            {
+              "code": "D",
+              "label": "Sim, pelo menos cinco dias por semana."
+            }
+          ]
+        },
+        "Q008": {
+          "description": "Na sua residência tem banheiro?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, um."
+            },
+            {
+              "code": "C",
+              "label": "Sim, dois."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q009": {
+          "description": "Na sua residência tem quartos para dormir?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, um."
+            },
+            {
+              "code": "C",
+              "label": "Sim, dois."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q010": {
+          "description": "Na sua residência tem carro?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, um."
+            },
+            {
+              "code": "C",
+              "label": "Sim, dois."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q011": {
+          "description": "Na sua residência tem motocicleta?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, uma."
+            },
+            {
+              "code": "C",
+              "label": "Sim, duas."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q012": {
+          "description": "Na sua residência tem geladeira?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, uma."
+            },
+            {
+              "code": "C",
+              "label": "Sim, duas."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q013": {
+          "description": "Na sua residência tem freezer (independente ou segunda porta da geladeira)?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, um."
+            },
+            {
+              "code": "C",
+              "label": "Sim, dois."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q014": {
+          "description": "Na sua residência tem máquina de lavar roupa? (o tanquinho NÃO deve ser considerado)",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, uma."
+            },
+            {
+              "code": "C",
+              "label": "Sim, duas."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q015": {
+          "description": "Na sua residência tem máquina de secar roupa (independente ou em conjunto com a máquina de lavar roupa)?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, uma."
+            },
+            {
+              "code": "C",
+              "label": "Sim, duas."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q016": {
+          "description": "Na sua residência tem forno micro-ondas?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, um."
+            },
+            {
+              "code": "C",
+              "label": "Sim, dois."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q017": {
+          "description": "Na sua residência tem máquina de lavar louça?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, uma."
+            },
+            {
+              "code": "C",
+              "label": "Sim, duas."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q018": {
+          "description": "Na sua residência tem aspirador de pó?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim."
+            }
+          ]
+        },
+        "Q019": {
+          "description": "Na sua residência tem televisão em cores?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, uma."
+            },
+            {
+              "code": "C",
+              "label": "Sim, duas."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q020": {
+          "description": "Na sua residência tem aparelho de DVD?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim."
+            }
+          ]
+        },
+        "Q021": {
+          "description": "Na sua residência tem TV por assinatura?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim."
+            }
+          ]
+        },
+        "Q022": {
+          "description": "Na sua residência tem telefone celular?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, um."
+            },
+            {
+              "code": "C",
+              "label": "Sim, dois."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q023": {
+          "description": "Na sua residência tem telefone fixo?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim."
+            }
+          ]
+        },
+        "Q024": {
+          "description": "Na sua residência tem computador?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim, um."
+            },
+            {
+              "code": "C",
+              "label": "Sim, dois."
+            },
+            {
+              "code": "D",
+              "label": "Sim, três."
+            },
+            {
+              "code": "E",
+              "label": "Sim, quatro ou mais."
+            }
+          ]
+        },
+        "Q025": {
+          "description": "Na sua residência tem acesso à Internet?",
+          "categories": [
+            {
+              "code": "A",
+              "label": "Não."
+            },
+            {
+              "code": "B",
+              "label": "Sim."
+            }
+          ]
+        }
+      },
+      "rows": [
+        [
+          "DICIONÁRIO DE VARIÁVEIS - ENEM 2021",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NOME DA VARIÁVEL",
+          "Descrição",
+          "Variáveis Categóricas",
+          null,
+          "Tamanho ",
+          "Tipo"
+        ],
+        [
+          null,
+          null,
+          "Categoria",
+          "Descrição",
+          null,
+          null
+        ],
+        [
+          "DADOS DO PARTICIPANTE",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NU_INSCRICAO",
+          "Número de inscrição1 ",
+          null,
+          null,
+          12,
+          "Numérica"
+        ],
+        [
+          "NU_ANO",
+          "Ano do Enem",
+          null,
+          null,
+          4,
+          "Numérica"
+        ],
+        [
+          "TP_FAIXA_ETARIA",
+          "Faixa etária2",
+          1,
+          "Menor de 17 anos",
+          2,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "17 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "18 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "19 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          "20 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          6,
+          "21 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          7,
+          "22 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          8,
+          "23 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          9,
+          "24 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          10,
+          "25 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          11,
+          "Entre 26 e 30 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          12,
+          "Entre 31 e 35 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          13,
+          "Entre 36 e 40 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          14,
+          "Entre 41 e 45 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          15,
+          "Entre 46 e 50 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          16,
+          "Entre 51 e 55 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          17,
+          "Entre 56 e 60 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          18,
+          "Entre 61 e 65 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          19,
+          "Entre 66 e 70 anos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          20,
+          "Maior de 70 anos",
+          null,
+          null
+        ],
+        [
+          "TP_SEXO",
+          "Sexo",
+          "M",
+          "Masculino",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Feminino ",
+          null,
+          null
+        ],
+        [
+          "TP_ESTADO_CIVIL",
+          "Estado Civil",
+          0,
+          "Não informado",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Solteiro(a)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Casado(a)/Mora com companheiro(a)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Divorciado(a)/Desquitado(a)/Separado(a)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Viúvo(a)",
+          null,
+          null
+        ],
+        [
+          "TP_COR_RACA",
+          "Cor/raça",
+          0,
+          "Não declarado",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Branca",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Preta",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Parda",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Amarela",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          "Indígena ",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          6,
+          "Não dispõe da informação",
+          null,
+          null
+        ],
+        [
+          "TP_NACIONALIDADE",
+          "Nacionalidade",
+          0,
+          "Não informado",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Brasileiro(a)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Brasileiro(a) Naturalizado(a)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Estrangeiro(a)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Brasileiro(a) Nato(a), nascido(a) no exterior",
+          null,
+          null
+        ],
+        [
+          "TP_ST_CONCLUSAO",
+          "Situação de conclusão do Ensino Médio",
+          1,
+          "Já concluí o Ensino Médio",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Estou cursando e concluirei o Ensino Médio em 2021",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Estou cursando e concluirei o Ensino Médio após 2021",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Não concluí e não estou cursando o Ensino Médio",
+          null,
+          null
+        ],
+        [
+          "TP_ANO_CONCLUIU",
+          "Ano de Conclusão do Ensino Médio",
+          0,
+          "Não informado",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          2020,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          2019,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          2018,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          2017,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          2016,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          6,
+          2015,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          7,
+          2014,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          8,
+          2013,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          9,
+          2012,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          10,
+          2011,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          11,
+          2010,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          12,
+          2009,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          13,
+          2008,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          14,
+          2007,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          15,
+          "Antes de 2007",
+          null,
+          null
+        ],
+        [
+          "TP_ESCOLA",
+          "Tipo de escola do Ensino Médio",
+          1,
+          "Não Respondeu",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Pública",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Privada",
+          null,
+          null
+        ],
+        [
+          "TP_ENSINO",
+          "Tipo de instituição que concluiu ou concluirá o Ensino Médio ",
+          1,
+          "Ensino Regular",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Educação Especial - Modalidade Substitutiva",
+          null,
+          null
+        ],
+        [
+          "IN_TREINEIRO",
+          "Indica se o inscrito fez a prova com intuito de apenas treinar seus conhecimentos3",
+          1,
+          "Sim",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          0,
+          "Não",
+          null,
+          null
+        ],
+        [
+          "DADOS DA ESCOLA",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "CO_MUNICIPIO_ESC\n",
+          "Código do município da escola ",
+          null,
+          null,
+          7,
+          "Numérica"
+        ],
+        [
+          null,
+          "1º dígito: Região",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "1º e 2º dígitos: UF",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "3º, 4º, 5º e 6º dígitos: Município",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "7º dígito: dígito verificador",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NO_MUNICIPIO_ESC",
+          "Nome do município da escola",
+          null,
+          null,
+          150,
+          "Alfanumérica"
+        ],
+        [
+          "CO_UF_ESC",
+          "Código da Unidade da Federação da escola",
+          null,
+          null,
+          2,
+          "Numérica"
+        ],
+        [
+          "SG_UF_ESC",
+          "Sigla da Unidade da Federação da escola",
+          null,
+          null,
+          2,
+          "Alfanumérica"
+        ],
+        [
+          "TP_DEPENDENCIA_ADM_ESC",
+          "Dependência administrativa (Escola)",
+          1,
+          "Federal",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Estadual",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Municipal",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Privada",
+          null,
+          null
+        ],
+        [
+          "TP_LOCALIZACAO_ESC",
+          "Localização (Escola)",
+          1,
+          "Urbana",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Rural",
+          null,
+          null
+        ],
+        [
+          "TP_SIT_FUNC_ESC",
+          "Situação de funcionamento (Escola)",
+          1,
+          "Em atividade",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Paralisada",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Extinta",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Escola extinta em anos anteriores.",
+          null,
+          null
+        ],
+        [
+          "DADOS DO LOCAL DE APLICAÇÃO DA PROVA",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "CO_MUNICIPIO_PROVA",
+          "Código do município da aplicação da prova",
+          null,
+          null,
+          7,
+          "Numérica"
+        ],
+        [
+          null,
+          "1º dígito: Região",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "1º e 2º dígitos: UF",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "3º, 4º, 5º e 6º dígitos: Município",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "7º dígito: dígito verificador",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NO_MUNICIPIO_PROVA",
+          "Nome do município da aplicação da prova",
+          null,
+          null,
+          150,
+          "Alfanumérica"
+        ],
+        [
+          "CO_UF_PROVA",
+          "Código da Unidade da Federação da aplicação da prova",
+          null,
+          null,
+          2,
+          "Alfanumérica"
+        ],
+        [
+          "SG_UF_PROVA",
+          "Sigla da Unidade da Federação da aplicação da prova",
+          null,
+          null,
+          2,
+          "Alfanumérica"
+        ],
+        [
+          "DADOS DA PROVA OBJETIVA",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "TP_PRESENCA_CN",
+          "Presença na prova objetiva de Ciências da Natureza",
+          0,
+          "Faltou à prova",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Presente na prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Eliminado na prova",
+          null,
+          null
+        ],
+        [
+          "TP_PRESENCA_CH",
+          "Presença na prova objetiva de Ciências Humanas",
+          0,
+          "Faltou à prova",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Presente na prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Eliminado na prova",
+          null,
+          null
+        ],
+        [
+          "TP_PRESENCA_LC",
+          "Presença na prova objetiva de Linguagens e Códigos",
+          0,
+          "Faltou à prova",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Presente na prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Eliminado na prova",
+          null,
+          null
+        ],
+        [
+          "TP_PRESENCA_MT",
+          "Presença na prova objetiva de Matemática",
+          0,
+          "Faltou à prova",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Presente na prova",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          2,
+          "Eliminado na prova",
+          null,
+          null
+        ],
+        [
+          "CO_PROVA_CN",
+          "Código do tipo de prova de Ciências da Natureza",
+          909,
+          "Azul",
+          4,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          910,
+          "Amarela",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          911,
+          "Cinza",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          912,
+          "Rosa",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          915,
+          "Laranja - Braille",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          916,
+          "Laranja - Adaptada Ledor",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          917,
+          "Verde - Videoprova - Libras",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          989,
+          "Azul (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          990,
+          "Amarela (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          991,
+          "Cinza (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          992,
+          "Rosa (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          996,
+          "Laranja - Adaptada Ledor (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1011,
+          "Azul (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1012,
+          "Amarela (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1013,
+          "Rosa (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1014,
+          "Cinza (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1045,
+          "Azul (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1046,
+          "Amarela (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1047,
+          "Cinza (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1048,
+          "Rosa (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1052,
+          "Laranja - Adaptada Ledor (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          "CO_PROVA_CH",
+          "Código do tipo de prova de Ciências Humanas",
+          879,
+          "Azul",
+          4,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          880,
+          "Amarela",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          881,
+          "Branca",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          882,
+          "Rosa",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          885,
+          "Laranja - Braille",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          886,
+          "Laranja - Adaptada Ledor",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          887,
+          "Verde - Videoprova - Libras",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          959,
+          "Azul (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          960,
+          "Amarela (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          961,
+          "Branca (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          962,
+          "Rosa (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          966,
+          "Laranja - Adaptada Ledor (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          999,
+          "Azul (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1000,
+          "Amarela (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1001,
+          "Branca (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1002,
+          "Rosa (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1015,
+          "Azul (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1016,
+          "Amarela (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1017,
+          "Branca (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1018,
+          "Rosa (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1022,
+          "Laranja - Adaptada Ledor (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          "CO_PROVA_LC",
+          "Código do tipo de prova de Linguagens e Códigos",
+          889,
+          "Azul",
+          4,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          890,
+          "Amarela",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          891,
+          "Rosa",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          892,
+          "Branca",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          895,
+          "Laranja - Braille",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          896,
+          "Laranja - Adaptada Ledor",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          897,
+          "Verde - Videoprova - Libras",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          969,
+          "Azul (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          970,
+          "Amarela (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          971,
+          "Rosa (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          972,
+          "Branca (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          976,
+          "Laranja - Adaptada Ledor (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1003,
+          "Azul (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1004,
+          "Amarela (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1005,
+          "Branca (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1006,
+          "Rosa (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1025,
+          "Azul (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1026,
+          "Amarela (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1027,
+          "Rosa (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1028,
+          "Branca (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1032,
+          "Laranja - Adaptada Ledor (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          "CO_PROVA_MT",
+          "Código do tipo de prova de Matemática",
+          899,
+          "Azul",
+          4,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          900,
+          "Amarela",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          901,
+          "Rosa",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          902,
+          "Cinza",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          905,
+          "Laranja - Braille",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          906,
+          "Laranja - Adaptada Ledor",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          907,
+          "Verde - Videoprova - Libras",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          979,
+          "Azul (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          980,
+          "Amarela (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          981,
+          "Rosa (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          982,
+          "Cinza (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          986,
+          "Laranja - Adaptada Ledor (Reaplicação)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1007,
+          "Azul (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1008,
+          "Amarela (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1009,
+          "Rosa (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1010,
+          "Cinza (Digital)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1035,
+          "Azul (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1036,
+          "Amarela (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1037,
+          "Cinza (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1038,
+          "Rosa (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          1042,
+          "Laranja - Adaptada Ledor (Segunda oportunidade)",
+          null,
+          null
+        ],
+        [
+          "NU_NOTA_CN",
+          "Nota da prova de Ciências da Natureza",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_CH",
+          "Nota da prova de Ciências Humanas",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_LC",
+          "Nota da prova de Linguagens e Códigos",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_MT",
+          "Nota da prova de Matemática",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "TX_RESPOSTAS_CN",
+          "Vetor com as respostas da parte objetiva da prova de Ciências da Natureza4 ",
+          null,
+          "A,B,C,D, E, * (dupla marcação), . (em branco)",
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_RESPOSTAS_CH",
+          "Vetor com as respostas da parte objetiva da prova de Ciências Humanas4",
+          null,
+          "A,B,C,D, E, * (dupla marcação), . (em branco)",
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_RESPOSTAS_LC",
+          "Vetor com as respostas da parte objetiva da prova de Linguagens e Códigos5 ",
+          null,
+          "A,B,C,D, E, * (dupla marcação), . (em branco), 9 (Item não apresentado)",
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_RESPOSTAS_MT",
+          "Vetor com as respostas da parte objetiva da prova de Matemática4 ",
+          null,
+          "A,B,C,D, E, * (dupla marcação), . (em branco)",
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TP_LINGUA",
+          "Língua Estrangeira ",
+          0,
+          "Inglês",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Espanhol",
+          null,
+          null
+        ],
+        [
+          "TX_GABARITO_CN",
+          "Vetor com o gabarito da parte objetiva da prova de Ciências da Natureza6 ",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_GABARITO_CH",
+          "Vetor com o gabarito da parte objetiva da prova de Ciências Humanas6 ",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "TX_GABARITO_LC",
+          "Vetor com o gabarito da parte objetiva da prova de Linguagens e Códigos7 ",
+          null,
+          null,
+          50,
+          "Alfanumérica"
+        ],
+        [
+          "TX_GABARITO_MT",
+          "Vetor com o gabarito da parte objetiva da prova de Matemática6",
+          null,
+          null,
+          45,
+          "Alfanumérica"
+        ],
+        [
+          "DADOS DA REDAÇÃO",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "TP_STATUS_REDACAO",
+          "Situação da redação do participante",
+          1,
+          "Sem problemas",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "Anulada",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "Cópia Texto Motivador",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "Em Branco",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          6,
+          "Fuga ao tema",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          7,
+          "Não atendimento ao tipo textual",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          8,
+          "Texto insuficiente",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          9,
+          "Parte desconectada",
+          null,
+          null
+        ],
+        [
+          "NU_NOTA_COMP1",
+          "Nota da competência 1 - Demonstrar domínio da modalidade escrita formal da Língua Portuguesa.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_COMP2",
+          "Nota da competência 2 - Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_COMP3",
+          "Nota da competência 3 - Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_COMP4",
+          "Nota da competência 4 - Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_COMP5",
+          "Nota da competência 5 - Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_NOTA_REDACAO",
+          "Nota da prova de redação",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "DADOS DO QUESTIONÁRIO SOCIOECONÔMICO",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Q001",
+          "Até que série seu pai, ou o homem responsável por você, estudou?",
+          "A",
+          "Nunca estudou.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não completou a 4ª série/5º ano do Ensino Fundamental.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Completou a 4ª série/5º ano, mas não completou a 8ª série/9º ano do Ensino Fundamental.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Completou a 8ª série/9º ano do Ensino Fundamental, mas não completou o Ensino Médio.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Completou o Ensino Médio, mas não completou a Faculdade.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Completou a Faculdade, mas não completou a Pós-graduação.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Completou a Pós-graduação.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "Não sei.",
+          null,
+          null
+        ],
+        [
+          "Q002",
+          "Até que série sua mãe, ou a mulher responsável por você, estudou?",
+          "A",
+          "Nunca estudou.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Não completou a 4ª série/5º ano do Ensino Fundamental.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Completou a 4ª série/5º ano, mas não completou a 8ª série/9º ano do Ensino Fundamental.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Completou a 8ª série/9º ano do Ensino Fundamental, mas não completou o Ensino Médio.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Completou o Ensino Médio, mas não completou a Faculdade.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Completou a Faculdade, mas não completou a Pós-graduação.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "Completou a Pós-graduação.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "Não sei.",
+          null,
+          null
+        ],
+        [
+          "Q003",
+          "A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação do seu pai ou do homem responsável por você. (Se ele não estiver trabalhando, escolha uma ocupação pensando no último trabalho dele).",
+          "A",
+          "Grupo 1: Lavrador, agricultor sem empregados, bóia fria, criador de animais (gado, porcos, galinhas, ovelhas, cavalos etc.), apicultor, pescador, lenhador, seringueiro, extrativista.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Grupo 2: Diarista, empregado doméstico, cuidador de idosos, babá, cozinheiro (em casas particulares), motorista particular, jardineiro, faxineiro de empresas e prédios, vigilante, porteiro, carteiro, office-boy, vendedor, caixa, atendente de loja, auxiliar administrativo, recepcionista, servente de pedreiro, repositor de mercadoria.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Grupo 3: Padeiro, cozinheiro industrial ou em restaurantes, sapateiro, costureiro, joalheiro, torneiro mecânico, operador de máquinas, soldador, operário de fábrica, trabalhador da mineração, pedreiro, pintor, eletricista, encanador, motorista, caminhoneiro, taxista.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Grupo 4: Professor (de ensino fundamental ou médio, idioma, música, artes etc.), técnico (de enfermagem, contabilidade, eletrônica etc.), policial, militar de baixa patente (soldado, cabo, sargento), corretor de imóveis, supervisor, gerente, mestre de obras, pastor, microempresário (proprietário de empresa com menos de 10 empregados), pequeno comerciante, pequeno proprietário de terras, trabalhador autônomo ou por conta própria.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Grupo 5: Médico, engenheiro, dentista, psicólogo, economista, advogado, juiz, promotor, defensor, delegado, tenente, capitão, coronel, professor universitário, diretor em empresas públicas ou privadas, político, proprietário de empresas com mais de 10 empregados.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Não sei.",
+          null,
+          null
+        ],
+        [
+          "Q004",
+          "A partir da apresentação de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupação mais próxima da ocupação da sua mãe ou da mulher responsável por você. (Se ela não estiver trabalhando, escolha uma ocupação pensando no último trabalho dela).",
+          "A",
+          "Grupo 1: Lavradora, agricultora sem empregados, bóia fria, criadora de animais (gado, porcos, galinhas, ovelhas, cavalos etc.), apicultora, pescadora, lenhadora, seringueira, extrativista.",
+          2,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Grupo 2: Diarista, empregada doméstica, cuidadora de idosos, babá, cozinheira (em casas particulares), motorista particular, jardineira, faxineira de empresas e prédios, vigilante, porteira, carteira, office-boy, vendedora, caixa, atendente de loja, auxiliar administrativa, recepcionista, servente de pedreiro, repositora de mercadoria.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Grupo 3: Padeira, cozinheira industrial ou em restaurantes, sapateira, costureira, joalheira, torneira mecânica, operadora de máquinas, soldadora, operária de fábrica, trabalhadora da mineração, pedreira, pintora, eletricista, encanadora, motorista, caminhoneira, taxista.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Grupo 4: Professora (de ensino fundamental ou médio, idioma, música, artes etc.), técnica (de enfermagem, contabilidade, eletrônica etc.), policial, militar de baixa patente (soldado, cabo, sargento), corretora de imóveis, supervisora, gerente, mestre de obras, pastora, microempresária (proprietária de empresa com menos de 10 empregados), pequena comerciante, pequena proprietária de terras, trabalhadora autônoma ou por conta própria.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Grupo 5: Médica, engenheira, dentista, psicóloga, economista, advogada, juíza, promotora, defensora, delegada, tenente, capitã, coronel, professora universitária, diretora em empresas públicas ou privadas, política, proprietária de empresas com mais de 10 empregados.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "Não sei.",
+          null,
+          null
+        ],
+        [
+          "Q005",
+          "Incluindo você, quantas pessoas moram atualmente em sua residência?",
+          1,
+          "1, pois moro sozinho(a).",
+          2,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          2,
+          "2",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          3,
+          "3",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          4,
+          "4",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          5,
+          "5",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          6,
+          "6",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          7,
+          "7",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          8,
+          "8",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          9,
+          "9",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          10,
+          "10",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          11,
+          "11",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          12,
+          "12",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          13,
+          "13",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          14,
+          "14",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          15,
+          "15",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          16,
+          "16",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          17,
+          "17",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          18,
+          "18",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          19,
+          "19",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          20,
+          "20",
+          null,
+          null
+        ],
+        [
+          "Q006",
+          "Qual é a renda mensal de sua família? (Some a sua renda com a dos seus familiares.)",
+          "A",
+          "Nenhuma Renda",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Até R$ 1.100,00",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "De R$ 1.100,01 até R$ 1.650,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "De R$ 1.650,01 até R$ 2.200,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "De R$ 2.200,01 até R$ 2.750,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "F",
+          "De R$ 2.750,01 até R$ 3.300,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "G",
+          "De R$ 3.300,01 até R$ 4.400,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "H",
+          "De R$ 4.400,01 até R$ 5.500,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "I",
+          "De R$ 5.500,01 até R$ 6.600,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "J",
+          "De R$ 6.600,01 até R$ 7.700,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "K",
+          "De R$ 7.700,01 até R$ 8.800,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "L",
+          "De R$ 8.800,01 até R$ 9.900,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "M",
+          "De R$ 9.900,01 até R$ 11.000,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "N",
+          "De R$ 11.000,01 até R$ 13.200,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "O",
+          "De R$ 13.200,01 até R$ 16.500,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "P",
+          "De R$ 16.500,01 até R$ 22.000,00.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "Q",
+          "Acima de R$ 22.000,00.",
+          null,
+          null
+        ],
+        [
+          "Q007",
+          "Em sua residência trabalha empregado(a) doméstico(a)?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, um ou dois dias por semana.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, três ou quatro dias por semana.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, pelo menos cinco dias por semana.",
+          null,
+          null
+        ],
+        [
+          "Q008",
+          "Na sua residência tem banheiro?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, um.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, dois.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q009",
+          "Na sua residência tem quartos para dormir?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, um.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, dois.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q010",
+          "Na sua residência tem carro?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, um.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, dois.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q011",
+          "Na sua residência tem motocicleta?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, uma.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, duas.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q012",
+          "Na sua residência tem geladeira?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, uma.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, duas.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q013",
+          "Na sua residência tem freezer (independente ou segunda porta da geladeira)?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, um.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, dois.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q014",
+          "Na sua residência tem máquina de lavar roupa? (o tanquinho NÃO deve ser considerado)",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, uma.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, duas.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q015",
+          "Na sua residência tem máquina de secar roupa (independente ou em conjunto com a máquina de lavar roupa)?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, uma.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, duas.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q016",
+          "Na sua residência tem forno micro-ondas?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, um.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, dois.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q017",
+          "Na sua residência tem máquina de lavar louça?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, uma.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, duas.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q018",
+          "Na sua residência tem aspirador de pó?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim.",
+          null,
+          null
+        ],
+        [
+          "Q019",
+          "Na sua residência tem televisão em cores?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, uma.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, duas.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q020",
+          "Na sua residência tem aparelho de DVD?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim.",
+          null,
+          null
+        ],
+        [
+          "Q021",
+          "Na sua residência tem TV por assinatura?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim.",
+          null,
+          null
+        ],
+        [
+          "Q022",
+          "Na sua residência tem telefone celular?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, um.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, dois.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q023",
+          "Na sua residência tem telefone fixo?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim.",
+          null,
+          null
+        ],
+        [
+          "Q024",
+          "Na sua residência tem computador?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim, um.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "C",
+          "Sim, dois.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "D",
+          "Sim, três.",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "E",
+          "Sim, quatro ou mais.",
+          null,
+          null
+        ],
+        [
+          "Q025",
+          "Na sua residência tem acesso à Internet?",
+          "A",
+          "Não.",
+          1,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "B",
+          "Sim.",
+          null,
+          null
+        ],
+        [
+          "1. Referente ao Enem 2021, trata-se de uma máscara e não o seu número de inscrição original no Enem. O mesmo NU_INSCRICAO para anos diferentes não identifica o mesmo participante no exame, não permite o acesso aos dados cadastrais como nome, endereço, RG etc, nem identifica o mesmo participante em microdados de pesquisas diferentes.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "2. A partir da Idade do inscrito em 31/12/2021.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "3. Foi considerado treineiro o inscrito que não havia concluído o ensino médio e não o concluiria em 2021",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "4. As 45 primeiras posições deste campo são referentes as respectivas respostas. O asterisco (*) indica dupla marcação e o ponto (.) resposta em branco.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "5. As 45 primeiras posições deste campo são referentes as respectivas respostas, das quais as 5 primeiras correspondem a parte de língua estrangeira. O asterisco (*) indica dupla marcação e o ponto (.) resposta em branco.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "6. As 45 primeiras posições deste campo são referentes ao respectivo gabarito",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "7. As 50 primeiras posições deste campo são referentes ao respectivo gabarito, das quais, para as 10 primeiras, as 5 primeiras correspondem à prova de Lingua Inglesa e as outras 5 à prova de Lingua Espanhola.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "ITENS_PROVA_2021": {
+      "variables": {
+        "CO_POSICAO": {
+          "description": "Posição do Item na Prova",
+          "categories": []
+        },
+        "SG_AREA": {
+          "description": "Área de Conhecimento do Item",
+          "categories": [
+            {
+              "code": "CH",
+              "label": "Ciências Humanas"
+            },
+            {
+              "code": "CN",
+              "label": "Ciências da Natureza"
+            },
+            {
+              "code": "LC",
+              "label": "Linguagens e Códigos"
+            },
+            {
+              "code": "MT",
+              "label": "Matemática"
+            }
+          ]
+        },
+        "CO_ITEM": {
+          "description": "Código do Item",
+          "categories": []
+        },
+        "TX_GABARITO": {
+          "description": "Gabarito do Item¹",
+          "categories": []
+        },
+        "CO_HABILIDADE": {
+          "description": "Habilidade do Item",
+          "categories": []
+        },
+        "IN_ITEM_ABAN": {
+          "description": "Indicador de item abandonado",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Não"
+            },
+            {
+              "code": 1,
+              "label": "Sim"
+            }
+          ]
+        },
+        "TX_MOTIVO_ABAN": {
+          "description": "Motivo para o abandono do item",
+          "categories": []
+        },
+        "NU_PARAM_A": {
+          "description": "Parâmetro de discriminação: é o poder de discriminação do item para diferenciar os participantes que dominam dos participantes que não dominam a habilidade avaliada.",
+          "categories": []
+        },
+        "NU_PARAM_B": {
+          "description": "Parâmetro de dificuldade: associado à dificuldade do item, sendo que quanto maior seu valor, mais difícil é o item.",
+          "categories": []
+        },
+        "NU_PARAM_C": {
+          "description": "Parâmetro de acerto ao acaso: é a probabilidade de um participante acertar o item não dominando a habilidade exigida.",
+          "categories": []
+        },
+        "TX_COR": {
+          "description": "Cor da Prova",
+          "categories": []
+        },
+        "CO_PROVA": {
+          "description": "Identificador da Prova",
+          "categories": []
+        },
+        "TP_LINGUA": {
+          "description": "Língua Estrangeira ",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Inglês"
+            },
+            {
+              "code": 1,
+              "label": "Espanhol"
+            }
+          ]
+        },
+        "IN_ITEM_ADAPTADO": {
+          "description": "Item pertencente à prova adaptada",
+          "categories": [
+            {
+              "code": 0,
+              "label": "Não"
+            },
+            {
+              "code": 1,
+              "label": "Sim"
+            }
+          ]
+        }
+      },
+      "rows": [
+        [
+          "ITENS",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "NOME DA VARIÁVEL",
+          "Descrição",
+          "Variáveis Categóricas",
+          null,
+          "Tamanho ",
+          "Tipo"
+        ],
+        [
+          null,
+          null,
+          "Categoria",
+          "Descrição",
+          null,
+          null
+        ],
+        [
+          "CO_POSICAO",
+          "Posição do Item na Prova",
+          null,
+          null,
+          3,
+          "Numérica"
+        ],
+        [
+          "SG_AREA",
+          "Área de Conhecimento do Item",
+          "CH",
+          "Ciências Humanas",
+          2,
+          "Alfanumérica"
+        ],
+        [
+          null,
+          null,
+          "CN",
+          "Ciências da Natureza",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "LC",
+          "Linguagens e Códigos",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "MT",
+          "Matemática",
+          null,
+          null
+        ],
+        [
+          "CO_ITEM",
+          "Código do Item",
+          null,
+          null,
+          5,
+          "Numérica"
+        ],
+        [
+          "TX_GABARITO",
+          "Gabarito do Item¹",
+          null,
+          null,
+          1,
+          "Alfanumérica"
+        ],
+        [
+          "CO_HABILIDADE",
+          "Habilidade do Item",
+          null,
+          null,
+          2,
+          "Numérica"
+        ],
+        [
+          "IN_ITEM_ABAN",
+          "Indicador de item abandonado",
+          0,
+          "Não",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Sim",
+          null,
+          null
+        ],
+        [
+          "TX_MOTIVO_ABAN",
+          "Motivo para o abandono do item",
+          null,
+          null,
+          40,
+          "Alfanumérica"
+        ],
+        [
+          "NU_PARAM_A",
+          "Parâmetro de discriminação: é o poder de discriminação do item para diferenciar os participantes que dominam dos participantes que não dominam a habilidade avaliada.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_PARAM_B",
+          "Parâmetro de dificuldade: associado à dificuldade do item, sendo que quanto maior seu valor, mais difícil é o item.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "NU_PARAM_C",
+          "Parâmetro de acerto ao acaso: é a probabilidade de um participante acertar o item não dominando a habilidade exigida.",
+          null,
+          null,
+          9,
+          "Numérica"
+        ],
+        [
+          "TX_COR",
+          "Cor da Prova",
+          null,
+          null,
+          7,
+          "Alfanumérica"
+        ],
+        [
+          "CO_PROVA",
+          "Identificador da Prova",
+          null,
+          null,
+          3,
+          "Numérica"
+        ],
+        [
+          "TP_LINGUA",
+          "Língua Estrangeira ",
+          0,
+          "Inglês",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Espanhol",
+          null,
+          null
+        ],
+        [
+          "IN_ITEM_ADAPTADO",
+          "Item pertencente à prova adaptada",
+          0,
+          "Não",
+          1,
+          "Numérica"
+        ],
+        [
+          null,
+          null,
+          1,
+          "Sim",
+          null,
+          null
+        ],
+        [
+          "1 - Quando TX_GABARITO for igual a \"X\", significa que o item foi anulado.",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  }
+}

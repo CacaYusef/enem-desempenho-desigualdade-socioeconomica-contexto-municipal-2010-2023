@@ -1,0 +1,28 @@
+{
+  "id": "inep_rendimento_2013",
+  "provider": "INEP",
+  "year": 2013,
+  "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2013/taxa_rendimento/tx_rendimento_municipios_2013.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2013",
+  "path": "municipal/inep/rendimento_2013.zip",
+  "format": "zip",
+  "selected_for_model": false,
+  "acquisition_reason": "Contexto educacional: aprovação, reprovação e abandono; todas as redes e etapas preservadas.",
+  "download_started_utc": "2026-09-10T02:44:18.879968+00:00",
+  "download_completed_utc": "2026-09-10T02:44:25.282122+00:00",
+  "bytes": 21427053,
+  "sha256": "6a89c651f52ec682317f2722aeba4ee143786af29e92bd9c832da2a50f20c186",
+  "http_metadata": {
+    "last-modified": "Wed, 10 Sep 2014 17:36:52 GMT",
+    "etag": "\"146f36d-502b97f547500\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "TAXAS RENDIMENTOS MUNICIPIOS 2013.xlsx",
+      "bytes": 22016392,
+      "crc32": "787e400d"
+    }
+  ]
+}

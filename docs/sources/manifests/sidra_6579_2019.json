@@ -1,0 +1,24 @@
+{
+  "id": "sidra_6579_2019",
+  "provider": "IBGE",
+  "table": 6579,
+  "year": 2019,
+  "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2019/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/6579",
+  "path": "municipal/sidra/6579/2019.json",
+  "format": "json",
+  "variables": [
+    9324
+  ],
+  "categories": {},
+  "acquisition_reason": "Porte demográfico anual; estimativas oficiais entre censos.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:38:31.911465+00:00",
+  "download_completed_utc": "2026-09-10T02:38:32.439671+00:00",
+  "bytes": 1508658,
+  "sha256": "313a958cba93409fbff6ff050ba8af7746314dc2219281881fb104ac00ca1ea6",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

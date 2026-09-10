@@ -1,0 +1,38 @@
+{
+  "id": "inep_rendimento_2021",
+  "provider": "INEP",
+  "year": 2021,
+  "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2021/tx_rend_municipios_2021.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2021",
+  "path": "municipal/inep/rendimento_2021.zip",
+  "format": "zip",
+  "selected_for_model": false,
+  "acquisition_reason": "Contexto educacional: aprovação, reprovação e abandono; todas as redes e etapas preservadas.",
+  "download_started_utc": "2026-09-10T02:45:39.304353+00:00",
+  "download_completed_utc": "2026-09-10T02:45:51.972912+00:00",
+  "bytes": 33942286,
+  "sha256": "db50a747b744ed83bcbea9e4f6a3ebe18944aa63951b6a828d6c73fde8e946e8",
+  "http_metadata": {
+    "last-modified": "Thu, 19 May 2022 19:34:00 GMT",
+    "etag": "\"205eb0e-5df6274a03a00\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "tx_rend_municipios_2021/md5_tx_rend_municipios_2021.txt",
+      "bytes": 127,
+      "crc32": "519f897a"
+    },
+    {
+      "name": "tx_rend_municipios_2021/tx_rend_municipios_2021.ods",
+      "bytes": 15619390,
+      "crc32": "7b03ae50"
+    },
+    {
+      "name": "tx_rend_municipios_2021/tx_rend_municipios_2021.xlsx",
+      "bytes": 18739814,
+      "crc32": "6be2c5d2"
+    }
+  ]
+}

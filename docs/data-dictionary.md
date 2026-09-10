@@ -1,6 +1,7 @@
 # Dicionário de dados
 
-Status: inventário inicial. A fonte normativa para 2023 é
+Status: inventário multianual de importação, sem harmonização analítica concluída.
+A fonte normativa para 2023 é
 `data/raw/microdados_enem_2023/microdados_enem_2023/DICIONÁRIO/Dicionário_Microdados_Enem_2023.xlsx`.
 Mapeamentos de códigos devem ser transcritos e validados contra esse arquivo;
 categorias não serão deduzidas pelo nome da variável.
@@ -12,11 +13,44 @@ categorias não serão deduzidas pelo nome da variável.
 | Participantes ENEM 2023 | `DADOS/MICRODADOS_ENEM_2023.csv` | CSV, `;`, Windows-1252, 76 colunas | Uma linha por inscrição, a confirmar no documento técnico | Disponível |
 | Itens de prova 2023 | `DADOS/ITENS_PROVA_2023.csv` | CSV | Item/prova, a confirmar | Disponível |
 | Dicionário oficial 2023 | `DICIONÁRIO/Dicionário_Microdados_Enem_2023.xlsx` | XLSX | Metadados | Disponível |
-| ENEM 2010–2022 | Não fornecido | — | — | Ausente |
-| Contexto municipal | Não fornecido | — | — | Ausente |
+| ENEM 2010–2022 | `data/raw/enem/ANO/microdados_enem_ANO.zip` | CSV e documentação no ZIP | Inscrição × edição | Baixados do INEP |
+| Contexto municipal | `data/raw/municipal/` | JSON, TXT, XLS/XLSX em ZIP | Município × ano, conforme fonte | Importado |
 
 Os caminhos dos três primeiros itens são relativos a
 `data/raw/microdados_enem_2023/microdados_enem_2023/`.
+
+## Dicionários e rastreabilidade multianuais
+
+- [Dicionário municipal CSV](sources/municipal/dicionario_variaveis.csv) e
+  [JSON](sources/municipal/dicionario_variaveis.json): descrição, fonte e URL,
+  ano, unidade, geografia, cálculo, categorias e limitações por indicador–ano.
+- `docs/sources/enem/dictionary_ANO.json`: transcrição das planilhas oficiais de
+  cada edição, incluindo categorias e linhas originais. Questões com nomes
+  iguais não são consideradas semanticamente equivalentes entre anos.
+- [Inventário anual](sources/enem/inventario_anual.csv),
+  [ausências por coluna](sources/enem/disponibilidade_variaveis.csv) e
+  [matriz de disponibilidade](sources/enem/matriz_disponibilidade.csv).
+- [Cobertura municipal](sources/municipal/cobertura_variaveis.csv): contagens,
+  ausências, mínimo e máximo. Indicadores importados são candidatos, não
+  covariáveis selecionadas para um modelo.
+
+Na ingestão ENEM, todos os campos são strings; somente campos originalmente
+vazios tornam-se nulos. Nenhum código de categoria é convertido ou imputado.
+Nos indicadores municipais, conserva-se `valor_original` junto a `valor` e
+`status_valor`. Os símbolos SIDRA `...`, `..` e `X` não viram zero; `-` significa
+zero absoluto **apenas no SIDRA**, conforme documentação oficial. Em outras
+fontes, marcadores de ausência permanecem distintos de zero observado.
+
+O painel usa `codigo_ibge` de sete dígitos como string e `ano_enem` como inteiro.
+Os indicadores numéricos são nullable; PIB/VAB estão em mil reais correntes,
+PIB per capita em reais, percentuais em 0–100 e IDHM/Gini em 0–1. A renda Atlas
+em reais de 2010 não deve ser confundida com renda censitária corrente de 2022.
+As unidades exatas e os universos de cada coluna constam no dicionário municipal.
+
+As correspondências registram código/nome original ENEM, município, UF, ano,
+tipo de localização e validação por código. Validar um código de escola ou
+prova **não** valida residência. As colunas de notas e contagens ENEM no painel
+contextual são placeholders nulos, não resultados calculados nem zeros.
 
 ## Grupos observados no cabeçalho de participantes de 2023
 

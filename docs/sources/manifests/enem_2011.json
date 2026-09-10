@@ -1,0 +1,141 @@
+{
+  "id": "enem_2011",
+  "provider": "INEP",
+  "year": 2011,
+  "url": "https://download.inep.gov.br/microdados/microdados_enem_2011.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "path": "enem/2011/microdados_enem_2011.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-10T02:48:49.239302+00:00",
+  "download_completed_utc": "2026-09-10T02:51:04.191590+00:00",
+  "bytes": 633768009,
+  "sha256": "64a9eb88b0f98fb0039eb7cb378feb42a5c0b34c210bfe83483b853c8ca279f0",
+  "http_metadata": {
+    "last-modified": "Wed, 18 Dec 2024 20:33:08 GMT",
+    "etag": "\"25c68849-62991524c6900\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "DADOS/ITENS_PROVA_2011.csv",
+      "bytes": 51824,
+      "crc32": "a321610e"
+    },
+    {
+      "name": "DADOS/MICRODADOS_ENEM_2011.csv",
+      "bytes": 3185974933,
+      "crc32": "94ec16f4"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2011.ods",
+      "bytes": 24713,
+      "crc32": "ac9ec0de"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2011.xlsx",
+      "bytes": 39876,
+      "crc32": "d4d7de67"
+    },
+    {
+      "name": "INPUTS/INPUT_R_ITENS_PROVA_2011.R",
+      "bytes": 2740,
+      "crc32": "1f52c7bb"
+    },
+    {
+      "name": "INPUTS/INPUT_R_MICRODADOS_ENEM_2011.R",
+      "bytes": 19139,
+      "crc32": "f66f353b"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_ITENS_PROVA_2011.sas",
+      "bytes": 3535,
+      "crc32": "ec865c60"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_MICRODADOS_ENEM_2011.sas",
+      "bytes": 34485,
+      "crc32": "823ebd28"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_ITENS_PROVA_2011.sps",
+      "bytes": 3539,
+      "crc32": "c74f2efc"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_MICRODADOS_ENEM_2011.sps",
+      "bytes": 22967,
+      "crc32": "f5250939"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Edital_Enem_2011.pdf",
+      "bytes": 642509,
+      "crc32": "8962854e"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/enem_procedimentos_de_analise.pdf",
+      "bytes": 752641,
+      "crc32": "f08fa920"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/entenda_a_sua_nota_no_enem_guia_do_participante.pdf",
+      "bytes": 12507111,
+      "crc32": "7ea76aeb"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2011.pdf",
+      "bytes": 177112,
+      "crc32": "c178c91a"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/manual_de_redacao_do_enem_2020.pdf",
+      "bytes": 2695244,
+      "crc32": "5a3a1c1e"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/~$ia_Me_Enem_2011.docx",
+      "bytes": 162,
+      "crc32": "bf9bc3c8"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2011_P1_CAD_03_DIA_1_BRANCO_LEDOR.pdf",
+      "bytes": 1122137,
+      "crc32": "60388591"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2011_P1_CAD_06_DIA_2_CINZA_LEDOR.pdf",
+      "bytes": 1388503,
+      "crc32": "2accb126"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2011_P1_GAB_03_DIA_1_BRANCO_LEDOR.pdf",
+      "bytes": 27371,
+      "crc32": "76544f01"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2011_P1_GAB_06_DIA_2_CINZA_LEDOR.pdf",
+      "bytes": 27182,
+      "crc32": "a1ab4ccd"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2011_P2_CAD_03_DIA_1_BRANCO.pdf",
+      "bytes": 4780895,
+      "crc32": "5bcf74ee"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2011_P2_CAD_06_DIA_2_CINZA.pdf",
+      "bytes": 9388844,
+      "crc32": "31f338b6"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2011_P2_GAB_03_DIA_1_BRANCO.pdf",
+      "bytes": 29278,
+      "crc32": "76804991"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2011_P2_GAB_06_DIA_2_CINZA.pdf",
+      "bytes": 27963,
+      "crc32": "3ba7a82e"
+    }
+  ]
+}

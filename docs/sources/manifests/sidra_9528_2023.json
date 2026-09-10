@@ -1,0 +1,31 @@
+{
+  "id": "sidra_9528_2023",
+  "provider": "IBGE",
+  "table": 9528,
+  "year": 2023,
+  "url": "https://apisidra.ibge.gov.br/values/t/9528/n6/all/v/706,707,708,662/p/2023/c12762/117897/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/9528",
+  "path": "municipal/sidra/9528/2023.json",
+  "format": "json",
+  "variables": [
+    706,
+    707,
+    708,
+    662
+  ],
+  "categories": {
+    "12762": [
+      117897
+    ]
+  },
+  "acquisition_reason": "CEMPRE nova série desde 2022; manter quebra metodológica explícita.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:41:23.067656+00:00",
+  "download_completed_utc": "2026-09-10T02:41:56.260048+00:00",
+  "bytes": 6910050,
+  "sha256": "39edce1d3402b1aa457697d6dc1ae17a7c0964bd77cd2fb553c204da437ed6aa",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

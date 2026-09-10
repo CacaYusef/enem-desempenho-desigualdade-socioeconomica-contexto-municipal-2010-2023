@@ -1,0 +1,416 @@
+{
+  "panel_rows": 77965,
+  "columns": 114,
+  "municipalities_per_year": {
+    "2010": 5565,
+    "2011": 5565,
+    "2012": 5565,
+    "2013": 5570,
+    "2014": 5570,
+    "2015": 5570,
+    "2016": 5570,
+    "2017": 5570,
+    "2018": 5570,
+    "2019": 5570,
+    "2020": 5570,
+    "2021": 5570,
+    "2022": 5570,
+    "2023": 5570
+  },
+  "observations": 2422447,
+  "missing_values": 67419,
+  "source_status_counts": {
+    "observado": 2349985,
+    "ausente": 66840,
+    "zero_absoluto_sidra": 5043,
+    "marcador_inep_sem_taxa": 486,
+    "nao_disponivel": 81,
+    "sigilo": 12
+  },
+  "duplicate_panel_keys": 0,
+  "unmatched_observations": 96,
+  "unmatched_nonmissing_values": 8,
+  "negative_values_preserved": 113,
+  "values_outside_semantic_bounds_preserved": 0,
+  "invalid_municipality_code_rows": 0,
+  "automatic_outlier_exclusions": 0,
+  "imputations": 0,
+  "raw_rows_deleted": 0,
+  "sample_size": null,
+  "analysis_parameters": null,
+  "missing_sources": [],
+  "imports": [
+    {
+      "source_id": "sidra_6579_2011",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2012",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2013",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2014",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2015",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2016",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2017",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2018",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2019",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2020",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_6579_2021",
+      "rows": 5571
+    },
+    {
+      "source_id": "sidra_1552_2010",
+      "rows": 33390
+    },
+    {
+      "source_id": "sidra_1301_2010",
+      "rows": 11130
+    },
+    {
+      "source_id": "sidra_4714_2022",
+      "rows": 16710
+    },
+    {
+      "source_id": "sidra_9923_2022",
+      "rows": 33420
+    },
+    {
+      "source_id": "sidra_9543_2022",
+      "rows": 5570
+    },
+    {
+      "source_id": "sidra_10295_2022",
+      "rows": 11140
+    },
+    {
+      "source_id": "sidra_3540_2010_v140",
+      "rows": 33390
+    },
+    {
+      "source_id": "sidra_3540_2010_v1000140",
+      "rows": 33390
+    },
+    {
+      "source_id": "sidra_6803_2022",
+      "rows": 44560
+    },
+    {
+      "source_id": "sidra_6805_2022_v381",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_6805_2022_v1000381",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_10201_2022",
+      "rows": 33420
+    },
+    {
+      "source_id": "sidra_1685_2010",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2011",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2012",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2013",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2014",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2015",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2016",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2017",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2018",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2019",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2020",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_1685_2021",
+      "rows": 27850
+    },
+    {
+      "source_id": "sidra_9528_2022",
+      "rows": 22280
+    },
+    {
+      "source_id": "sidra_9528_2023",
+      "rows": 22280
+    },
+    {
+      "source_id": "ipeadata_ADH_IDHM",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_IDHM_E",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_RDPC",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_GINI",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_PMPOB",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_PIND",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_ANALF15M",
+      "raw_rows": 22379,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 61,
+      "municipal_rows_in_scope": 11134,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_MED25M",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_SUPER25M",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_FREQ6A14",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_FREQ15A17",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_FLMED",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_DES18M",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_AGUA",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_AGUA_ESGOTO",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_T_LIXO",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_P_AGRO",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_P_COM",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "ipeadata_ADH_P_SERV",
+      "raw_rows": 16776,
+      "outside_2010_2023": 11184,
+      "nonmunicipal_within_period": 28,
+      "municipal_rows_in_scope": 5564,
+      "raw_rows_deleted": 0
+    },
+    {
+      "source_id": "inep_rendimento_2010",
+      "rows": 66780
+    },
+    {
+      "source_id": "inep_rendimento_2011",
+      "rows": 66780
+    },
+    {
+      "source_id": "inep_rendimento_2012",
+      "rows": 66780
+    },
+    {
+      "source_id": "inep_rendimento_2013",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2014",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2015",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2016",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2017",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2018",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2019",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2020",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2021",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2022",
+      "rows": 66840
+    },
+    {
+      "source_id": "inep_rendimento_2023",
+      "rows": 66840
+    }
+  ],
+  "year_matching": "exact only; source values are never carried forward/backward",
+  "enem_integration": "pending: residence and sample rules not resolved",
+  "artifacts": {
+    "base_municipio_ano.parquet": {
+      "bytes": 8744243,
+      "sha256": "8a9414d6fbb61c67b6ce14d19e232b504896416f90c426dcd74f0fd9d417660a"
+    },
+    "indicadores_longos.parquet": {
+      "bytes": 18147494,
+      "sha256": "c19252a4c0ccecdde2340a57d1b3958089c4af1ad16fa4d6d54e496b73dcc914"
+    },
+    "referencia_municipal_anual.parquet": {
+      "bytes": 300114,
+      "sha256": "f893493fdb5e5e05396e7045538a29771737298908b4fb9d38a62d2ab1017fbf"
+    }
+  }
+}

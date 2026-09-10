@@ -1,0 +1,31 @@
+{
+  "id": "sidra_9923_2022",
+  "provider": "IBGE",
+  "table": 9923,
+  "year": 2022,
+  "url": "https://apisidra.ibge.gov.br/values/t/9923/n6/all/v/93,1000093/p/2022/c1/6795,1,2/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/9923",
+  "path": "municipal/sidra/9923/2022.json",
+  "format": "json",
+  "variables": [
+    93,
+    1000093
+  ],
+  "categories": {
+    "1": [
+      6795,
+      1,
+      2
+    ]
+  },
+  "acquisition_reason": "Distribuição urbana/rural na definição do Censo 2022.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:38:45.088003+00:00",
+  "download_completed_utc": "2026-09-10T02:38:49.046715+00:00",
+  "bytes": 10586109,
+  "sha256": "2bedd1601b10fe5ab68ac524f5f554b7bb5d43ac4ba5893ffe45450fac49f93a",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

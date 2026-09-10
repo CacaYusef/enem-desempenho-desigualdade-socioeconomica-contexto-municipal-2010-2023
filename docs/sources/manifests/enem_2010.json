@@ -1,0 +1,136 @@
+{
+  "id": "enem_2010",
+  "provider": "INEP",
+  "year": 2010,
+  "url": "https://download.inep.gov.br/microdados/microdados_enem_2010.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "path": "enem/2010/microdados_enem_2010.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-10T02:49:08.498240+00:00",
+  "download_completed_utc": "2026-09-10T02:51:04.254832+00:00",
+  "bytes": 524230395,
+  "sha256": "d5ec17a0dcd4adc15a8cfcd34d32fb13c9f1282a5d633e3682da86d3a6f1c957",
+  "http_metadata": {
+    "last-modified": "Wed, 10 Aug 2022 17:39:08 GMT",
+    "etag": "\"1f3f1efb-5e5e686a8c700\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2010.ods",
+      "bytes": 22031,
+      "crc32": "dfbe0c7e"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2010.xlsx",
+      "bytes": 35690,
+      "crc32": "bb3e0b74"
+    },
+    {
+      "name": "DICIONÁRIO/~$Dicionário_Microdados_Enem_2010.xlsx",
+      "bytes": 165,
+      "crc32": "a83b8859"
+    },
+    {
+      "name": "INPUTS/.Rhistory",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "INPUTS/INPUT_R_ITENS_PROVA_2010.R",
+      "bytes": 2590,
+      "crc32": "e93beb63"
+    },
+    {
+      "name": "INPUTS/INPUT_R_MICRODADOS_ENEM_2010.R",
+      "bytes": 17329,
+      "crc32": "84683982"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_ITENS_PROVA_2010.sas",
+      "bytes": 3521,
+      "crc32": "283c2327"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_MICRODADOS_ENEM_2010.sas",
+      "bytes": 25796,
+      "crc32": "3b63bbfe"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_ITENS_PROVA_2010.sps",
+      "bytes": 3500,
+      "crc32": "afe9c3e6"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_MICRODADOS_ENEM_2010.sps",
+      "bytes": 21391,
+      "crc32": "28f3f696"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Edital_ENEM_2010.pdf",
+      "bytes": 48651,
+      "crc32": "5ba5d15e"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/enem_procedimentos_de_analise.pdf",
+      "bytes": 752641,
+      "crc32": "f08fa920"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/entenda_a_sua_nota_no_enem_guia_do_participante.pdf",
+      "bytes": 12507111,
+      "crc32": "7ea76aeb"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Leia-me_ENEM_2010.pdf",
+      "bytes": 296916,
+      "crc32": "8f232480"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Matriz_referencia_enem.pdf",
+      "bytes": 177800,
+      "crc32": "cf57487d"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/QUESTIONÁRIO SOCIOECONÔMICO ENEM 2010.pdf",
+      "bytes": 181092,
+      "crc32": "e57e35f7"
+    },
+    {
+      "name": "LEIA-ME E DOCUMENTOS TÉCNICOS/Relatorio_pedagogico_enem_2010.pdf",
+      "bytes": 12429744,
+      "crc32": "e41f8038"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2010_PROVA_GAB_DIA_1_AZUL_1(2_Aplicação).pdf",
+      "bytes": 1106557,
+      "crc32": "38f092cd"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2010_PROVA_GAB_DIA_1_AZUL_1.pdf",
+      "bytes": 742403,
+      "crc32": "d2396381"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2010_PROVA_GAB_DIA_2_AZUL_7(2_Aplicação).pdf",
+      "bytes": 1406843,
+      "crc32": "5d296fba"
+    },
+    {
+      "name": "PROVAS E GABARITOS/ENEM_2010_PROVA_GAB_DIA_2_AZUL_7.pdf",
+      "bytes": 1892452,
+      "crc32": "74e1d1af"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2010.csv",
+      "bytes": 84874,
+      "crc32": "ba1032e9"
+    },
+    {
+      "name": "DADOS/MICRODADOS_ENEM_2010.csv",
+      "bytes": 2499328791,
+      "crc32": "444327c2"
+    }
+  ]
+}

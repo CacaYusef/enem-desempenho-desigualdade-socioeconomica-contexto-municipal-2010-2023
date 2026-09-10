@@ -1,0 +1,16 @@
+{
+  "id": "inep_rendimento_page_2020",
+  "provider": "INEP",
+  "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2020",
+  "path": "municipal/inep/pages/rendimento_2020.html",
+  "format": "html",
+  "year": 2020,
+  "download_started_utc": "2026-09-10T02:43:25.308199+00:00",
+  "download_completed_utc": "2026-09-10T02:43:26.370115+00:00",
+  "bytes": 209158,
+  "sha256": "f29ec065e704d296c6c4d524b18848b63a19c929daf5e9616db2c8a188405788",
+  "http_metadata": {
+    "content-type": "text/html;charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

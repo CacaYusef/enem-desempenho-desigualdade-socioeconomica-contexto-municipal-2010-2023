@@ -18,9 +18,21 @@ acertos.
 
 ## Contexto municipal
 
-Conjunto ainda não definido de atributos associados a municípios. Cada indicador
-deverá ter fonte, ano de referência, unidade, cobertura e regra de junção
-documentados.
+Conjunto de atributos associados a municípios. A importação contém indicadores
+candidatos, mas a seleção analítica ainda não foi definida. Cada indicador tem
+fonte, ano de referência, unidade, cobertura e regra de junção documentados.
+
+## Município × ano do ENEM
+
+Unidade principal pretendida para a futura base analítica. Não deve ser
+confundida com inscrição × edição, unidade dos microdados brutos, nem com o
+painel contextual ainda sem estatísticas ENEM por residência.
+
+## Localização de escola, prova e residência
+
+Geografias distintas. Código de escola ou de aplicação da prova válido não
+identifica município de residência. A importação as mantém separadas e não
+realizou a junção residencial.
 
 ## Desigualdade socioeconômica
 

@@ -1,0 +1,28 @@
+{
+  "id": "inep_rendimento_2010",
+  "provider": "INEP",
+  "year": 2010,
+  "url": "https://download.inep.gov.br/informacoes_estatisticas/2011/indicadores_educacionais/taxa_rendimento/2010/tx_rendimento_municipios_2010.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2010",
+  "path": "municipal/inep/rendimento_2010.zip",
+  "format": "zip",
+  "selected_for_model": false,
+  "acquisition_reason": "Contexto educacional: aprovação, reprovação e abandono; todas as redes e etapas preservadas.",
+  "download_started_utc": "2026-09-10T02:44:01.897198+00:00",
+  "download_completed_utc": "2026-09-10T02:44:06.475133+00:00",
+  "bytes": 11100643,
+  "sha256": "256073e209b01170eb1239e8dc6e535da1f04d8bdeec0543ae1b2b246dc2d2a3",
+  "http_metadata": {
+    "last-modified": "Wed, 11 May 2011 17:39:15 GMT",
+    "etag": "\"a961e3-4a3038d23b6c0\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "TX RENDIMENTO MUNICIPIOS 2010.xls",
+      "bytes": 45082624,
+      "crc32": "33956d1b"
+    }
+  ]
+}

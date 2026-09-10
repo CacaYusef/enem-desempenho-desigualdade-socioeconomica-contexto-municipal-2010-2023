@@ -1,0 +1,25 @@
+{
+  "years_processed": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "source_rows": 81962210,
+  "years_with_residence": [],
+  "crosswalk_rows": 101565,
+  "suggestions_for_review": 0,
+  "final_sample_size": null,
+  "statistical_parameters": null,
+  "residence_context_join_performed": false
+}

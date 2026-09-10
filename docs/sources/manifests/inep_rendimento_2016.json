@@ -1,0 +1,43 @@
+{
+  "id": "inep_rendimento_2016",
+  "provider": "INEP",
+  "year": 2016,
+  "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2016/TAXA_REND_2016_MUNICIPIOS.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2016",
+  "path": "municipal/inep/rendimento_2016.zip",
+  "format": "zip",
+  "selected_for_model": false,
+  "acquisition_reason": "Contexto educacional: aprovação, reprovação e abandono; todas as redes e etapas preservadas.",
+  "download_started_utc": "2026-09-10T02:44:42.961317+00:00",
+  "download_completed_utc": "2026-09-10T02:44:55.508473+00:00",
+  "bytes": 31712705,
+  "sha256": "dda621199ca1a4e4c7da2acaedd852bd729ecc92da883d518cff203a3a09e56f",
+  "http_metadata": {
+    "last-modified": "Wed, 14 Jun 2017 14:20:01 GMT",
+    "etag": "\"1e3e5c1-551ec3f60e640\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "TAXA_REND_2016_MUNICIPIOS/md5_TX_REND_2016.txt",
+      "bytes": 129,
+      "crc32": "fb3540e5"
+    },
+    {
+      "name": "TAXA_REND_2016_MUNICIPIOS/Thumbs.db",
+      "bytes": 26624,
+      "crc32": "df93e9a3"
+    },
+    {
+      "name": "TAXA_REND_2016_MUNICIPIOS/TX_REND_MUNICIPIOS_2016.ods",
+      "bytes": 11012366,
+      "crc32": "b147e5f6"
+    },
+    {
+      "name": "TAXA_REND_2016_MUNICIPIOS/TX_REND_MUNICIPIOS_2016.xlsx",
+      "bytes": 21274070,
+      "crc32": "e58e8616"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "inep_rendimento_page_2021",
+  "provider": "INEP",
+  "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2021",
+  "path": "municipal/inep/pages/rendimento_2021.html",
+  "format": "html",
+  "year": 2021,
+  "download_started_utc": "2026-09-10T02:43:26.388418+00:00",
+  "download_completed_utc": "2026-09-10T02:43:27.488642+00:00",
+  "bytes": 209051,
+  "sha256": "cf1e854499bd62ec403542b2ab0c4a87b70fc241e3007bfd2a13467f83f24205",
+  "http_metadata": {
+    "content-type": "text/html;charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

@@ -1,0 +1,196 @@
+{
+  "id": "enem_2014",
+  "provider": "INEP",
+  "year": 2014,
+  "url": "https://download.inep.gov.br/microdados/microdados_enem_2014.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "path": "enem/2014/microdados_enem_2014.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-10T02:43:36.241094+00:00",
+  "download_completed_utc": "2026-09-10T02:49:04.742786+00:00",
+  "bytes": 1048837079,
+  "sha256": "0425f31681bac8d4c7ad57127a0da0a787c846930af31fa1fef9b2b0a8c9fee7",
+  "http_metadata": {
+    "last-modified": "Thu, 07 Jul 2022 17:59:12 GMT",
+    "etag": "\"3e83fbd7-5e33ad7d19c00\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2014.ods",
+      "bytes": 24407,
+      "crc32": "b4ac21e6"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2014.xlsx",
+      "bytes": 40008,
+      "crc32": "4cf6f39b"
+    },
+    {
+      "name": "INPUTS/INPUT_R_ITENS_PROVA_2014.R",
+      "bytes": 2881,
+      "crc32": "222fad3f"
+    },
+    {
+      "name": "INPUTS/INPUT_R_MICRODADOS_ENEM_2014.R",
+      "bytes": 23792,
+      "crc32": "4202197e"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_ITENS_PROVA_2014.sas",
+      "bytes": 3737,
+      "crc32": "1f63d206"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_MICRODADOS_ENEM_2014.sas",
+      "bytes": 32111,
+      "crc32": "916bbef2"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_ITENS_PROVA_2014.sps",
+      "bytes": 3623,
+      "crc32": "bc844bff"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_MICRODADOS_ENEM_2014.sps",
+      "bytes": 23611,
+      "crc32": "c0b7935f"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/enem_procedimentos_de_analise.pdf",
+      "bytes": 752641,
+      "crc32": "f08fa920"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/entenda_a_sua_nota_no_enem_guia_do_participante.pdf",
+      "bytes": 12507111,
+      "crc32": "7ea76aeb"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2014.pdf",
+      "bytes": 149135,
+      "crc32": "10dbeb5e"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Matriz_Referencia_Enem.pdf",
+      "bytes": 177800,
+      "crc32": "cf57487d"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Nota_Explicativa Enem_Por_Escola_2014.pdf",
+      "bytes": 550313,
+      "crc32": "1d6e8900"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Portaria_Inep_ENEM_por_Escola_2014.pdf",
+      "bytes": 47577,
+      "crc32": "2f2ffa95"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Thumbs.db",
+      "bytes": 117760,
+      "crc32": "73fe3f8f"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/~$GE  Comitê de Estatísticas Sociais  base de dados  metadados  Inep  exame nacional do ensino médio - ENEM.docx",
+      "bytes": 162,
+      "crc32": "748ea952"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/~$ia_Me_Enem.docx",
+      "bytes": 162,
+      "crc32": "748ea952"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Caderno1_Azul_Sab.pdf",
+      "bytes": 1805357,
+      "crc32": "e872c492"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Caderno2_Amarelo_Sab.pdf",
+      "bytes": 1829393,
+      "crc32": "0385e4c4"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Caderno3_Branco_Sab.pdf",
+      "bytes": 1910820,
+      "crc32": "532b2b42"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Caderno4_Rosa_Sab.pdf",
+      "bytes": 1824445,
+      "crc32": "e9e49981"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Caderno5_Amarelo_Dom.pdf",
+      "bytes": 1433541,
+      "crc32": "e71f5cd2"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Caderno6_Cinza_Dom.pdf",
+      "bytes": 1342134,
+      "crc32": "758ad903"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Caderno7_Azul_Dom.pdf",
+      "bytes": 1594097,
+      "crc32": "4dee202d"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Caderno8_Rosa_Dom.pdf",
+      "bytes": 1334088,
+      "crc32": "b5989960"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Gab_Caderno1_Azul_Sab.pdf",
+      "bytes": 122598,
+      "crc32": "c9a4aae9"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Gab_Caderno2_Amarelo_Sab.pdf",
+      "bytes": 122692,
+      "crc32": "98c2ffe5"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Gab_Caderno3_Branco_Sab.pdf",
+      "bytes": 122628,
+      "crc32": "94b8cf63"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Gab_Caderno4_Rosa_Sab.pdf",
+      "bytes": 122670,
+      "crc32": "0db8774d"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Gab_Caderno5_Amarelo_Dom.pdf",
+      "bytes": 123752,
+      "crc32": "a01e5604"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Gab_Caderno6_Cinza_Dom.pdf",
+      "bytes": 123898,
+      "crc32": "1ac4a074"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Gab_Caderno7_Azul_Dom.pdf",
+      "bytes": 123853,
+      "crc32": "dec9b531"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Gab_Caderno8_Rosa_Dom.pdf",
+      "bytes": 123749,
+      "crc32": "1f5ecd15"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2014.csv",
+      "bytes": 95423,
+      "crc32": "3d9100bb"
+    },
+    {
+      "name": "DADOS/MICRODADOS_ENEM_2014.csv",
+      "bytes": 5140089532,
+      "crc32": "83687ce1"
+    }
+  ]
+}

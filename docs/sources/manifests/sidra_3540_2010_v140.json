@@ -1,0 +1,45 @@
+{
+  "id": "sidra_3540_2010_v140",
+  "provider": "IBGE",
+  "table": 3540,
+  "year": 2010,
+  "url": "https://apisidra.ibge.gov.br/values/t/3540/n6/all/v/140/p/2010/c1568/0,9493,9494,9495,99713,11626/c1/0/c2/0/c86/0/c58/0/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/3540",
+  "path": "municipal/sidra/3540/2010_v140.json",
+  "format": "json",
+  "variables": [
+    140
+  ],
+  "categories": {
+    "1568": [
+      0,
+      9493,
+      9494,
+      9495,
+      99713,
+      11626
+    ],
+    "1": [
+      0
+    ],
+    "2": [
+      0
+    ],
+    "86": [
+      0
+    ],
+    "58": [
+      0
+    ]
+  },
+  "acquisition_reason": "Composição por nível de instrução das pessoas de 10 anos ou mais.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:44:38.999281+00:00",
+  "download_completed_utc": "2026-09-10T02:44:55.282957+00:00",
+  "bytes": 16272463,
+  "sha256": "0253d496fe80413a5deed241e50d8ab4a5a1980c67d1a5ffa0f54de54decee91",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

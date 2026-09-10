@@ -1,0 +1,28 @@
+{
+  "id": "sidra_1685_2013",
+  "provider": "IBGE",
+  "table": 1685,
+  "year": 2013,
+  "url": "https://apisidra.ibge.gov.br/values/t/1685/n6/all/v/706,707,708,662,1606/p/2013/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/1685",
+  "path": "municipal/sidra/1685/2013.json",
+  "format": "json",
+  "variables": [
+    706,
+    707,
+    708,
+    662,
+    1606
+  ],
+  "categories": {},
+  "acquisition_reason": "Estrutura empresarial e emprego formal local; série CEMPRE até 2021.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:39:36.483524+00:00",
+  "download_completed_utc": "2026-09-10T02:39:44.803714+00:00",
+  "bytes": 7472918,
+  "sha256": "571464928eb2e4c8d803ac68e40e56ecaa7e2ce914ccfa1dae907ff57237a3ee",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

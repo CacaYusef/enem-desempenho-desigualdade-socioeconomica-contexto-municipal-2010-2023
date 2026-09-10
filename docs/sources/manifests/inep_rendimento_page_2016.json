@@ -1,0 +1,16 @@
+{
+  "id": "inep_rendimento_page_2016",
+  "provider": "INEP",
+  "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2016",
+  "path": "municipal/inep/pages/rendimento_2016.html",
+  "format": "html",
+  "year": 2016,
+  "download_started_utc": "2026-09-10T02:43:20.848779+00:00",
+  "download_completed_utc": "2026-09-10T02:43:21.937799+00:00",
+  "bytes": 208819,
+  "sha256": "a8e6d4b030c5fa399ea2819770c78b0b0228fc48ec82b0edd2fd2c294a0983e5",
+  "http_metadata": {
+    "content-type": "text/html;charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

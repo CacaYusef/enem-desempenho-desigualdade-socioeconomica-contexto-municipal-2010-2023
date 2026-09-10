@@ -1,0 +1,36 @@
+{
+  "id": "ipeadata_ADH_IDHM_E",
+  "provider": "IPEA",
+  "series": "ADH_IDHM_E",
+  "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_IDHM_E')",
+  "path": "municipal/ipeadata/ADH_IDHM_E.json",
+  "format": "json",
+  "acquisition_reason": "Dimensão educacional do índice composto IDHM.",
+  "selected_for_model": false,
+  "scope": "Raw response preserved; processed scope: municipalities, 2010–2023.",
+  "metadata": {
+    "SERCODIGO": "ADH_IDHM_E",
+    "SERNOME": "IDHM - Índice de Desenvolvimento Humano Municipal - educação (Censo)",
+    "SERCOMENTARIO": "O Índice de Desenvolvimento Humano (IDH) foi criado com base nas três dimensões conceituais básicas do desenvolvimento humano: uma vida longa e saudável, acesso ao conhecimento e um padrão de vida decente. Mais Informações: <b><a href=\"https://www.atlasbrasil.org.br/\" target=\"_blank\">Atlas do Desenvolvimento Humano no Brasil</a></b>.<p>.<p>Para acessar outras desagregações, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726511&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brasil</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726511&MINDATA=1970&MAXDATA=2030&TNIVID=1&TPAID=1&module=S>por Região</a> | <a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726511&MINDATA=1970&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>por UF</a>.\r\n<p>Para acessar as <b>séries encadeadas (Censo + Pnad)</b>, utilize os atalhos a seguir:  \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=40038&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>IDHM Longevidade</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=40039&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>IDHM Educação</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=40040&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>IDHM Renda</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=40037&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>IDHM</a>.\r\n<p><a href=https://www.ipeadata.gov.br/Default.aspx target=_blank>Ipeadata - Página principal</a>.",
+    "SERATUALIZACAO": "2023-03-08T10:46:33-03:00",
+    "BASNOME": "Social",
+    "FNTSIGLA": "IPEA/ADH Censo IBGE",
+    "FNTNOME": "Atlas do Desenvolvimento Humano (Censo Demográfico)",
+    "FNTURL": "www.atlasbrasil.org.br",
+    "PERNOME": "Decenal",
+    "UNINOME": "-",
+    "MULNOME": null,
+    "SERSTATUS": null,
+    "TEMCODIGO": 85,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+  },
+  "download_started_utc": "2026-09-10T02:43:29.295377+00:00",
+  "download_completed_utc": "2026-09-10T02:43:30.648400+00:00",
+  "bytes": 2446475,
+  "sha256": "f9877b0bbb519fee384df2f506ac2d9823b435d2e857086bb8f7c789e57d0682",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

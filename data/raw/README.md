@@ -23,3 +23,15 @@ Arquivos centrais e SHA-256:
 
 Os caminhos acima são relativos ao diretório interno
 `microdados_enem_2023/microdados_enem_2023/`.
+
+## Fontes adquiridas depois da inicialização
+
+Os pacotes ENEM 2010–2022 estão em `enem/ANO/` e as fontes IBGE, INEP e
+Ipeadata em `municipal/`. O inventário autoritativo não é duplicado neste
+arquivo: cada aquisição possui URL, data, tamanho, SHA-256 e, para ZIPs,
+inventário/CRC em `../../docs/sources/manifests/`. Os catálogos de consultas
+municipais ficam em `../../docs/sources/municipal_catalog.json` e
+`../../docs/sources/supplement_catalog.json`.
+
+Os arquivos nesta árvore não devem ser alterados ou sobrescritos. Os scripts
+validam o hash de um raw já registrado e interrompem diante de divergência.

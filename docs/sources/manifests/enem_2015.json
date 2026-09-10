@@ -1,0 +1,246 @@
+{
+  "id": "enem_2015",
+  "provider": "INEP",
+  "year": 2015,
+  "url": "https://download.inep.gov.br/microdados/microdados_enem_2015.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem",
+  "path": "enem/2015/microdados_enem_2015.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-10T02:40:20.263574+00:00",
+  "download_completed_utc": "2026-09-10T02:45:10.773687+00:00",
+  "bytes": 985586230,
+  "sha256": "c550ad31daf8fc5aeb35d1c5c9d63ea0882d4276b8641373862b834584e6fb4c",
+  "http_metadata": {
+    "last-modified": "Wed, 06 Jul 2022 18:52:55 GMT",
+    "etag": "\"3abeda36-5e3277a154fc0\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2015.ods",
+      "bytes": 24620,
+      "crc32": "1eba4ce3"
+    },
+    {
+      "name": "DICIONÁRIO/Dicionário_Microdados_Enem_2015.xlsx",
+      "bytes": 39634,
+      "crc32": "f191d7de"
+    },
+    {
+      "name": "INPUTS/INPUT_R_ITENS_PROVA_2015.R",
+      "bytes": 2849,
+      "crc32": "6c904e38"
+    },
+    {
+      "name": "INPUTS/INPUT_R_MICRODADOS_ENEM_2015.R",
+      "bytes": 29143,
+      "crc32": "2fdef78e"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_ITENS_PROVA_2015.sas",
+      "bytes": 3747,
+      "crc32": "fee9e54e"
+    },
+    {
+      "name": "INPUTS/INPUT_SAS_MICRODADOS_ENEM_2015.sas",
+      "bytes": 30709,
+      "crc32": "4fd7741c"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_ITENS_PROVA_2015.sps",
+      "bytes": 3632,
+      "crc32": "cbfd5a72"
+    },
+    {
+      "name": "INPUTS/INPUT_SPSS_MICRODADOS_ENEM_2015.sps",
+      "bytes": 22941,
+      "crc32": "11a7ad70"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/edital_enem_2015_dou.pdf",
+      "bytes": 585265,
+      "crc32": "cef802bc"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/enem_procedimentos_de_analise.pdf",
+      "bytes": 752641,
+      "crc32": "f08fa920"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/entenda_a_sua_nota_no_enem_guia_do_participante.pdf",
+      "bytes": 12507111,
+      "crc32": "7ea76aeb"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Leia_Me_Enem_2015.pdf",
+      "bytes": 174567,
+      "crc32": "ea239def"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Matriz_Referencia_Enem.pdf",
+      "bytes": 177800,
+      "crc32": "cf57487d"
+    },
+    {
+      "name": "LEIA-ME e DOCUMENTOS TÉCNICOS/Thumbs.db",
+      "bytes": 65536,
+      "crc32": "437319ca"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Caderno1_Azul_Sab.pdf",
+      "bytes": 996532,
+      "crc32": "9f58e8a8"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Caderno2_Amarelo_Sab.pdf",
+      "bytes": 1001731,
+      "crc32": "83efb547"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Caderno3_Branco_Sab.pdf",
+      "bytes": 1016876,
+      "crc32": "0aa76f79"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Caderno4_Rosa_Sab.pdf",
+      "bytes": 987843,
+      "crc32": "2bfef0e0"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Caderno5_Amarelo_Dom.pdf",
+      "bytes": 940994,
+      "crc32": "c2e88bed"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Caderno6_Cinza_Dom.pdf",
+      "bytes": 990078,
+      "crc32": "e7d4512b"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Caderno7_Azul_Dom.pdf",
+      "bytes": 955697,
+      "crc32": "924604bf"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Caderno8_Rosa_Dom.pdf",
+      "bytes": 938676,
+      "crc32": "b3917bd0"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Gab_Caderno1_Azul_Sab.pdf",
+      "bytes": 261439,
+      "crc32": "4e83d7a3"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Gab_Caderno2_Amarelo_Sab.pdf",
+      "bytes": 261934,
+      "crc32": "d4a590a9"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Gab_Caderno3_Branco_Sab.pdf",
+      "bytes": 262716,
+      "crc32": "2b0ae3ca"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Gab_Caderno4_Rosa_Sab.pdf",
+      "bytes": 261815,
+      "crc32": "642a52bc"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Gab_Caderno5_Amarelo_Dom.pdf",
+      "bytes": 263843,
+      "crc32": "a4bbbea6"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Gab_Caderno6_Cinza_Dom.pdf",
+      "bytes": 271532,
+      "crc32": "bc8376d4"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Gab_Caderno7_Azul_Dom.pdf",
+      "bytes": 263901,
+      "crc32": "a1aad563"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Gab_Caderno8_Rosa_Dom.pdf",
+      "bytes": 263775,
+      "crc32": "3f0f2e4a"
+    },
+    {
+      "name": "PROVAS e GABARITOS/PRIMEIRA APLICAÇÃO/Thumbs.db",
+      "bytes": 53248,
+      "crc32": "6fd59e24"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Caderno1_Azul_Sab_2.pdf.pdf",
+      "bytes": 5008192,
+      "crc32": "a30c4999"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Caderno2_Amarelo_Sab_2.pdf.pdf",
+      "bytes": 5021846,
+      "crc32": "fb8a3252"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Caderno3_Branco_Sab_2.pdf.pdf",
+      "bytes": 5069780,
+      "crc32": "ff1b724b"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Caderno4_Rosa_Sab_2.pdf.pdf",
+      "bytes": 5023707,
+      "crc32": "02a16170"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Caderno5_Amarelo_Dom_2.pdf.pdf",
+      "bytes": 5826691,
+      "crc32": "85ec1d57"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Caderno6_Cinza_Dom_2.pdf.pdf",
+      "bytes": 5890625,
+      "crc32": "1fd27041"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Caderno7_Azul_Dom_2.pdf.pdf",
+      "bytes": 5825249,
+      "crc32": "6d048e8a"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Caderno8_Rosa_Dom_2.pdf.pdf",
+      "bytes": 5825526,
+      "crc32": "bb08dac1"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Gab_Dom_2.pdf.pdf",
+      "bytes": 350533,
+      "crc32": "faa71f39"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Gab_Sab_2.pdf.pdf",
+      "bytes": 289436,
+      "crc32": "8798d707"
+    },
+    {
+      "name": "PROVAS e GABARITOS/SEGUNDA APLICAÇÃO/Thumbs.db",
+      "bytes": 29184,
+      "crc32": "5363eed8"
+    },
+    {
+      "name": "PROVAS e GABARITOS/Thumbs.db",
+      "bytes": 33792,
+      "crc32": "954d5900"
+    },
+    {
+      "name": "DADOS/ITENS_PROVA_2015.csv",
+      "bytes": 154763,
+      "crc32": "68a74cb3"
+    },
+    {
+      "name": "DADOS/MICRODADOS_ENEM_2015.csv",
+      "bytes": 4057635503,
+      "crc32": "66990f5c"
+    }
+  ]
+}

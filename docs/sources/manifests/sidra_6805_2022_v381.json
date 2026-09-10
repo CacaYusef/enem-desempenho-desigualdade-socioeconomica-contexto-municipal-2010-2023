@@ -1,0 +1,32 @@
+{
+  "id": "sidra_6805_2022_v381",
+  "provider": "IBGE",
+  "table": 6805,
+  "year": 2022,
+  "url": "https://apisidra.ibge.gov.br/values/t/6805/n6/all/v/381/p/2022/c11558/46292,46290,72112,72113,92861/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/6805",
+  "path": "municipal/sidra/6805/2022_v381.json",
+  "format": "json",
+  "variables": [
+    381
+  ],
+  "categories": {
+    "11558": [
+      46292,
+      46290,
+      72112,
+      72113,
+      92861
+    ]
+  },
+  "acquisition_reason": "Esgotamento sanitário, preservando o universo e as categorias oficiais.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:45:10.935799+00:00",
+  "download_completed_utc": "2026-09-10T02:45:14.447753+00:00",
+  "bytes": 9916224,
+  "sha256": "6eb5355ec91a0befbccbea066ce72fbff5d38a0c1d19bdb9c50c5885e58e22eb",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

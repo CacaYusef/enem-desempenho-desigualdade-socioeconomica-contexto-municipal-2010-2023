@@ -1,0 +1,15 @@
+{
+  "id": "ibge_metadata_1685",
+  "provider": "IBGE",
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1685/metadados",
+  "path": "municipal/metadata/sidra_1685.json",
+  "format": "json",
+  "download_started_utc": "2026-09-09T23:32:07.499491+00:00",
+  "download_completed_utc": "2026-09-09T23:32:07.604841+00:00",
+  "bytes": 1373,
+  "sha256": "ea3150b697a4857eaaa7e82b219017fdbe1291c01864ee552995f0a4e7b0651e",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

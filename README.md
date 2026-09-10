@@ -1,21 +1,26 @@
 # Desempenho no ENEM, desigualdade socioeconômica e contexto municipal (2010–2023)
 
 Projeto de análise estatística reprodutível sobre o tema indicado no título. O
-relatório acadêmico fornecido estabeleceu uma pergunta associativa preliminar e
-um desenho de cortes transversais repetidos; o estimando e a estratégia de
-identificação ainda precisam ser formalizados antes da análise inferencial.
+relatório acadêmico fornecido estabeleceu uma pergunta associativa preliminar.
+A unidade principal pretendida foi atualizada para município × ano do ENEM;
+o estimando e o desenho ainda precisam ser formalizados antes da inferência.
 
 ## Estado atual
 
 - **Estado do trabalho: 2º estado — Relatório Descritivo em elaboração.**
 - **Única etapa concluída: Proposta.**
 - Ainda não concluídos: Relatório Descritivo, Relatório Final e Apresentação.
-- Disponível localmente: pacote oficial de microdados do ENEM 2023.
-- Ainda ausentes: microdados de 2010–2022 e dados de contexto municipal.
+- Disponíveis localmente: pacotes oficiais ENEM 2010–2022 e pacote 2023 preexistente.
+- Contexto municipal: fontes IBGE, INEP e Ipeadata importadas; cobertura varia por
+  indicador e ano. Não foram interpolados indicadores censitários.
+- Importação, fontes e reprodução: [docs/importacao.md](docs/importacao.md).
+- Auditoria técnica: [reports/data-quality.md](reports/data-quality.md).
+- Tamanho da amostra e parâmetros estatísticos: **não definidos**.
 - Análise estatística: ainda não iniciada.
-- Pergunta e população preliminares: documentadas em `docs/methodology.md`.
-- Estimando, critérios operacionais de inclusão, vínculo municipal e método:
-  pendentes.
+- Pergunta pretendida, unidade principal e pendências: documentadas em
+  `docs/methodology.md`; a população ainda não foi definida.
+- Estimando, critérios de inclusão, vínculo residencial e método: pendentes.
+  Escola e local de prova não serão usados como residência.
 - Texto-base da tese: `reports/report/tese.md`.
 
 ## Estrutura

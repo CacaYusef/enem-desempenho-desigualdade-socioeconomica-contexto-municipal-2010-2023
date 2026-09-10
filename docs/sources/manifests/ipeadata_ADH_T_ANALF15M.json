@@ -1,0 +1,36 @@
+{
+  "id": "ipeadata_ADH_T_ANALF15M",
+  "provider": "IPEA",
+  "series": "ADH_T_ANALF15M",
+  "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_T_ANALF15M')",
+  "path": "municipal/ipeadata/ADH_T_ANALF15M.json",
+  "format": "json",
+  "acquisition_reason": "Alfabetização da população adulta: analfabetismo oficial.",
+  "selected_for_model": false,
+  "scope": "Raw response preserved; processed scope: municipalities, 2010–2023.",
+  "metadata": {
+    "SERCODIGO": "ADH_T_ANALF15M",
+    "SERNOME": "Taxa de analfabetismo - pessoas com 15 anos ou mais (Atlas DH - Censo)",
+    "SERCOMENTARIO": "Razão entre a população de 15 anos ou mais de idade que não sabe ler nem escrever um bilhete simples e o total de pessoas nesta faixa etária, multiplicada por 100. Dados utilizados para cálculos de indicadores que compõem as três dimensões do IDHM (Índice de Desenvolvimento Humano Municipal) que são: Longevidade, Educação e Renda. A dimensão educação, acesso ao conhecimento no IDHM é uma composição de indicadores de escolaridade da população adulta e de fluxo escolar da população jovem. Nota: elaborado por PNUD, IPEA e FJP a partir dos microdados de Censos Demográficos do IBGE. Mais Informações: <a href= \"../doc/Metodologia ADH.pdf\">Metodologia do Atlas do Desenvolvimento Humano</a>. Os dados de 2022 foram extraídos diretamente do sistema SIDRA-IBGE, tabela 9543.\r\n\r\n<p>Para acessar outras desagregações, utilize os atalhos a seguir: \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726409&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Dados Brasil</a> | \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726409&MINDATA=1970&MAXDATA=2030&TNIVID=2&TPAID=1&module=S>Dados por UF</a> |\r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726409&MINDATA=1970&MAXDATA=2030&TNIVID=5&TPAID=98&module=S>Dados por capitais</a> |\r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726409&MINDATA=1970&MAXDATA=2030&TNIVID=5&TPAID=1&module=S>Dados por município</a>.\r\n<p>por Gênero > \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726411&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Homens</a>  |    \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726412&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Mulheres</a>\r\n<p>por Cor/Raça > \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726410&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Brancos</a>  |    \r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726413&MINDATA=1970&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Pretos</a>.\r\n<p>\r\n<a href=https://www.ipeadata.gov.br/ExibeSerieR.aspx?stub=1&serid=2096726941&MINDATA=2015&MAXDATA=2030&TNIVID=0&TPAID=1&module=S>Dados Pnad Contínua</a>.\r\n<p><a href=\"http://www.ipeadata.gov.br/Default.aspx\" target=\"_blank\">Ipeadata - Página principal</a>.",
+    "SERATUALIZACAO": "2024-09-03T10:36:31.417-03:00",
+    "BASNOME": "Social",
+    "FNTSIGLA": "IPEA/ADH Censo IBGE",
+    "FNTNOME": "Atlas do Desenvolvimento Humano (Censo Demográfico)",
+    "FNTURL": "www.atlasbrasil.org.br",
+    "PERNOME": "Decenal",
+    "UNINOME": "(%)",
+    "MULNOME": null,
+    "SERSTATUS": null,
+    "TEMCODIGO": 90,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+  },
+  "download_started_utc": "2026-09-10T02:43:38.674466+00:00",
+  "download_completed_utc": "2026-09-10T02:43:41.056185+00:00",
+  "bytes": 3412563,
+  "sha256": "fa72f4f6709674142981d5c723b332dd8b5ceb48a620242200d1f025440ca3e7",
+  "http_metadata": {
+    "content-type": "application/json; odata.metadata=minimal"
+  },
+  "zip_crc_validated": false
+}

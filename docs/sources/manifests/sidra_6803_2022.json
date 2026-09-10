@@ -1,0 +1,32 @@
+{
+  "id": "sidra_6803_2022",
+  "provider": "IBGE",
+  "table": 6803,
+  "year": 2022,
+  "url": "https://apisidra.ibge.gov.br/values/t/6803/n6/all/v/381,1000381/p/2022/c1821/72129,72144,72145,72153/u/y",
+  "landing_page": "https://sidra.ibge.gov.br/tabela/6803",
+  "path": "municipal/sidra/6803/2022.json",
+  "format": "json",
+  "variables": [
+    381,
+    1000381
+  ],
+  "categories": {
+    "1821": [
+      72129,
+      72144,
+      72145,
+      72153
+    ]
+  },
+  "acquisition_reason": "Acesso domiciliar à rede de água, nas categorias publicadas.",
+  "selected_for_model": false,
+  "download_started_utc": "2026-09-10T02:38:56.236744+00:00",
+  "download_completed_utc": "2026-09-10T02:38:59.126912+00:00",
+  "bytes": 17105667,
+  "sha256": "f30a584bca9ec29e4275fd699c7feb2aa21de0a87590174d91aac52feb848613",
+  "http_metadata": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "zip_crc_validated": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "inep_rendimento_page_2010",
+  "provider": "INEP",
+  "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar/2010",
+  "path": "municipal/inep/pages/rendimento_2010.html",
+  "format": "html",
+  "year": 2010,
+  "download_started_utc": "2026-09-10T02:43:13.819750+00:00",
+  "download_completed_utc": "2026-09-10T02:43:15.180770+00:00",
+  "bytes": 208903,
+  "sha256": "f175d56720b5632323298b11319687e11c2753335f8cd6815e10730e9a47920b",
+  "http_metadata": {
+    "content-type": "text/html;charset=utf-8"
+  },
+  "zip_crc_validated": false
+}
