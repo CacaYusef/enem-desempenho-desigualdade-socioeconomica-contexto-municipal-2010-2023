@@ -1,0 +1,8 @@
+﻿Fonte;Referência/unidade;Uso e cautela
+INEP — Microdados ENEM;"2023; inscrição";Desfecho, perfil, questionário socioeconômico e município da escola.
+INEP — IDEB/Saeb municipal EM;"2023; município/rede pública; planilha de divulgação vintage 2025";"IDEB publicado e componentes Saeb; valores de 2025 não foram usados; não foi feita média de escolas."
+INEP — rendimento escolar;"2023; município; ensino médio total";Aprovação, reprovação e abandono.
+INEP — distorção idade-série;"2023; município; ensino médio total";Percentual de matrículas em distorção.
+INEP — Censo Escolar;"2023; escola ativa com IN_MED=1";Internet para alunos e laboratório: proporção simples entre escolas com item observado, todas as redes.
+IBGE — PIB dos Municípios;"2023; município; R$ correntes/habitante";PIB per capita mede atividade econômica, não renda familiar.
+IBGE — Censo 2022/SIDRA;"2022; município";"Renda domiciliar per capita, população e urbanização; defasagem explícita de um ano."

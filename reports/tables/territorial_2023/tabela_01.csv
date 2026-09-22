@@ -1,0 +1,7 @@
+﻿Decisão;Implementação nesta versão
+Ano e base;"2023; todos os 1.027.924 elegíveis, sem sorteio."
+Desfecho principal;"NU_NOTA_MT, escala original; matemática não é combinada com outras provas."
+Unidade;"Inscrição individual; contexto ligado ao município da escola."
+Território;"Norte, Nordeste, Centro-Oeste, Sudeste e Sul; município ausente preservado como categoria de cobertura."
+Municípios;"Referência n≥30; sensibilidades n≥20 e n≥50; igual peso municipal no estimando principal."
+Métodos;Frequências, medidas de posição/dispersão, Pearson, Spearman, quintis e LOWESS apenas visual.

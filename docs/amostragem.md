@@ -5,6 +5,8 @@ contém escolhas, cálculos reais, referências e seis anexos CSV com todos os
 estratos, margens, cenários, exclusões e mapeamento anual. Alguns leitores de
 PDF no navegador não exibem anexos: os mesmos arquivos estão em
 `data/processed/sampling/`. Estado acadêmico: 2º estado, somente Proposta concluída.
+As 17 tabelas exibidas no PDF também são exportadas, em ordem, para
+`reports/tables/sampling/`; os CSVs analíticos permanecem em `data/processed/`.
 
 ## Resultado e limites
 

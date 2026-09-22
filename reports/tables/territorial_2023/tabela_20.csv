@@ -1,0 +1,7 @@
+﻿Produto;Local/resultado
+Decisão vigente;docs/decisions/006-reconstrucao-enem-2023.md
+Base individual derivada;data/processed/territorial_2023/candidatos_2023.parquet
+Base municipal derivada;data/processed/territorial_2023/municipios_2023.parquet/csv
+Tabelas do relatório;"reports/tables/territorial_2023/; CSVs analíticos em data/processed/territorial_2023/"
+Código;"territorial_context.py; territorial_analysis.py; territorial_figures.py; territorial_report.py"
+Validação;"22 verificações aprovadas; data/processed/territorial_2023/validacao.json"

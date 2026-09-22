@@ -66,8 +66,12 @@ As saídas ficam em `data/processed/descriptive/`:
 - `correlacoes.csv`, `contingencia_renda_escola_2023.csv`: associações;
 - `cobertura_contextual.csv`, `selecao_contextual_2023.csv`: cobertura/seleção;
 - `sensibilidade_pesos.csv`: desenho versus calibração no mesmo domínio;
-- `figures/`, `report_blocks.json`, `relatorio_descritivo.md`: figuras e conteúdo;
+- `report_blocks.json`, `relatorio_descritivo.md`: conteúdo do relatório;
 - `amostra_contexto_escola.parquet`: derivado individual local, não publicar no Git.
+
+As sete figuras publicadas ficam em `reports/figures/descriptive/`; as nove
+tabelas do PDF são exportadas para `reports/tables/descriptive/`. Os CSVs
+analíticos listados acima permanecem em `data/processed/descriptive/`.
 
 Os comandos reproduzem cálculos e PDF local, não sobrescrevem o Google Docs.
 As atualizações nativas do documento foram verificadas por releitura de tabelas,

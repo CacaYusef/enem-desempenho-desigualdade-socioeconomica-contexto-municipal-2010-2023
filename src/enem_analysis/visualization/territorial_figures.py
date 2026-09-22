@@ -10,10 +10,11 @@ import numpy as np
 import pandas as pd
 from statsmodels.nonparametric.smoothers_lowess import lowess
 
+from enem_analysis.data.acquire import ROOT
 from enem_analysis.data.territorial_analysis import INCOME_ORDER
 from enem_analysis.data.territorial_context import INDICATORS, OUT, REGIONS
 
-FIG = OUT / "figures"
+FIG = ROOT / "reports/figures/territorial_2023"
 
 # Two restrained color families. Every data mark is a shade from one of them;
 # grays are reserved for grids, axes and missing/unknown reference marks.

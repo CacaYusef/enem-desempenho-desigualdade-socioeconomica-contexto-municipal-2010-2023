@@ -1,0 +1,13 @@
+﻿Região;Domínio dos candidatos;Municípios;Pearson;Spearman;Pearson ponderado por n
+Brasil;Todas;2.270;0,337;0,337;0,023
+Brasil;Pública;2.204;0,439;0,431;0,212
+Norte;Todas;231;0,646;0,653;0,660
+Norte;Pública;230;0,653;0,652;0,611
+Nordeste;Todas;902;0,292;0,325;-0,058
+Nordeste;Pública;887;0,415;0,431;0,164
+Centro-Oeste;Todas;174;0,315;0,300;-0,065
+Centro-Oeste;Pública;172;0,434;0,404;0,130
+Sudeste;Todas;627;0,176;0,151;0,078
+Sudeste;Pública;585;0,390;0,347;0,443
+Sul;Todas;336;-0,051;-0,044;-0,117
+Sul;Pública;330;0,052;0,033;-0,020

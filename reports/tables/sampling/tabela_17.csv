@@ -1,0 +1,9 @@
+﻿Arquivo em data/processed/sampling/;Conteúdo
+amostra_enem_2010_2023.parquet / .csv;"280 mil registros, variáveis originais selecionadas, estratos e pesos. Qxxx mantém significado original condicionado ao ano; usar o mapa anual."
+alocacao_todos_estratos.csv;N_h, n_h, π_h e peso de cada grupo/ano. Anexado ao PDF.
+alocacao_por_caracteristica.csv;Quantidades selecionadas e totais de desenho por característica/ano. Anexado.
+margens_ibge_todos_anos.csv;Proporções PNAD, n, totais estimados, EP e CV. Anexado.
+cenarios_tamanho_amostral.csv;2 margens × 4 efeitos de desenho × 14 anos. Anexado.
+"fluxo_elegibilidade.csv; mapa_variaveis_enem.csv";Exclusões sequenciais e semântica anual dos questionários. Anexados.
+"calibracao_YYYY.json; residuos_calibracao_YYYY.csv";Convergência, extremos, domínio e verificação de cada restrição.
+"validacao_amostra.json; sample_manifest.json";Versões, seed, hash e controles reprodutíveis.

@@ -1,0 +1,6 @@
+﻿Pergunta;Resposta operacional
+Que variáveis priorizar?;"Renda familiar, escolaridade dos pais, raça/cor, sexo, idade, escola e recursos de estudo; contexto municipal em bloco separado."
+Qual amostra?;"20.000 inscrições por edição, 280.000 no total; sorteio estratificado sem reposição."
+Qual calibração externa?;"2012–2023: raça × sexo e idade ampla da proxy PNAD; mantém região da escola × renda ENEM como margem interna."
+O que não foi garantido?;Representatividade nacional de concluintes, distribuição conjunta externa completa e calibração 2010/2011.
+Há determinantes comprovados?;"Não. Há hipóteses e variáveis candidatas; nenhum modelo de desempenho ou teste causal foi estimado nesta entrega."

@@ -24,8 +24,10 @@ linhas, sem definir uma amostra. Indicadores contextuais e correspondências
 geográficas ficam em `processed/municipal/`.
 
 O recorte vigente de 2023 fica em `processed/territorial_2023/`. Ele contém a
-base individual elegível integral, a agregação municipal, tabelas descritivas,
-figuras, dicionários e validação. As fontes adicionais imutáveis ficam em
+base individual elegível integral, a agregação municipal, tabelas analíticas,
+dicionários e validação. As figuras e tabelas publicadas ficam em
+`../reports/figures/` e `../reports/tables/`, separadas por análise. As fontes
+adicionais imutáveis ficam em
 `raw/municipal/territorial_2023/`: divulgação municipal do IDEB/Saeb 2023,
 nota técnica do IDEB, distorção idade-série e Censo Escolar 2023. Proveniência,
 URLs e SHA-256: `../docs/sources/territorial_2023_catalog.json` e manifestos

@@ -1,0 +1,8 @@
+﻿Papel;Colunas;Razão e cautela
+Desfechos;NU_NOTA_CN, NU_NOTA_CH, NU_NOTA_LC, NU_NOTA_MT, NU_NOTA_REDACAO;Analisar separadamente as cinco dimensões. Não criar média geral com pesos arbitrários nem comparar áreas como escalas idênticas.
+Recursos familiares;"Q006; Q005";Renda familiar em faixas e moradores. Faixa não é renda pontual. Renda familiar / moradores não é automaticamente renda domiciliar per capita exata.
+Capital educacional;"Q001; Q002";"Escolaridade do pai/responsável e mãe/responsável. Incluir ambos; não sei é categoria distinta, nunca zero escolaridade."
+Desigualdade social;"TP_COR_RACA; TP_SEXO";Raça/cor e sexo registrado permitem descrever desigualdades e interações. Não interpretar associação como capacidade inata.
+Idade/trajetória;TP_FAIXA_ETARIA;Faixas etárias captam heterogeneidade e atraso escolar imperfeitamente. Não atribuir idade exata ao ponto médio.
+Escolarização;"TP_ESCOLA; TP_DEPENDENCIA_ADM_ESC; TP_LOCALIZACAO_ESC";"Público/privado, dependência administrativa e localização urbana/rural da escola. Verificar cobertura; não confundir escola atual com toda a trajetória."
+Condições de estudo;"Q024; Q025";Computador e internet. Possíveis mecanismos/mediadores de renda: incluir em bloco adicional, não controlar silenciosamente ao estimar associação total de renda.

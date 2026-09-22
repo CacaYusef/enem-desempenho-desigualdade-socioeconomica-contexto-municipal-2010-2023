@@ -31,8 +31,10 @@ from reportlab.platypus import (
 
 from enem_analysis.data.acquire import ROOT, sha256, write_json
 from enem_analysis.data.sampling_plan import OUT, dictionary
+from enem_analysis.visualization.report_assets import save_table_csv
 
 REPORT = ROOT / "reports/report/variaveis_plano_amostral_chang.pdf"
+TABLES = ROOT / "reports/tables/sampling"
 MUNICIPAL = {
     "pib_per_capita_reais": "Atividade econômica por habitante; não renda das famílias",
     "educ_abandono_medio_pct": "Fragilidade do fluxo escolar no ensino médio",
@@ -216,7 +218,7 @@ def audit_products() -> dict:
 
 
 class Report:
-    def __init__(self):
+    def __init__(self, table_directory: Path | None = None):
         font_dir = Path(matplotlib.get_data_path()) / "fonts/ttf"
         pdfmetrics.registerFont(TTFont("DejaVu", str(font_dir / "DejaVuSans.ttf")))
         pdfmetrics.registerFont(
@@ -238,6 +240,8 @@ class Report:
             )
         )
         self.story = []
+        self.table_number = 0
+        self.table_directory = table_directory
 
     def heading(self, title):
         if self.story:
@@ -249,6 +253,9 @@ class Report:
         self.story.append(Paragraph(text, self.styles["BodyText"]))
 
     def table(self, headers, rows, widths=None):
+        self.table_number += 1
+        if self.table_directory is not None:
+            save_table_csv(self.table_directory, self.table_number, headers, rows)
         contents = [
             [
                 Paragraph(escape(str(x)).replace("\n", "<br/>"), self.styles["Cell"])
@@ -303,7 +310,7 @@ def main():
     plans = [read_json(OUT / f"plano_{y}.json") for y in range(2010, 2024)]
     cs = read_json(OUT / "calibracao_resumo.json")
     calibrated = [c for c in cs if c["external_calibration"]]
-    r = Report()
+    r = Report(table_directory=TABLES)
     r.heading("Variáveis e plano amostral<br/>ENEM 2010–2023")
     r.p(
         "<b>Leitura da proposta Chang (2), escolha de variáveis, amostragem estratificada e calibração parcial.</b> "

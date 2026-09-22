@@ -39,7 +39,7 @@ e verificados por CRC/SHA-256. A limitação está registrada, sem ocultar a rot
 
 ## Produtos derivados
 
-Tudo fica em `data/processed/territorial_2023/`:
+Os derivados analíticos ficam em `data/processed/territorial_2023/`:
 
 - `candidatos_2023.parquet`: base individual elegível com contexto;
 - `municipios_2023.parquet/csv`: desempenho e composições municipais;
@@ -53,9 +53,12 @@ Tudo fica em `data/processed/territorial_2023/`:
   declarado indisponível, sem preenchimento por proxy incompatível;
 - `referencia_proxy_pnad.csv`: referência contextual, não alvo de calibração;
 - `validacao.json`, dicionários e manifestos;
-- `figures/`: onze figuras usadas no PDF, com estilo `ggplot` e sistema
-  cromático restrito a duas famílias (azul e amarelo), variando apenas suas
-  tonalidades; cinzas são reservados à estrutura gráfica e a ausências.
+
+As onze figuras usadas no PDF ficam em `reports/figures/territorial_2023/`, com
+estilo `ggplot` e duas famílias cromáticas (azul e amarelo); cinzas ficam na
+estrutura gráfica e nas ausências. As tabelas exibidas no PDF são exportadas,
+na ordem do relatório, para `reports/tables/territorial_2023/`. Os CSVs de
+`data/processed/territorial_2023/` continuam sendo as fontes analíticas.
 
 ## Reprodução
 

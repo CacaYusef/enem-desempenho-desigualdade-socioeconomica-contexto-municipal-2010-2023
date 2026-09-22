@@ -1,0 +1,7 @@
+﻿Conjunto;Uso correto
+"NU_INSCRICAO; ano";"Identificação e estratificação temporal; inscrição não é covariável numérica nem chave de painel individual longitudinal."
+"TP_PRESENCA_*; TP_STATUS_REDACAO; IN_TREINEIRO; TP_ST_CONCLUSAO; TP_ENSINO";"Definem elegibilidade. Não incluir como preditores após seleção; muitos ficam constantes ou revelam o próprio desfecho."
+"TX_RESPOSTAS_*; TX_GABARITO_*; NU_NOTA_COMP1–5";Respostas, gabaritos e componentes da redação podem revelar ou reconstruir a nota: vazamento de informação para um estudo socioeconômico.
+"CO_MUNICIPIO_ESC; CO_UF_ESC";Chaves de ligação e agrupamento. Códigos IBGE não têm ordem quantitativa. Não substituir residência por escola.
+CO_MUNICIPIO_PROVA;Local de aplicação, não moradia nem necessariamente escola. Não usar como atalho residencial.
+As demais notas;Usar matemática para explicar redação muda a pergunta para associação entre habilidades medidas, não o poder explicativo original do contexto socioeconômico.

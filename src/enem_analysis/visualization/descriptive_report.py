@@ -20,9 +20,11 @@ from enem_analysis.data.acquire import ROOT, write_json
 from enem_analysis.data.descriptive_analysis import INCOME_ORDER, OUT, SCORE_NAMES
 from enem_analysis.data.sampling_plan import SCORES
 from enem_analysis.statistics.descriptive import weighted_correlation, weighted_summary
+from enem_analysis.visualization.report_assets import save_table_csv
 from enem_analysis.visualization.sampling_report import Report, number
 
-FIG = OUT / "figures"
+FIG = ROOT / "reports/figures/descriptive"
+TABLES = ROOT / "reports/tables/descriptive"
 PDF = ROOT / "reports/report/relatorio_descritivo_enem.pdf"
 EDUC_LABELS = [
     "Nunca estudou",
@@ -748,7 +750,7 @@ def make_blocks():
         add("source", label, url=definition["link_fonte"])
     add(
         "p",
-        "Reprodução: python -m enem_analysis.data.descriptive_analysis; python -m enem_analysis.visualization.descriptive_report. Tabelas completas e figuras: data/processed/descriptive/. O manifesto registra hashes de entrada, versões e controles de qualidade. As decisões 004 e 005 documentam desenho, recortes, pesos e regras. Nenhuma observação foi removida da amostra de 280.000 nesta etapa; pares incompletos ficam fora apenas do cálculo específico, com denominadores informados.",
+        "Reprodução: python -m enem_analysis.data.descriptive_analysis; python -m enem_analysis.visualization.descriptive_report. CSVs analíticos: data/processed/descriptive/; tabelas do relatório: reports/tables/descriptive/; figuras: reports/figures/descriptive/. O manifesto registra hashes de entrada, versões e controles de qualidade. As decisões 004 e 005 documentam desenho, recortes, pesos e regras. Nenhuma observação foi removida da amostra de 280.000 nesta etapa; pares incompletos ficam fora apenas do cálculo específico, com denominadores informados.",
     )
     return blocks
 
@@ -759,6 +761,7 @@ def build_pdf(blocks):
     from reportlab.platypus import SimpleDocTemplate
 
     r = Report()
+    table_number = 0
     for b in blocks:
         kind = b["type"]
         if kind in ["title", "subtitle", "h1", "h2"]:
@@ -776,6 +779,8 @@ def build_pdf(blocks):
                 content = f'<link href="{escape(b["url"], quote=True)}" color="#17628A">{content}</link>'
             r.p(content)
         elif kind == "table":
+            table_number += 1
+            save_table_csv(TABLES, table_number, b["headers"], b["rows"])
             r.table(b["headers"], b["rows"], b.get("widths"))
         elif kind == "image":
             img = Image(b["path"])

@@ -1,0 +1,7 @@
+﻿População/estimando;Definição e limite
+Alvo substantivo;"Concluintes do ensino médio em cada ano; a operação atual restringe-se ao regular. EJA não está representada."
+Cadastro observado;Concluintes declarados no ENEM, ensino regular, presentes nas quatro áreas, cinco notas numéricas e redação regular.
+Referência externa;"PNADC: frequenta ensino médio regular, série 3 ou 4. Não comprova diploma; série 3 pode não ser terminal em curso de quatro anos."
+Estimando descritivo primário;Médias e distribuições por área dentro do cadastro elegível anual, usando pesos de desenho.
+Estimando secundário;Distribuições/associações padronizadas às margens demográficas da proxy PNAD no domínio de raça e sexo conhecidos.
+Sem identificação causal;Diferenças observadas não são efeitos de raça, escola, renda ou território. Seleção, confundimento e temporalidade permanecem.

@@ -32,9 +32,11 @@ from reportlab.platypus import (
 
 from enem_analysis.data.acquire import ROOT, sha256, write_json
 from enem_analysis.data.territorial_context import INDICATORS, OUT, REGIONS
+from enem_analysis.visualization.report_assets import save_table_csv
 
 PDF = ROOT / "reports/report/relatorio_descritivo_territorial_enem_2023.pdf"
-FIG = OUT / "figures"
+FIG = ROOT / "reports/figures/territorial_2023"
+TABLES = ROOT / "reports/tables/territorial_2023"
 
 
 def number(value, digits=0):
@@ -106,6 +108,7 @@ class Report:
         )
         self.story = []
         self.figure_number = 0
+        self.table_number = 0
 
     def section(self, title, break_page=True):
         if self.story and break_page:
@@ -119,6 +122,8 @@ class Report:
         self.story.append(Paragraph(text, self.styles["BodyText"]))
 
     def table(self, headers, rows, widths=None, font_size=None):
+        self.table_number += 1
+        save_table_csv(TABLES, self.table_number, headers, rows)
         style = self.styles["Cell"]
         if font_size:
             style = ParagraphStyle(
@@ -938,7 +943,7 @@ def main():
                 "Base municipal derivada",
                 "data/processed/territorial_2023/municipios_2023.parquet/csv",
             ],
-            ["Tabelas", "data/processed/territorial_2023/*.csv e dicionários JSON"],
+            ["Tabelas do relatório", "reports/tables/territorial_2023/; CSVs analíticos em data/processed/territorial_2023/"],
             [
                 "Código",
                 "territorial_context.py; territorial_analysis.py; territorial_figures.py; territorial_report.py",

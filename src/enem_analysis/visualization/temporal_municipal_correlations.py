@@ -12,6 +12,7 @@ import numpy as np
 import pandas as pd
 from matplotlib.colors import LinearSegmentedColormap
 
+from enem_analysis.data.acquire import ROOT
 from enem_analysis.data.temporal_municipal_correlations import (
     ANNUAL_INDICATORS,
     CENSUS_ANCHORS,
@@ -20,7 +21,7 @@ from enem_analysis.data.temporal_municipal_correlations import (
     SCORE_LABELS,
 )
 
-FIG = OUT / "figures"
+FIG = ROOT / "reports/figures/territorial_series_2010_2023"
 
 # Two restrained color families; neutral grays remain structural.
 PALETTES = {

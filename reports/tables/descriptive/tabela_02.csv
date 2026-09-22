@@ -1,0 +1,8 @@
+﻿Dimensão / colunas;Interpretação
+NU_NOTA_CN, CH, LC, MT e REDACAO;"Cinco desfechos em pontos, analisados separadamente; os quatro primeiros nomes também têm prefixo NU_NOTA_."
+"Q006; Q005";"Renda familiar em faixas; número de moradores. Não se atribuiu renda pontual à faixa."
+"Q001; Q002";Escolaridade de pai/responsável e mãe/responsável. ‘Não sei’ permanece explícito.
+"TP_COR_RACA; TP_SEXO; TP_FAIXA_ETARIA";"Características demográficas categóricas; códigos não são medidas numéricas."
+"TP_ESCOLA; TP_DEPENDENCIA_ADM_ESC; TP_LOCALIZACAO_ESC";Tipo de escola, dependência administrativa e localização urbana/rural.
+"Q024; Q025";Computador e internet na residência: recursos de estudo potencialmente ligados à renda.
+"CO_MUNICIPIO_ESC; ano";Chaves de vínculo contextual, nunca medidas quantitativas nem residência presumida.

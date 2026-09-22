@@ -1,0 +1,6 @@
+﻿Coluna;Interpretação
+pi_h;"Probabilidade de sorteio dentro do cadastro elegível ENEM; não probabilidade nacional de participar do exame."
+peso_desenho;N_h/n_h: usar para descrição do ENEM elegível. Disponível nos 14 anos e para não declarados.
+peso_calibrado_proxy;"w_desenho × fator g. Experimental, 2012–2023, raça/sexo conhecidos. Soma ao N ENEM desse domínio; não expande para a população brasileira."
+peso_calibrado_proxy_normalizado;"Mesmo peso dividido pela média dos pesos calibrados da edição. Escala média 1; não estimar totais populacionais com ele."
+status_calibracao;Distingue domínio calibrado, fora de domínio e anos sem referência. Peso externo ausente não deve ser substituído por zero.

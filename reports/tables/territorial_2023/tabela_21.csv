@@ -1,0 +1,7 @@
+﻿Hash/versão;Valor
+Parquet ENEM 2023 de entrada;b2c06ec7d7a820f5ca8947d0c77735952b5d4435d88f71e1a3ca66b597cf44c0
+Contexto municipal derivado;a92c546b2a2aed9f19217afb009d2b7c9532c70a0042768e76e0a5ae7c5f1fc8
+Base individual desta análise;99d7ea26f68bcddcdd417daa8349937a6f55e23bf82aada31d8d2d5d50780a81
+Base municipal desta análise;503721add64a5edce2bd8b455c5c95069b2bdf90163d556da9accd0ae5ea37b1
+Python;3.13.5
+Bibliotecas;"pandas 3.0.5; numpy 2.5.3; duckdb 1.5.5; scipy 1.18.1; matplotlib 3.11.1; statsmodels 0.15.0"

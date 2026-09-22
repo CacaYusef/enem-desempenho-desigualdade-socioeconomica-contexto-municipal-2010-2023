@@ -1,0 +1,7 @@
+﻿Papel;Variáveis;Tratamento
+Desfecho;NU_NOTA_MT;"Matemática, contínua na escala publicada; principal e isolada."
+Recursos familiares;Q006, Q005, Q024, Q025;"Renda em 17 faixas; moradores; computadores; internet. Não converter faixa em renda pontual."
+Capital educacional;Q001, Q002;"Escolaridade do pai/responsável e da mãe/responsável; “não sabe” preservado."
+Demografia;TP_COR_RACA, TP_SEXO, TP_FAIXA_ETARIA;"Categorias oficiais; códigos não tratados como números contínuos."
+Escola;TP_ESCOLA, TP_DEPENDENCIA_ADM_ESC, TP_LOCALIZACAO_ESC;"Tipo, dependência e localização; ausências preservadas."
+Contexto;IDEB, Saeb, fluxo, TDI, PIB, renda, população, urbanização, infraestrutura;"Junção muitos-para-um pelo município da escola; ano/rede/unidade mantidos."

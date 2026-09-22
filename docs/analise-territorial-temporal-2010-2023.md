@@ -15,7 +15,8 @@ python -m pytest
 python -m ruff check .
 ```
 
-Saídas: `data/processed/territorial_series_2010_2023/`. O manifesto registra
+Saídas analíticas: `data/processed/territorial_series_2010_2023/`;
+figuras: `reports/figures/territorial_series_2010_2023/`. O manifesto registra
 hashes de todos os cadastros elegíveis, da base municipal e dos derivados;
 `validacao.json` registra oito verificações aprovadas. As figuras usam estilo
 `ggplot` e duas famílias cromáticas: azul e amarelo, com variação apenas de
