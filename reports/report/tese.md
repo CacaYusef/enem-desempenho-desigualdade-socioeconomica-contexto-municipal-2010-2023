@@ -14,6 +14,32 @@ Souza Fonseca
 
 ## Aviso sobre o andamento
 
+Atualização vigente de 21/09/2026: a reconstrução descritiva aprovada usa todos
+os 1.027.924 elegíveis do ENEM 2023, matemática como desfecho principal e
+contexto do município da escola. O relatório para revisão está em
+[relatorio_descritivo_territorial_enem_2023.pdf](relatorio_descritivo_territorial_enem_2023.pdf),
+com método e reprodução em
+[docs/analise-territorial-2023.md](../../docs/analise-territorial-2023.md) e na
+decisão 006. A etapa econométrica será executada somente depois da análise
+descritiva e não foi iniciada. As atualizações de 20/09 abaixo são histórico.
+
+Atualização descritiva de 20/09/2026: a análise da amostra existente foi
+executada e a versão do relatório para revisão está no
+[PDF descritivo](relatorio_descritivo_enem.pdf) e na aba “Relatório Descritivo”
+do documento de trabalho Google Docs. Métodos, resultados e reprodução:
+[registro da entrega](../../docs/relatorio-descritivo.md), decisão 005.
+Esta atualização não aprova academicamente a etapa nem conclui a inferência.
+O texto-base histórico abaixo permanece preservado.
+
+Atualização técnica de 20/09/2026: foram geradas a amostra operacional
+estratificada (20 mil por edição), probabilidades e pesos, além do
+[relatório de variáveis e amostragem](variaveis_plano_amostral_chang.pdf).
+A calibração externa é parcial e experimental, com proxy PNAD em 2012–2023;
+não identifica todos os concluintes brasileiros. O texto da proposta abaixo
+é histórico; as escolhas atuais estão na decisão 004 e em `docs/amostragem.md`.
+Isso não conclui a preparação analítica para todos os modelos nem o Relatório
+Descritivo acadêmico.
+
 O trabalho encontra-se atualmente no **2º estado**, correspondente à elaboração
 do **Relatório Descritivo**. Até o momento, **somente a Proposta foi concluída**.
 Este arquivo é uma estrutura de trabalho construída a partir dessa proposta e
@@ -22,8 +48,8 @@ concluído.
 
 Ainda não foram concluídos:
 
-- a preparação e validação da base analítica;
-- a análise descritiva;
+- a preparação e validação para os modelos inferenciais;
+- a revisão acadêmica da análise descritiva já calculada;
 - a análise inferencial;
 - o Relatório Descritivo;
 - o Relatório Final;

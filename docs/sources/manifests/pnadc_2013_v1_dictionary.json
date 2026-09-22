@@ -1,0 +1,20 @@
+{
+  "id": "pnadc_2013_v1_dictionary",
+  "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2012_a_2014_visita1_20220224.xls",
+  "path": "sampling/pnad/2013/dicionario_PNADC_microdados_2012_a_2014_visita1_20220224.xls",
+  "format": "xls",
+  "provider": "IBGE",
+  "year": 2013,
+  "visit": 1,
+  "kind": "dictionary",
+  "download_started_utc": "2026-09-20T09:30:11.035353+00:00",
+  "download_completed_utc": "2026-09-20T09:30:11.506910+00:00",
+  "bytes": 238080,
+  "sha256": "bffe83da2a7a0cc82d90b60e1f3a123b7bc6238f83a66919aee1ddd31f52e9a0",
+  "http_metadata": {
+    "last-modified": "Thu, 24 Feb 2022 12:43:29 GMT",
+    "etag": "\"3a200-5d8c2edd7f6b7\"",
+    "content-type": "application/vnd.ms-excel"
+  },
+  "zip_crc_validated": false
+}

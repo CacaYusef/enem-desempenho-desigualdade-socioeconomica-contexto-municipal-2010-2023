@@ -1,0 +1,71 @@
+{
+  "id": "territorial_censo_escolar_2023",
+  "provider": "INEP",
+  "year": 2023,
+  "url": "http://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2023.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar",
+  "path": "municipal/territorial_2023/censo_escolar_2023.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-21T04:22:08.954522+00:00",
+  "download_completed_utc": "2026-09-21T04:22:20.188140+00:00",
+  "bytes": 32094587,
+  "sha256": "8ed0db8c557137593727b0574d5c99d0abb52491cd7c5769f8cefa98e1fa9e66",
+  "http_metadata": {
+    "last-modified": "Mon, 19 Feb 2024 21:11:24 GMT",
+    "etag": "\"1e9b97b-611c2893bf700\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "microdados_censo_escolar_2023/Anexos/ANEXO I - Dicionário de Dados/dicionário_dados_educaç╞o_básica.xlsx",
+      "bytes": 120630,
+      "crc32": "4f38825a"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/Anexos/ANEXO II -  Questionários do Censo da Educaç╞o Basica/Aluno.pdf",
+      "bytes": 70811,
+      "crc32": "67c8846f"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/Anexos/ANEXO II -  Questionários do Censo da Educaç╞o Basica/Escola.pdf",
+      "bytes": 102360,
+      "crc32": "6d55bb21"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/Anexos/ANEXO II -  Questionários do Censo da Educaç╞o Basica/Gestor Escolar.pdf",
+      "bytes": 65174,
+      "crc32": "25320cee"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/Anexos/ANEXO II -  Questionários do Censo da Educaç╞o Basica/Profissional Escolar.pdf",
+      "bytes": 75061,
+      "crc32": "2749fb5c"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/Anexos/ANEXO II -  Questionários do Censo da Educaç╞o Basica/Turma.pdf",
+      "bytes": 82227,
+      "crc32": "edfa806a"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/dados/md5_microdados_ed_basica_2023.txt",
+      "bytes": 136,
+      "crc32": "1e2e067f"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/dados/microdados_ed_basica_2023.csv",
+      "bytes": 210035219,
+      "crc32": "778b319f"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/dados/suplemento_cursos_tecnicos_2023.csv",
+      "bytes": 4018614,
+      "crc32": "c8ddaa6a"
+    },
+    {
+      "name": "microdados_censo_escolar_2023/leia-me/Leia-me.pdf",
+      "bytes": 185395,
+      "crc32": "444b95c5"
+    }
+  ]
+}

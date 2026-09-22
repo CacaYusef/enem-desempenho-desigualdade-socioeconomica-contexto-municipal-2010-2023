@@ -1,0 +1,43 @@
+{
+  "purpose": "Descritiva socioeconomica territorial ENEM 2023, decisao 006",
+  "transport_note": "Links publicados HTTPS no INEP; servidor download.inep.gov.br reinicia TLS neste ambiente. Aquisição pelo mesmo host/caminho via HTTP, com CRC, SHA256 e data registrados; transporte não autenticado por TLS.",
+  "sources": [
+    {
+      "id": "territorial_censo_escolar_2023",
+      "provider": "INEP",
+      "year": 2023,
+      "url": "http://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2023.zip",
+      "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar",
+      "path": "municipal/territorial_2023/censo_escolar_2023.zip",
+      "format": "zip"
+    },
+    {
+      "id": "territorial_ideb_municipios_em_v2025",
+      "provider": "INEP",
+      "year": 2023,
+      "vintage": 2025,
+      "url": "http://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_municipios_2025.zip",
+      "landing_page": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados/2005-2025",
+      "path": "municipal/territorial_2023/ideb_municipios_em_v2025.zip",
+      "format": "zip",
+      "selection": "Inspecionar planilha, selecionar somente colunas de referência 2023 e rede pública publicada; nunca valores 2025."
+    },
+    {
+      "id": "territorial_ideb_nota_2023",
+      "provider": "INEP",
+      "year": 2023,
+      "url": "http://download.inep.gov.br/ideb/nota_informativa_ideb_2023.pdf",
+      "path": "municipal/territorial_2023/nota_ideb_2023.pdf",
+      "format": "pdf"
+    },
+    {
+      "id": "territorial_tdi_municipios_2023",
+      "provider": "INEP",
+      "year": 2023,
+      "url": "http://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/TDI_2023_MUNICIPIOS.zip",
+      "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie/2023",
+      "path": "municipal/territorial_2023/tdi_municipios_2023.zip",
+      "format": "zip"
+    }
+  ]
+}

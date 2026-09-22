@@ -2,8 +2,9 @@
 
 Projeto de análise estatística reprodutível sobre o tema indicado no título. O
 relatório acadêmico fornecido estabeleceu uma pergunta associativa preliminar.
-A unidade principal pretendida foi atualizada para município × ano do ENEM;
-o estimando e o desenho ainda precisam ser formalizados antes da inferência.
+A entrega vigente analisa a base elegível integral do ENEM 2023, com matemática
+como desfecho principal e município da escola como contexto. A decisão 006
+registra o desenho; inferência e modelos econométricos ainda não foram executados.
 
 ## Estado atual
 
@@ -15,12 +16,19 @@ o estimando e o desenho ainda precisam ser formalizados antes da inferência.
   indicador e ano. Não foram interpolados indicadores censitários.
 - Importação, fontes e reprodução: [docs/importacao.md](docs/importacao.md).
 - Auditoria técnica: [reports/data-quality.md](reports/data-quality.md).
-- Tamanho da amostra e parâmetros estatísticos: **não definidos**.
-- Análise estatística: ainda não iniciada.
+- Desenho vigente: **1.027.924 elegíveis de 2023**, todos incluídos, sem sorteio;
+  probabilidade condicional de processamento e peso iguais a 1.
+- [Relatório PDF vigente: análise socioeconômica e territorial](reports/report/relatorio_descritivo_territorial_enem_2023.pdf).
+- [Resultados, fontes, limites e reprodução](docs/analise-territorial-2023.md).
+- A análise descritiva foi executada; modelos econométricos, testes e inferência
+  ainda não foram executados. A revisão acadêmica da etapa está pendente.
+- O plano de 20 mil por edição, a calibração PNAD e o relatório multianual
+  permanecem preservados como histórico das decisões 004/005, não como desenho
+  vigente.
 - Pergunta pretendida, unidade principal e pendências: documentadas em
-  `docs/methodology.md`; a população ainda não foi definida.
-- Estimando, critérios de inclusão, vínculo residencial e método: pendentes.
-  Escola e local de prova não serão usados como residência.
+  `docs/methodology.md`; referência substantiva: concluintes do ensino médio.
+- O vínculo territorial usa somente o município da escola; local de prova não é
+  residência. Estimandos e métodos econométricos continuam pendentes.
 - Texto-base da tese: `reports/report/tese.md`.
 
 ## Estrutura

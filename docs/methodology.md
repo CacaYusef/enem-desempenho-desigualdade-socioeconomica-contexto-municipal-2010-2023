@@ -1,5 +1,125 @@
 # Metodologia
 
+## Extensão descritiva temporal — 21/09/2026, decisão 007
+
+O pedido mais recente estende as correlações municipais de 2023 a 2010–2022.
+Para manter médias municipais estáveis e o corte n≥30, a extensão usa os
+cadastros elegíveis integrais da decisão 004, mantendo suas cinco notas e regras
+comparáveis. Esse derivado município da escola × ano não substitui a amostra
+operacional de 20 mil por edição. Pearson, Spearman e Pearson ponderado por n
+são descrições; não há teste, regressão ou causalidade. Séries anuais, IDEB
+bienal e âncoras censitárias permanecem separados, sem interpolação. Detalhes:
+[decisão 007](decisions/007-correlacoes-municipais-temporais.md).
+
+## Desenho vigente — 21/09/2026, decisão 006
+
+O usuário aprovou a reconstrução com foco socioeconômico e territorial no
+**ENEM 2023**, usando **todos os elegíveis** e **matemática como desfecho
+principal**. Não utilizar automaticamente o recorte de 20 mil, a calibração
+ou o foco nas cinco provas das versões anteriores. Critérios, pergunta,
+estimandos descritivos, fontes e limites estão na
+[decisão 006](decisions/006-reconstrucao-enem-2023.md).
+
+A econometria fica para depois da análise descritiva. Não executar modelos,
+testes ou inferência nesta entrega. As seções seguintes são histórico; suas
+escolhas substituídas não prevalecem sobre esta atualização.
+
+### Execução do desenho vigente
+
+O filtro aprovado resultou em **1.027.924 inscrições elegíveis**, todas incluídas
+sem sorteio (π condicional=1; peso=1). O município da escola foi identificado
+para 709.066 candidatos, em 5.475 municípios. A análise municipal principal usa
+n≥30 e conserva 2.341 municípios e 672.090 candidatos vinculados; n≥20 e n≥50
+são sensibilidades.
+
+Foram incorporados IDEB/Saeb municipal público de referência 2023, fluxo,
+distorção e infraestrutura escolar de 2023, PIB per capita de 2023 e renda,
+população e urbanização do Censo 2022 com defasagem declarada. A junção usa o
+município da escola. IDEB não foi reconstruído por média de escolas e IDHM 2010
+não integra o núcleo contemporâneo. Resultados e comandos estão em
+[analise-territorial-2023.md](analise-territorial-2023.md); o PDF vigente é
+[relatorio_descritivo_territorial_enem_2023.pdf](../reports/report/relatorio_descritivo_territorial_enem_2023.pdf).
+
+## Execução descritiva — 20/09/2026, decisão 005
+
+A [decisão 005](decisions/005-relatorio-descritivo.md) registra as regras da
+análise já calculada sobre a amostra da decisão 004, sem novo sorteio, exclusão
+ou imputação. São 280.000 inscrições (20.000 por edição); as séries cobrem
+2010–2023 e o detalhamento gráfico concentra-se em 2023, último ano do escopo.
+As cinco notas são analisadas separadamente. Médias, variâncias descritivas,
+quantis, proporções e correlações usam pesos de desenho; a calibração externa
+é uma sensibilidade no mesmo domínio de raça/sexo conhecidos.
+
+O vínculo municipal usa a escola e o ano exato, preservando todos os casos
+na junção à esquerda. PIB per capita e abandono no ensino médio compõem o
+núcleo anual; renda censitária, Gini e IDHM-E são examinados somente nos anos
+observados. Não há substituição de residência nem transporte entre censos.
+Ausências, desconhecimento, códigos inválidos e extremos foram quantificados.
+Valores extremos e zeros observados não foram removidos automaticamente.
+
+[Relatório, resultados e reprodução](relatorio-descritivo.md). O Google Docs
+recebeu uma aba específica, preservando a proposta original. Esta é uma versão
+descritiva para revisão dos autores: o trabalho continua no 2º estado, não
+equivale a Relatório Final, nem inclui testes, intervalos inferenciais ou modelos.
+
+## Atualização vigente — 20/09/2026, decisão 004
+
+O pedido de identificar variáveis e construir amostra estratificada substitui
+o adiamento de amostragem da decisão 003. O usuário escolheu **concluintes do
+ensino médio em cada ano** como população de referência. A operação atual
+restringe-se ao ensino regular; EJA não está coberta. A unidade é inscrição ×
+edição; município × ano é contexto auxiliar. [Plano completo](amostragem.md) e
+[PDF com cálculos e anexos](../reports/report/variaveis_plano_amostral_chang.pdf).
+
+Pergunta operacional: quais características familiares, demográficas e escolares
+estão associadas às diferenças de notas entre concluintes declarados elegíveis
+do ENEM, e que informação adicional oferece o município da escola quando
+identificado? Município da escola não é residência. A pergunta residencial
+anterior continua sem identificação, não foi resolvida por uma troca de chave.
+
+Estimando descritivo primário: distribuição e média de cada uma das cinco notas,
+separadamente, no cadastro elegível de cada edição. Estimando secundário:
+padronização demográfica à proxy PNAD, no domínio de raça/sexo conhecidos;
+não é média nacional identificada de todos os concluintes. Contrastes e modelos
+associativos específicos precisam de pré-especificação antes de testes.
+
+Hipóteses substantivas: renda e escolaridade parental estão associadas ao
+desempenho; diferenças escolares refletem também composição familiar; contexto
+territorial pode acrescentar informação. Não são conclusões nem efeitos causais.
+Hipóteses estatísticas, nível de significância, poder e correções de multiplicidade
+serão definidos para os contrastes concretos; não houve teste nesta entrega.
+
+Elegibilidade: conclusão declarada no ano, ensino regular, não treineiro quando
+observável, presença nas quatro áreas, cinco notas numéricas e redação regular
+conforme dicionário anual. Ausência de raça/renda/escola não elimina inscrição.
+Exclusões estão quantificadas em `data/processed/sampling/fluxo_elegibilidade.csv`.
+O filtro de redação/presença seleciona o universo; análise por área menos
+restritiva é uma sensibilidade futura, não resultado já produzido.
+
+Amostra operacional executada: 20 mil/ano em 2010–2023, sem reposição, estratos
+de região da escola × raça × sexo × renda original; piso 2 ou inclusão certa
+se N_h=1. Semente 20260920 + ano. Probabilidade n_h/N_h condicional ao ENEM.
+Cenários de proporções: confiança 95%, erros de 1 e 2 pontos percentuais, DEFF
+planejado 1; 1,5; 2; 3 e correção finita. DEFF=2 não foi provado; 30 mil/ano é
+alternativa mais conservadora para o cenário DEFF=3, não a amostra sorteada.
+
+PNADC anual 2012–2023: ensino médio regular, séries 3/4, peso V1032. Essa proxy
+não confirma conclusão; sensibilidade série 3 versus 3/4 calculada. Calibração
+externa parcial: raça × sexo e idade; margem interna: região da escola × renda
+ENEM. Não calibrar renda familiar por renda domiciliar nem escola por residência.
+2010/2011 têm somente pesos de desenho. Não declarados conservam peso de desenho
+e não recebem peso externo. A participação voluntária no ENEM impede concluir
+representatividade nacional apenas por raking. Os alvos PNAD têm erro amostral.
+
+O trabalho permanece no **2º estado**; **somente a Proposta foi concluída**.
+
+## Histórico preservado — etapa de importação, anterior à decisão 004
+
+O restante deste documento registra o planejamento da importação. Afirmações
+abaixo de amostra/população ainda indefinidas descrevem aquele momento e são
+substituídas, apenas nesses pontos, pela atualização acima. As limitações de
+residência, comparabilidade e inferência continuam aplicáveis.
+
 Status acadêmico: **2º estado — Relatório Descritivo em elaboração**. Somente a
 **Proposta** foi concluída. O Relatório Descritivo, o Relatório Final e a
 Apresentação ainda não foram concluídos.

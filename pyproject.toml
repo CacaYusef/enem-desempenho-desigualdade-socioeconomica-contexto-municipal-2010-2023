@@ -25,6 +25,8 @@ dependencies = [
 dev = [
   "jupyterlab>=4.3",
   "pypdf>=6.18",
+  "pymupdf>=1.28",
+  "reportlab>=5",
   "pytest>=8.3",
   "ruff>=0.8",
 ]

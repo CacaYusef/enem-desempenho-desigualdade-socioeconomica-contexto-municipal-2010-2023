@@ -23,6 +23,14 @@ gera `processed/enem/year=ANO/participantes.parquet`, com todas as colunas e
 linhas, sem definir uma amostra. Indicadores contextuais e correspondências
 geográficas ficam em `processed/municipal/`.
 
+O recorte vigente de 2023 fica em `processed/territorial_2023/`. Ele contém a
+base individual elegível integral, a agregação municipal, tabelas descritivas,
+figuras, dicionários e validação. As fontes adicionais imutáveis ficam em
+`raw/municipal/territorial_2023/`: divulgação municipal do IDEB/Saeb 2023,
+nota técnica do IDEB, distorção idade-série e Censo Escolar 2023. Proveniência,
+URLs e SHA-256: `../docs/sources/territorial_2023_catalog.json` e manifestos
+`territorial_*.json`.
+
 `processed/municipal/base_municipio_ano.parquet` e sua cópia CSV contêm o contexto
 municipal, **não uma base analítica concluída de participantes residentes**.
 As colunas ENEM dessa tabela permanecem ausentes, pois escola/prova não validam

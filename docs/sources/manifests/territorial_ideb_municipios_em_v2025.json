@@ -1,0 +1,38 @@
+{
+  "id": "territorial_ideb_municipios_em_v2025",
+  "provider": "INEP",
+  "year": 2023,
+  "vintage": 2025,
+  "url": "http://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_municipios_2025.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados/2005-2025",
+  "path": "municipal/territorial_2023/ideb_municipios_em_v2025.zip",
+  "format": "zip",
+  "selection": "Inspecionar planilha, selecionar somente colunas de referência 2023 e rede pública publicada; nunca valores 2025.",
+  "download_started_utc": "2026-09-21T04:20:33.639489+00:00",
+  "download_completed_utc": "2026-09-21T04:20:39.946864+00:00",
+  "bytes": 8531020,
+  "sha256": "f6ab7d7a5ebd28734f7f4a0e4494f93110ef864574dab1f09214a43cdff50c9e",
+  "http_metadata": {
+    "last-modified": "Wed, 05 Aug 2026 20:14:35 GMT",
+    "etag": "\"822c4c-658526b8980c0\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "divulgacao_ensino_medio_municipios_2025/divulgacao_ensino_medio_municipios_2025.ods",
+      "bytes": 4405793,
+      "crc32": "301bec22"
+    },
+    {
+      "name": "divulgacao_ensino_medio_municipios_2025/divulgacao_ensino_medio_municipios_2025.xlsx",
+      "bytes": 4137862,
+      "crc32": "45a2ced6"
+    },
+    {
+      "name": "divulgacao_ensino_medio_municipios_2025/md5_divulgacao_ensino_medio_municipios_2025.txt",
+      "bytes": 159,
+      "crc32": "5b11a692"
+    }
+  ]
+}

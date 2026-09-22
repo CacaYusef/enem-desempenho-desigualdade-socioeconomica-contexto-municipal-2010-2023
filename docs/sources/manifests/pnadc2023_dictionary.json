@@ -1,0 +1,18 @@
+{
+  "id": "pnadc2023_dictionary",
+  "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2023_visita1_20241220.xls",
+  "path": "sampling/pnad/2023_dictionary.xls",
+  "format": "xls",
+  "provider": "IBGE",
+  "year": 2023,
+  "download_started_utc": "2026-09-20T09:25:53.964323+00:00",
+  "download_completed_utc": "2026-09-20T09:25:54.679274+00:00",
+  "bytes": 244224,
+  "sha256": "7bdae1f25d002c0eaf198cb2c00771737aa036d6551e46a12fbeced7d2bd63b8",
+  "http_metadata": {
+    "last-modified": "Thu, 24 Jul 2025 14:57:32 GMT",
+    "etag": "\"3ba00-63aae0b8543c6\"",
+    "content-type": "application/vnd.ms-excel"
+  },
+  "zip_crc_validated": false
+}

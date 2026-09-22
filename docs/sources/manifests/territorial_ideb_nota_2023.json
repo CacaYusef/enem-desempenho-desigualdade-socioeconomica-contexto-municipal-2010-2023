@@ -1,0 +1,18 @@
+{
+  "id": "territorial_ideb_nota_2023",
+  "provider": "INEP",
+  "year": 2023,
+  "url": "http://download.inep.gov.br/ideb/nota_informativa_ideb_2023.pdf",
+  "path": "municipal/territorial_2023/nota_ideb_2023.pdf",
+  "format": "pdf",
+  "download_started_utc": "2026-09-21T04:20:39.970772+00:00",
+  "download_completed_utc": "2026-09-21T04:20:40.140076+00:00",
+  "bytes": 326023,
+  "sha256": "f35ed9446f7ff393c8c9556b8654024de6a8dc36bb34fb1ae11ab1a48ebcdb56",
+  "http_metadata": {
+    "last-modified": "Wed, 14 Aug 2024 14:02:36 GMT",
+    "etag": "\"4f987-61fa52da33700\"",
+    "content-type": "application/pdf"
+  },
+  "zip_crc_validated": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "territorial_tdi_municipios_2023",
+  "provider": "INEP",
+  "year": 2023,
+  "url": "http://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/TDI_2023_MUNICIPIOS.zip",
+  "landing_page": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie/2023",
+  "path": "municipal/territorial_2023/tdi_municipios_2023.zip",
+  "format": "zip",
+  "download_started_utc": "2026-09-21T04:20:40.146245+00:00",
+  "download_completed_utc": "2026-09-21T04:20:44.120064+00:00",
+  "bytes": 14598143,
+  "sha256": "5e32e9d6dabac1a16f10c20e75c696f953c8da4a26d284930c254bc729f4aa73",
+  "http_metadata": {
+    "last-modified": "Thu, 15 Feb 2024 21:49:00 GMT",
+    "etag": "\"debfff-6117298564b00\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "TDI_2023_MUNICIPIOS/MD5_TDI_MUNICIPIOS_2023.txt",
+      "bytes": 119,
+      "crc32": "64d8bf5f"
+    },
+    {
+      "name": "TDI_2023_MUNICIPIOS/TDI_MUNICIPIOS_2023.ods",
+      "bytes": 6739072,
+      "crc32": "52012b5e"
+    },
+    {
+      "name": "TDI_2023_MUNICIPIOS/TDI_MUNICIPIOS_2023.xlsx",
+      "bytes": 8071174,
+      "crc32": "5964da1c"
+    }
+  ]
+}

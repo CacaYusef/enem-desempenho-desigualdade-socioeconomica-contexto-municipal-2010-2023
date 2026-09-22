@@ -1,0 +1,364 @@
+{
+  "sources": [
+    {
+      "id": "pnadc_2012_v1_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2012_visita1_20250822.zip",
+      "path": "sampling/pnad/2012/PNADC_2012_visita1_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2012,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2012_v1_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2012_a_2014_visita1_20220224.txt",
+      "path": "sampling/pnad/2012/input_PNADC_2012_a_2014_visita1_20220224.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2012,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2012_v1_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2012_a_2014_visita1_20220224.xls",
+      "path": "sampling/pnad/2012/dicionario_PNADC_microdados_2012_a_2014_visita1_20220224.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2012,
+      "visit": 1,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2013_v1_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2013_visita1_20250822.zip",
+      "path": "sampling/pnad/2013/PNADC_2013_visita1_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2013,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2013_v1_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2012_a_2014_visita1_20220224.txt",
+      "path": "sampling/pnad/2013/input_PNADC_2012_a_2014_visita1_20220224.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2013,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2013_v1_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2012_a_2014_visita1_20220224.xls",
+      "path": "sampling/pnad/2013/dicionario_PNADC_microdados_2012_a_2014_visita1_20220224.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2013,
+      "visit": 1,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2014_v1_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2014_visita1_20250822.zip",
+      "path": "sampling/pnad/2014/PNADC_2014_visita1_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2014,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2014_v1_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2012_a_2014_visita1_20220224.txt",
+      "path": "sampling/pnad/2014/input_PNADC_2012_a_2014_visita1_20220224.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2014,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2014_v1_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2012_a_2014_visita1_20220224.xls",
+      "path": "sampling/pnad/2014/dicionario_PNADC_microdados_2012_a_2014_visita1_20220224.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2014,
+      "visit": 1,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2015_v1_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2015_visita1_20251210.zip",
+      "path": "sampling/pnad/2015/PNADC_2015_visita1_20251210.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2015,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2015_v1_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2015_visita1_20220224.txt",
+      "path": "sampling/pnad/2015/input_PNADC_2015_visita1_20220224.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2015,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2015_v1_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2015_visita1_20220224.xls",
+      "path": "sampling/pnad/2015/dicionario_PNADC_microdados_2015_visita1_20220224.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2015,
+      "visit": 1,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2016_v1_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2016_visita1_20250822.zip",
+      "path": "sampling/pnad/2016/PNADC_2016_visita1_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2016,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2016_v1_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2016_visita1_20220224.txt",
+      "path": "sampling/pnad/2016/input_PNADC_2016_visita1_20220224.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2016,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2016_v1_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2016_visita1_20220224.xls",
+      "path": "sampling/pnad/2016/dicionario_PNADC_microdados_2016_visita1_20220224.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2016,
+      "visit": 1,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2017_v1_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2017_visita1_20250822.zip",
+      "path": "sampling/pnad/2017/PNADC_2017_visita1_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2017,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2017_v1_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2017_visita1_20220224.txt",
+      "path": "sampling/pnad/2017/input_PNADC_2017_visita1_20220224.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2017,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2017_v1_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2017_visita1_20220224.xls",
+      "path": "sampling/pnad/2017/dicionario_PNADC_microdados_2017_visita1_20220224.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2017,
+      "visit": 1,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2018_v1_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2018_visita1_20250822.zip",
+      "path": "sampling/pnad/2018/PNADC_2018_visita1_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2018,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2018_v1_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2018_visita1_20220224.txt",
+      "path": "sampling/pnad/2018/input_PNADC_2018_visita1_20220224.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2018,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2018_v1_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2018_visita1_20220224.xls",
+      "path": "sampling/pnad/2018/dicionario_PNADC_microdados_2018_visita1_20220224.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2018,
+      "visit": 1,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2019_v1_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2019_visita1_20250822.zip",
+      "path": "sampling/pnad/2019/PNADC_2019_visita1_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2019,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2019_v1_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2019_visita1_20230811.txt",
+      "path": "sampling/pnad/2019/input_PNADC_2019_visita1_20230811.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2019,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2019_v1_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2019_visita1_20230811.xls",
+      "path": "sampling/pnad/2019/dicionario_PNADC_microdados_2019_visita1_20230811.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2019,
+      "visit": 1,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2020_v5_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Dados/PNADC_2020_visita5_20250822.zip",
+      "path": "sampling/pnad/2020/PNADC_2020_visita5_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2020,
+      "visit": 5,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2020_v5_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Documentacao/input_PNADC_2020_visita5_20220224.txt",
+      "path": "sampling/pnad/2020/input_PNADC_2020_visita5_20220224.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2020,
+      "visit": 5,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2020_v5_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Documentacao/dicionario_PNADC_microdados_2020_visita5_20220224.xls",
+      "path": "sampling/pnad/2020/dicionario_PNADC_microdados_2020_visita5_20220224.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2020,
+      "visit": 5,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2021_v5_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Dados/PNADC_2021_visita5_20250822.zip",
+      "path": "sampling/pnad/2021/PNADC_2021_visita5_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2021,
+      "visit": 5,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2021_v5_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Documentacao/input_PNADC_2021_visita5.txt",
+      "path": "sampling/pnad/2021/input_PNADC_2021_visita5.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2021,
+      "visit": 5,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2021_v5_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Documentacao/dicionario_PNADC_microdados_2021_visita5.xls",
+      "path": "sampling/pnad/2021/dicionario_PNADC_microdados_2021_visita5.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2021,
+      "visit": 5,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc_2022_v5_data",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Dados/PNADC_2022_visita5_20250822.zip",
+      "path": "sampling/pnad/2022/PNADC_2022_visita5_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2022,
+      "visit": 5,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc_2022_v5_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Documentacao/input_PNADC_2022_visita5_20231222.txt",
+      "path": "sampling/pnad/2022/input_PNADC_2022_visita5_20231222.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2022,
+      "visit": 5,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc_2022_v5_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Documentacao/dicionario_PNADC_microdados_2022_visita5_20231220.xls",
+      "path": "sampling/pnad/2022/dicionario_PNADC_microdados_2022_visita5_20231220.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2022,
+      "visit": 5,
+      "kind": "dictionary"
+    },
+    {
+      "id": "pnadc2023_v1",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2023_visita1_20250822.zip",
+      "path": "sampling/pnad/PNADC_2023_visita1_20250822.zip",
+      "format": "zip",
+      "provider": "IBGE",
+      "year": 2023,
+      "visit": 1,
+      "kind": "data"
+    },
+    {
+      "id": "pnadc2023_input",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/input_PNADC_2023_visita1_20241220.txt",
+      "path": "sampling/pnad/2023_input.txt",
+      "format": "txt",
+      "provider": "IBGE",
+      "year": 2023,
+      "visit": 1,
+      "kind": "input"
+    },
+    {
+      "id": "pnadc2023_dictionary",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Documentacao/dicionario_PNADC_microdados_2023_visita1_20241220.xls",
+      "path": "sampling/pnad/2023_dictionary.xls",
+      "format": "xls",
+      "provider": "IBGE",
+      "year": 2023,
+      "visit": 1,
+      "kind": "dictionary"
+    }
+  ]
+}

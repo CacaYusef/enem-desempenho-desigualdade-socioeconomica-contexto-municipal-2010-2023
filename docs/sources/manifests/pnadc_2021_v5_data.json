@@ -1,0 +1,27 @@
+{
+  "id": "pnadc_2021_v5_data",
+  "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Dados/PNADC_2021_visita5_20250822.zip",
+  "path": "sampling/pnad/2021/PNADC_2021_visita5_20250822.zip",
+  "format": "zip",
+  "provider": "IBGE",
+  "year": 2021,
+  "visit": 5,
+  "kind": "data",
+  "download_started_utc": "2026-09-20T09:32:15.742581+00:00",
+  "download_completed_utc": "2026-09-20T09:32:33.328828+00:00",
+  "bytes": 147746882,
+  "sha256": "43773b1cb513192750ef82665d971fbb7d4be9c54cf58b19f1dd96b320d78657",
+  "http_metadata": {
+    "last-modified": "Thu, 21 Aug 2025 18:37:41 GMT",
+    "etag": "\"8ce7042-63ce462610740\"",
+    "content-type": "application/zip"
+  },
+  "zip_crc_validated": true,
+  "members": [
+    {
+      "name": "PNADC_2021_visita5.txt",
+      "bytes": 1217418300,
+      "crc32": "d35f9c84"
+    }
+  ]
+}
